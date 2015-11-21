@@ -1,0 +1,317 @@
+
+$sections: 3;
+
+$sec: (100% / #{$sections});
+
+
+nav {
+    position: absolute;
+    width:100%;
+    left:0;
+    top:0;
+    z-index: 999;
+
+    ul {
+        width:100%;
+        margin:0;
+        padding:0;
+        height:100%;
+    }
+    li {
+        width: calc(#{$sec});
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        padding:0;
+        float:left;
+        text-transform: uppercase;
+        font-size:.8em;
+        letter-spacing: .2em;
+        padding:3em 0 0 0;
+        height:0;
+        @include transition(all .8s ease);
+
+        &.work {
+            left: calc( (#{$sec}) * 0);
+        }
+        &.about {
+            left: calc( (#{$sec}) * 1);
+        }
+        &.workshop {
+            left: calc( (#{$sec}) * 2);
+        }
+        &.contact {
+            left: calc( (#{$sec}) * 3);
+        }
+        &.active {
+            width:100%;
+            height:100%;
+            position: absolute;
+            z-index: 99;
+            left:0;
+        }
+    }
+    a {
+        text-decoration: none;
+        color:#000;
+        border:0;
+        text-align: center;
+        padding:1em 1.5em .9em;
+        display: block;
+        margin:0 10%;
+        position: relative;
+        cursor:pointer;
+        border:2px solid transparent;
+        @include transition(all .25s ease);
+
+        span {
+            position: absolute;
+            width: calc(100% - 3.3em);
+            bottom: -25px;
+            display: block;
+            font-size: .8em;
+            margin: 0 0 10px 0;
+            letter-spacing: .5em;
+            transform: rotateX(180deg);
+            margin: 0 0 10px 0;
+            letter-spacing: .5em;
+            @include opacity(0);
+            @include transition(opacity .5s ease);
+            @media (max-width: 770px) {
+                @include opacity(1);
+                position: relative;
+                transform: rotateX(0deg);
+                bottom:0;
+                width:100%;
+                margin:0 0 5px 0;
+            }
+            @media (max-width: 600px) {
+                font-weight: 500;
+                letter-spacing: 1px;
+                font-size: .9em;
+            }
+        }
+
+        &:hover {
+            span {
+                @include opacity(1);
+            }
+            svg {
+                @include opacity(.2);
+            }
+        }
+    }
+
+    svg {
+        max-height: 1.7em;
+        margin: .35em 0 0 0;
+        @include transition(all .25s ease);
+    }
+
+    a:hover {
+        svg {
+            fill:#FF7165;
+            opacity:.7;
+        }
+    }
+    a.active {
+        svg {
+            fill:#FF7165;
+            opacity:1;
+        }
+    }
+
+
+    a.negative {
+        color:#555;
+
+        svg {
+            fill:#fff;
+
+            &:active, 
+            &:hover {
+                fill:#FF7165;
+            }
+        }
+    }
+    a.active.negative {
+        svg {
+            fill:#FF7165;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    nav {
+        height: 5.5em;
+        background: rgba(255, 255, 255, 0.88);
+
+        li {
+            padding:2em 0 0 0;
+        }
+        a {
+            padding:0;  
+        }
+        svg {
+            max-height: 1.1em;
+            width:100%;
+            margin:.2em 0 0 0;
+        }
+        a.active span {
+            color:#FF7165;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.blocks {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 7;
+}
+
+section.block {
+    width: calc(#{$sec});
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    @include opacity(0);
+    @include transition(opacity .5s ease);
+
+    &.one {
+        // left: calc((#{$sec} * 0) + (#{$sec} / 2));
+        left:0;
+    }
+    &.two {
+        // left: calc((#{$sec} * 1) + (#{$sec} / 2));
+        left:0;
+    }
+    &.three {
+        // left: calc((#{$sec} * 2) + (#{$sec} / 2));
+        left:0;
+    }
+    &.four {
+        // left: calc((#{$sec} * 3) + (#{$sec} / 2));
+        left:0;
+    }
+}
+
+.blocks.active {
+    z-index: 99;
+
+    section.block {
+        height:100%;
+        width:100%;
+        left:0;
+        overflow:scroll;
+        @include opacity(1);
+        @include transition(opacity .75s ease .5s);
+    }
+}
+
+@media (max-width:600px) {
+
+    .blocks.active {
+        overflow:scroll;
+    }
+}
+
+
+
+nav ul li {
+    opacity: 0;
+    // @include transition(opacity 2s ease);
+}
+
+body.loaded nav ul li {
+    transform: translateY(-3em);
+    -ms-animation-name: website-ready-nav-drop;
+    -ms-animation-duration: 2s;
+    -ms-animation-fill-mode: forwards;
+    -webkit-animation-name: website-ready-nav-drop;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: website-ready-nav-drop;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    &:nth-child(1) {
+       -ms-animation-delay: 300ms;
+       -webkit-animation-delay: 300ms;
+       animation-delay: 300ms;
+    }
+    &:nth-child(2) {
+       -ms-animation-delay: 500ms;
+       -webkit-animation-delay: 500ms;
+       animation-delay: 500ms;
+    }
+    &:nth-child(3) {
+       -ms-animation-delay: 700ms;
+       -webkit-animation-delay: 700ms;
+       animation-delay: 700ms;
+    }
+
+}
+
+@-ms-keyframes website-ready-nav-drop {
+    0% {transform: translateY(-3em); @include opacity(0); display: block;}
+    100% {transform: translateY(0em); @include opacity(1);}
+}
+@-webkit-keyframes website-ready-nav-drop {
+    0% {transform: translateY(-3em); @include opacity(0);display: block;}
+    100% {transform: translateY(0em); @include opacity(1);}
+}
+@keyframes website-ready-nav-drop {
+    0% {transform: translateY(-3em); @include opacity(0);display: block;}
+    100% {transform: translateY(0em); @include opacity(1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

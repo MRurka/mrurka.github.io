@@ -1,0 +1,133 @@
+body{
+	display:none;
+}
+
+
+#jpreOverlay {
+  background:#fff;
+}
+#jpreSlide{
+	z-index: 999;
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0 !important;
+  left:0 !important;
+
+	svg {
+    fill: #fff;
+    max-width: 300px;
+    display: block;
+    max-height: 300px;
+    top: calc(50% - 150px);
+    position: relative;
+    margin: auto auto;
+	}
+}
+
+#jSplash {
+  height:100%;
+}
+
+#jpreLoader{
+  width: 300px;
+  height: 300px;
+  top: calc(50% - 150px) !important;
+  left: calc(50% - 150px) !important;
+	@include rotate(270deg);
+}
+
+#jpreBar {
+background-size:300px;
+background:#000;
+}
+
+#jprePercentage {
+	color:#000;
+	@include rotate(90deg);
+	float:left;
+  font-weight: 300;
+  font-size:1.3em;
+}
+
+
+
+
+@media (max-width:600px) {
+
+#jpreSlide{
+
+    svg {
+        fill: #fff;
+        max-width: 250px;
+        display: block;
+        max-height: 300px;
+        top: calc(50% - 125px);
+        position: relative;
+        margin: auto auto;
+    }
+  }
+  #jpreLoader{
+    width: 250px;
+    height: 250px;
+    top: calc(50% - 125px) !important;
+    left: calc(50% - 125px) !important;
+    @include rotate(270deg);
+  }
+
+  #jpreBar {
+    background-size:250px;
+  }
+
+}
+
+
+
+
+
+
+
+#jpreButton{
+	display: none !important;
+}
+
+@-webkit-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-moz-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-ms-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@-o-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}
+@keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -60px -60px;
+  }
+}

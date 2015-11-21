@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="modal-header">
+    {% if page.title %}<h1>{{ page.title }}</h1>{{ content }}{% endif %}
+</div>
+
+<div id="modal" class="modal js-masonry" data-masonry-options='{ "columnWidth": 300, "itemSelector": ".item" }'>
+    <!-- {% if page.title %}<div class="item w{{ page.w-title }}"><h1>{{ page.title }}</h1>{{ content }}</div>{% endif %} -->
+    <div class="item" style="width:1px;height:1px;background:#000;padding:0;"></div>
+    {% if page.img-1 %}<div class="item w{{ page.w-1 }}"><img src="../{{ site.baseurl }}/{{ page.img-1 }}" alt="{{ page.alt-1 }}"/></div>{% endif %}
+    {% if page.img-2 %}<div class="item w{{ page.w-2 }}"><img src="../{{ site.baseurl }}/{{ page.img-2 }}" alt="{{ page.alt-2 }}"/></div>{% endif %}
+    {% if page.img-3 %}<div class="item w{{ page.w-3 }}"><img src="../{{ site.baseurl }}/{{ page.img-3 }}" alt="{{ page.alt-3 }}"/></div>{% endif %}
+    {% if page.img-4 %}<div class="item w{{ page.w-4 }}"><img src="../{{ site.baseurl }}/{{ page.img-4 }}" alt="{{ page.alt-4 }}"/></div>{% endif %}
+    {% if page.img-5 %}<div class="item w{{ page.w-5 }}"><img src="../{{ site.baseurl }}/{{ page.img-5 }}" alt="{{ page.alt-5 }}"/></div>{% endif %}
+    {% if page.img-6 %}<div class="item w{{ page.w-6 }}"><img src="../{{ site.baseurl }}/{{ page.img-6 }}" alt="{{ page.alt-6 }}"/></div>{% endif %}
+    {% if page.img-7 %}<div class="item w{{ page.w-7 }}"><img src="../{{ site.baseurl }}/{{ page.img-7 }}" alt="{{ page.alt-7 }}"/></div>{% endif %}
+    {% if page.img-8 %}<div class="item w{{ page.w-8 }}"><img src="../{{ site.baseurl }}/{{ page.img-8 }}" alt="{{ page.alt-8 }}"/></div>{% endif %}
+    {% if page.img-9 %}<div class="item w{{ page.w-9 }}"><img src="../{{ site.baseurl }}/{{ page.img-9 }}" alt="{{ page.alt-9 }}"/></div>{% endif %}
+    <div class="item w4">
+        <a href="#close-modal" rel="modal:close" class="close-modal true far-bottom">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                <path stroke-miterlimit="10" d="M0,0"/>
+                <line stroke-width="0.9933" stroke-miterlimit="10" x1="99.7" y1="99.7" x2="0.3" y2="0.3"/>
+                <line stroke-width="0.9933" stroke-miterlimit="10" x1="0.3" y1="99.7" x2="99.7" y2="0.3"/>
+            </svg>
+        </a>
+    </div>
+</div>
+
+<a href="#close-modal" rel="modal:close" class="close-modal true">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <path stroke-miterlimit="10" d="M0,0"/>
+        <line stroke-miterlimit="10" x1="99.7" y1="99.7" x2="0.3" y2="0.3"/>
+        <line stroke-miterlimit="10" x1="0.3" y1="99.7" x2="99.7" y2="0.3"/>
+    </svg>
+</a>
+<a href="#close-modal" rel="modal:close" class="close-modal true bottom">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <path stroke-miterlimit="10" d="M0,0"/>
+        <line stroke-width="0.9933" stroke-miterlimit="10" x1="99.7" y1="99.7" x2="0.3" y2="0.3"/>
+        <line stroke-width="0.9933" stroke-miterlimit="10" x1="0.3" y1="99.7" x2="99.7" y2="0.3"/>
+    </svg>
+</a>
+
+<script>
+    var $containerX = $('#modal').masonry();
+    $containerX.imagesLoaded( function() {
+      $containerX.masonry();
+    });
+</script>

@@ -1,0 +1,38 @@
+---
+
+layout: gallery
+date:   2015-01-10 21:35:54
+categories: portfolio
+port-id: 2ru
+
+img-background: img/port/norm/background-rurking.jpg
+thumb:	img/port/norm/rurking-t2.jpg
+w-thumb: 1
+
+title:  "Rurking Hard"
+subtitle: Branding Concept
+w-title: 2
+
+img-1:	img/port/norm/rurking-1.jpg
+alt-1:	
+w-1:	2
+
+img-2:	img/port/norm/rurking-2.jpg
+alt-2:	
+w-2:	2
+
+img-3:	img/port/norm/rurking-3.jpg
+alt-3:	
+w-3:	2
+
+img-4:  img/port/norm/rurking-4.jpg
+alt-4:	
+w-4:	2
+
+img-test: img/test-2.jpg 
+
+---
+
+<br><b>Flip 1:</b> Awareness of a design entity. 
+<br><b>Flip 2:</b> Visceral intrigue, reading <i>"Fucking long"</i>.
+<br><b>Flip 3:</b> Eyes continue, reading <i>"Fucking long and hard"</i>. Moving onto the tagline below incites the double take, figuring out the profanity actually reads "Rurking long and hard".

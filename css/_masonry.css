@@ -1,0 +1,11 @@
+.modal .item {
+  padding: 2em;
+  width: 25%; }
+.modal .item.w1 {
+  width: 25%; }
+.modal .item.w2 {
+  width: 50%; }
+.modal .item.w3 {
+  width: 75%; }
+.modal .item.w4 {
+  width: 100%; }

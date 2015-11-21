@@ -1,0 +1,11 @@
+# Site settings
+title: Design by Michael Rurka
+email: michael@rurkadesign.com
+description: "Creative guns for hire with a belief in meaningful design."
+baseurl: "/ru" # the subpath of your site, e.g. /blog/
+url: "http://mrurka.github.io" # the base hostname & protocol for your site
+twitter_username: rurkadesign
+github_username:  MRurka
+
+# Build settings
+markdown: kramdown

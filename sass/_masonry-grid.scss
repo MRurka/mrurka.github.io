@@ -1,0 +1,60 @@
+
+
+#modal {
+
+	.item {
+		padding:1em;
+		width:24.9%;
+		
+		&.w1 {
+			width:24.9%;
+		}
+		&.w2 {
+			width:49.9%;
+		}
+		&.w3 {
+			width:74.9%;
+		}
+		&.w4 {
+			width:99.9%;
+		}
+	}
+	@media (max-width: 1000px) {
+		.item {
+			padding:1em;
+			width:24.9%;
+			
+			&.w1 {
+				width:49.9%;
+			}
+			&.w2 {
+				width:49.9%;
+			}
+			&.w3 {
+				width:74.9%;
+			}
+			&.w4 {
+				width:99.9%;
+			}
+		}
+	}
+	@media (max-width: 600px) {
+		.item {
+			width:25%;
+			padding:1em 0;
+			
+			&.w1 {
+				width:100%;
+			}
+			&.w2 {
+				width:100%;
+			}
+			&.w3 {
+				width:100%;
+			}
+			&.w4 {
+				width:100%;
+			}
+		}
+	}
+}

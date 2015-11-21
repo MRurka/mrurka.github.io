@@ -1,0 +1,307 @@
+
+// modal overrides
+
+.modal.current {
+	padding: 0 5em;
+	z-index: 99 !important;
+	background:#fff;
+	display: none;
+	-webkit-overflow-scrolling: touch;
+	@include opacity(0);
+	@include transition(opacity .5s ease);
+
+	-ms-animation-name: modal-content-fade-in;
+	-ms-animation-duration: .5s;
+	-ms-animation-delay:.5s;
+	-ms-animation-fill-mode: forwards;
+	-webkit-animation-name: modal-content-fade-in;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-delay:.5s;
+	-webkit-animation-fill-mode: forwards;
+	animation-name: modal-content-fade-in;
+	animation-duration: .5s;
+	animation-delay:.5s;
+	animation-fill-mode: forwards;
+}
+
+@-ms-keyframes modal-content-fade-in {
+    0% {transform: translateY(2em); @include opacity(0); display: block;}
+    100% {transform: translateY(0em); @include opacity(1);}
+}
+@-webkit-keyframes modal-content-fade-in {
+    0% {transform: translateY(2em); @include opacity(0);display: block;}
+    100% {transform: translateY(0em); @include opacity(1);}
+}
+@keyframes modal-content-fade-in {
+    0% {transform: translateY(2em); @include opacity(0);display: block;}
+    100% {transform: translateY(0em); @include opacity(1);}
+}
+
+.modal.current.fade-out {
+	@include opacity(0);
+}
+
+.modal {
+	width: 100%;
+	height: 100%;
+	top: 0 !important;
+	left: 0 !important;
+	margin:0 !important;
+	overflow: scroll;
+	padding: 0 0 6em 0;
+}
+
+.modal-header {
+	padding: 14em 1em 3em 1em;
+}
+
+.jquery-modal {
+	background:#fff !important;
+	opacity:1 !important;
+}
+
+.close-modal {
+	display: none;
+
+	&.true {
+		cursor: pointer;
+		position:fixed;
+		display: block;
+		z-index: 999;
+		top:0;
+		right:-10em;
+		padding:2em;
+		-ms-animation-name: close-slide-right;
+	    -ms-animation-duration: .5s;
+	    -ms-animation-delay:.75s;
+	    -ms-animation-fill-mode: forwards;
+		-webkit-animation-name: close-slide-right;
+    	-webkit-animation-duration: .5s;
+    	-webkit-animation-delay:.75s;
+    	-webkit-animation-fill-mode: forwards;
+	    animation-name: close-slide-right;
+	    animation-duration: .5s;
+	    animation-delay:.75s;
+	    animation-fill-mode: forwards;
+
+		svg {
+			width:25px;
+			-webkit-animation-name: close-spin;
+	    	-webkit-animation-duration: 15.5s;
+		    -webkit-animation-iteration-count: infinite;
+		    animation-name: close-spin;
+		    animation-duration: 15.5s;
+		    animation-iteration-count: infinite;
+		    transform-origin: 50% 50%;
+		    display: inline-block;
+		}
+		polygon,
+		path {
+			fill:#fff;
+		}
+		line {
+			stroke: #FF7165;
+			stroke-width: 11px;
+		}
+		&:hover {
+
+			line {
+				stroke:red;
+			}
+		}
+	}
+
+	&.true.bottom {
+		top:initial;
+		right:initial;
+		bottom:0;
+		left:-10em;
+		-ms-animation-name: close-slide-left;
+		-webkit-animation-name: close-slide-left;
+		animation-name: close-slide-left;
+	}
+
+	&.true.far-bottom {
+		top:initial;
+		right:initial;
+		right:-10em;
+		-ms-animation-name: close-slide-right;
+		-webkit-animation-name: close-slide-right;
+		animation-name: close-slide-right;
+	}
+}
+
+
+// close spin
+@-webkit-keyframes close-spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@keyframes close-spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+// close slide RIGHT
+@-ms-keyframes close-slide-right {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-10em);}
+}
+@-webkit-keyframes close-slide-right {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-10em);}
+}
+@keyframes close-slide-right {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-10em);}
+}
+
+
+// close slide LEFT
+@-ms-keyframes close-slide-left {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(10em);}
+}
+@-webkit-keyframes close-slide-left {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(10em);}
+}
+@keyframes close-slide-left {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(10em);}
+}
+
+
+// modal content styles
+
+.modal {
+
+	h1 {
+	    font-weight: 500;
+	    line-height: 1.2em;
+		font-size: 2em;
+		letter-spacing: 8px;
+	    color: #000;
+	    text-transform: uppercase;
+	}
+
+	b {
+		color:#000;
+	}
+
+	p, ul {
+		line-height: 1.8em;
+	    margin: 30px 0 0 0;
+	    color: #7C7C86;
+	    font-weight: 300;
+	    font-size: 1.2em;
+
+		a {
+			color:$c1;
+		}
+	}
+	ul li {
+		list-style: initial;
+		margin: 0 0 0 20px;
+	}
+	p img {
+		height:auto;
+
+		&.w1 {
+			width:99.5%;
+		}
+		&.w2 {
+			width:49.5%;
+		}
+		&.w3 {
+			width:33%;
+		}
+		&.w4 {
+			width:24.5%;
+		}
+		&.w5 {
+			width:19.5%;
+		}
+
+		@media (max-width:600px) {
+
+		&.w1 {
+			width:100%;
+		}
+		&.w2 {
+			width:100%;
+		}
+		&.w3 {
+			width:100%;
+		}
+		&.w4 {
+			width:100%;
+		}
+		&.w5 {
+			width:100%;
+		}
+
+
+		}
+	}
+}
+
+@media (max-width: 768px) {
+
+	.close-modal.true {
+		right:0;
+		padding: 2em 1.5em;
+	}
+}
+
+
+@media (max-width: 600px) {
+
+	.modal.current {
+		padding:9%;
+		z-index: 99999 !important;
+	}
+
+	.modal {	
+		padding:0;
+
+		.modal-header {
+			padding:1em 0 0 0;
+		}
+
+		h1 {
+			font-size:1.8em;
+		}
+
+		p {
+			font-size:1.1em;
+			color:#444;
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

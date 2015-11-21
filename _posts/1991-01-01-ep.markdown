@@ -1,0 +1,42 @@
+---
+
+layout: gallery
+date:   2015-01-10 21:35:54
+categories: portfolio
+port-id: 6ru
+
+img-background: img/port/norm/background-ep.jpg
+thumb:	img/port/norm/efs1-t.jpg
+w-thumb: 1
+
+title:  "EP"
+subtitle: Fine Art
+w-title: 1
+
+img-1:	img/port/norm/efs1.jpg
+alt-1:	EP Freedom Series 1
+w-1:	2
+
+img-2:	img/port/norm/efs3.jpg
+alt-2:	EP Freedom Series 3
+w-2:	2
+
+img-3:	img/port/norm/ep14.jpg
+alt-3:	EP14
+w-3:	2
+
+img-4:	img/port/norm/ep15.jpg
+alt-4:	EP15
+w-4:	2
+
+img-5:	img/port/norm/ep-study.jpg
+alt-5:	Elephant portrait study
+w-5:	2
+
+---
+
+<br><b>1. EFS1</b> Ink, Chalk, Acrylic, Pencil, China Marker on Stone Paper.
+<br><b>2. EFS3</b> Ink, Chalk, Pastel Shavings, Wool, Acrylic, China Marker on Stone Paper.
+<br><b>3. EP16</b> Acrylic, Ink well pen on Canvas
+<br><b>4. EP14</b> Acrylic, Texture Pastes
+<br><b>5. Untitled</b> Acrylic, Pencil, Gesso
