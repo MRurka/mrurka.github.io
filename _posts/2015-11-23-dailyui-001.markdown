@@ -1,0 +1,18 @@
+---
+
+layout: blog
+date:   2015-11-23 21:35:54
+categories: blog
+
+title: "dailyui-001-Signup"
+subtitle: Part of the 100 days of UI challenge. This first piece is a signup concept.
+
+---
+
+
+
+<br>
+
+<img class="item w1" src="../ru/img/dailyui/001-signup-sketch.png" alt="Signup concept - quick paper sketch"/>
+<img class="item w1" src="../ru/img/dailyui/001-signup-empty.png" alt="Signup concept - empty state"/>
+<img class="item w1" src="../ru/img/dailyui/001-signup-filled.png" alt="Signup concept - filled in state"/>
