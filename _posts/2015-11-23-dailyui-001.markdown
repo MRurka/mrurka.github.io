@@ -9,7 +9,7 @@ subtitle: Part of the 100 days of UI challenge. This first piece is a signup con
 
 ---
 
-
+Concept is a natural-lang inspired signup. Bit playful. Speach bubble, for emersion. 
 
 <br>
 
