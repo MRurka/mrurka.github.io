@@ -21,11 +21,11 @@ Plans for version 2.0 include the ability to import your invoice design from Ado
 
 <br>
 
-<img class="item w2" src="../ru/img/port/norm/jelly-logo.png" alt="Jelly Invoice Logo" style="display:block; width:180px; height:auto; margin:50px auto 50px auto;"/>
-<img class="item w1" src="../ru/img/port/norm/jelly-invoice-screen1.jpg" alt="Preview of Jelly Invoice's Index of Invoices"/>
-<img class="item w1" src="../ru/img/port/norm/jelly-invoice-screen2.jpg" alt="Preview of Jelly Invoice Invoice Page"/>
-<img class="item w1" src="../ru/img/port/norm/jelly-invoice-screen3.jpg" alt="Preview of Jelly Invoice Exporting an invoice"/>
+<img class="item w2" src="../img/port/norm/jelly-logo.png" alt="Jelly Invoice Logo" style="display:block; width:180px; height:auto; margin:50px auto 50px auto;"/>
+<img class="item w1" src="../img/port/norm/jelly-invoice-screen1.jpg" alt="Preview of Jelly Invoice's Index of Invoices"/>
+<img class="item w1" src="../img/port/norm/jelly-invoice-screen2.jpg" alt="Preview of Jelly Invoice Invoice Page"/>
+<img class="item w1" src="../img/port/norm/jelly-invoice-screen3.jpg" alt="Preview of Jelly Invoice Exporting an invoice"/>
 
 <br>
 And an early tease image for Jelly
-<img class="item w1" src="../ru/img/port/norm/jelly-invoice-wide.jpg" alt="Promo photo for Jelly Invoice"/>
+<img class="item w1" src="../img/port/norm/jelly-invoice-wide.jpg" alt="Promo photo for Jelly Invoice"/>
