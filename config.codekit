@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19102",
 "files": {
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
@@ -56,20 +56,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/blog\/2015\/04\/25\/shower-curtain-ep 2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/blog\/2015\/04\/25\/shower-curtain-ep 2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/blog\/2015\/07\/01\/jelly-invoicing.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/2015\/07\/01\/jelly-invoicing.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2015\/11\/23\/dailyui-001.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2015\/11\/23\/dailyui-001.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -190,6 +190,72 @@
 		"initialSize": 14431,
 		"inputAbbreviatedPath": "\/_site\/images\/layer6.png",
 		"outputAbbreviatedPath": "\/_site\/images\/layer6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/001-signup-empty.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264186,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-empty.png",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-empty.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/001-signup-empty_@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02302e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-empty_@2x.png",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-empty_@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/001-signup-filled.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262659,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-filled.png",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-filled.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/001-signup-filled_@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01068e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-filled_@2x.png",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-filled_@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/001-signup-sketch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132320,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-sketch.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-sketch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/001-signup-sketch_@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184440,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-sketch_@2x.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-sketch_@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2381,6 +2447,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/js\/retina.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/retina.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/retina.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/js\/typed.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2654,6 +2731,72 @@
 		"initialSize": 14431,
 		"inputAbbreviatedPath": "\/images\/layer6.png",
 		"outputAbbreviatedPath": "\/images\/layer6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/001-signup-empty.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264186,
+		"inputAbbreviatedPath": "\/img\/dailyui\/001-signup-empty.png",
+		"outputAbbreviatedPath": "\/img\/dailyui\/001-signup-empty.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/001-signup-empty_@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/dailyui\/001-signup-empty_@2x.png",
+		"outputAbbreviatedPath": "\/img\/dailyui\/001-signup-empty_@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/001-signup-filled.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262659,
+		"inputAbbreviatedPath": "\/img\/dailyui\/001-signup-filled.png",
+		"outputAbbreviatedPath": "\/img\/dailyui\/001-signup-filled.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/001-signup-filled_@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/dailyui\/001-signup-filled_@2x.png",
+		"outputAbbreviatedPath": "\/img\/dailyui\/001-signup-filled_@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/001-signup-sketch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.23902e+06,
+		"inputAbbreviatedPath": "\/img\/dailyui\/001-signup-sketch.jpg",
+		"outputAbbreviatedPath": "\/img\/dailyui\/001-signup-sketch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/001-signup-sketch_@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184440,
+		"inputAbbreviatedPath": "\/img\/dailyui\/001-signup-sketch_@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/dailyui\/001-signup-sketch_@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4845,6 +4988,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/retina.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/retina.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/retina.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/typed.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -5119,6 +5273,12 @@
 			"linkedFileAbbreviatedPath": "\/js\/isotope.pkgd.min.js",
 			"position": 6,
 			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/js\/retina.min.js",
+			"position": 7,
+			"type": 0
 			}
 		]
 	},
@@ -5219,8 +5379,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -5229,6 +5397,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
