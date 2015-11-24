@@ -222,7 +222,7 @@
 	        $("body.loaded #typed").typed({
 	            strings: [
 	            	"Hey friend,<br>
-	            	Remember, there are no rules."
+	            	Remember: there are no rules."
 	            	],
 	            typeSpeed: 15,
 	            typeDelay: 1600,
