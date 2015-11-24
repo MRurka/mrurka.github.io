@@ -4,7 +4,7 @@ layout: blog
 date:   2015-11-23 21:35:54
 categories: blog
 
-title: "UI-002 Credit Card Checkout"
+title: "UI002 -- Credit Card Checkout"
 subtitle: New interaction-costly way of entering your credit card number
 
 ---

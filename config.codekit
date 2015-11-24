@@ -74,6 +74,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/blog\/2015\/11\/23\/dailyui-002.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2015\/11\/23\/dailyui-002.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/contact.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -256,6 +265,50 @@
 		"initialSize": 184440,
 		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-sketch_@2x.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/001-signup-sketch_@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/002-sketch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184387,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/002-sketch.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/002-sketch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/002-sketch_@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555811,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/002-sketch_@2x.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/002-sketch_@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/002.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174147,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/002.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/002.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/dailyui\/002_@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 497126,
+		"inputAbbreviatedPath": "\/_site\/img\/dailyui\/002_@2x.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/dailyui\/002_@2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2801,6 +2854,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/dailyui\/002-sketch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184387,
+		"inputAbbreviatedPath": "\/img\/dailyui\/002-sketch.jpg",
+		"outputAbbreviatedPath": "\/img\/dailyui\/002-sketch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/002-sketch_@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555811,
+		"inputAbbreviatedPath": "\/img\/dailyui\/002-sketch_@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/dailyui\/002-sketch_@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/002.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174147,
+		"inputAbbreviatedPath": "\/img\/dailyui\/002.jpg",
+		"outputAbbreviatedPath": "\/img\/dailyui\/002.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dailyui\/002_@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 497126,
+		"inputAbbreviatedPath": "\/img\/dailyui\/002_@2x.jpg",
+		"outputAbbreviatedPath": "\/img\/dailyui\/002_@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ele\/rurka-bg-phone.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4990,7 +5087,7 @@
 		},
 	"\/js\/retina.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/retina.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/retina.min-min.js",
@@ -5272,12 +5369,6 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/isotope.pkgd.min.js",
 			"position": 6,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/retina.min.js",
-			"position": 7,
 			"type": 0
 			}
 		]
