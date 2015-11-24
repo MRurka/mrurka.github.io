@@ -4,7 +4,7 @@ layout: blog
 date:   2015-11-23 21:35:54
 categories: blog
 
-title: "Daily UI - 001 - Signup"
+title: "UI-001 - Signup"
 subtitle: Part of the 100 days of UI challenge. This first piece is a signup concept.
 
 ---
