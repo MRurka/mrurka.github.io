@@ -14,4 +14,4 @@ New interaction-costly way of entering your credit card number.
 <br>
 
 <img class="item w1" src="../img/dailyui/002_@2x.jpg" alt="Credit Card Concept"/>
-<img class="item w1" src="../img/dailyui/002-sketch.jpg" alt="Credit Card Concept - Sketches"/>
+<img class="item w1" src="../img/dailyui/002-sketch_@2x.jpg" alt="Credit Card Concept - Sketches"/>
