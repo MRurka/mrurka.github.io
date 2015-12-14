@@ -221,8 +221,8 @@
 		$(document).ready( function() {
 	        $("body.loaded #typed").typed({
 	            strings: [
-	            	"Hey friend,<br>
-	            	Remember: there are no rules."
+	            	"Dear friends,<br>
+	            	Merry Christmas and have a very swell new year :)"
 	            	],
 	            typeSpeed: 15,
 	            typeDelay: 1600,

@@ -110,13 +110,13 @@ nav {
 
     a:hover {
         svg {
-            fill:#FF7165;
+            fill:$c1;
             opacity:.7;
         }
     }
     a.active {
         svg {
-            fill:#FF7165;
+            fill:$c1;
             opacity:1;
         }
     }
@@ -130,13 +130,13 @@ nav {
 
             &:active, 
             &:hover {
-                fill:#FF7165;
+                fill:$c1;
             }
         }
     }
     a.active.negative {
         svg {
-            fill:#FF7165;
+            fill:$c1;
         }
     }
 }
@@ -162,7 +162,7 @@ nav {
             margin:.2em 0 0 0;
         }
         a.active span {
-            color:#FF7165;
+            color:$c1;
         }
     }
 

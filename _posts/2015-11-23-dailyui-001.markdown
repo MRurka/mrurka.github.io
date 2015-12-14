@@ -13,6 +13,6 @@ Concept is a natural-lang inspired signup. Bit playful. Speach bubble, for emers
 
 <br>
 
-<img class="item w1" src="../img/dailyui/001-signup-empty_@2x.png" alt="Signup concept - empty state"/>
-<img class="item w1" src="../img/dailyui/001-signup-filled_@2x.png" alt="Signup concept - filled in state"/>
+<img class="item w1" src="../img/dailyui/001-signup-empty_@2x.jpg" alt="Signup concept - empty state"/>
+<img class="item w1" src="../img/dailyui/001-signup-filled_@2x.jpg" alt="Signup concept - filled in state"/>
 <img class="item w1" src="../img/dailyui/001-signup-sketch_@2x.jpg" alt="Signup concept - quick paper sketch"/>
