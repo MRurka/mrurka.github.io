@@ -117,7 +117,8 @@ body.loaded {
 
 $scene-width: 290px;
 
-body.loaded > #scene {
+body.loaded > #scene,
+body.loaded > #sceneX {
 	@include opacity(1);
 
 	&.fade-out {
@@ -128,8 +129,6 @@ body.loaded > #scene {
 
 #scene {
 	position:absolute;
-	top:0;
-	left:0;
 	width:100%;
 	max-width: $scene-width;
 	height:$scene-width;
@@ -139,6 +138,14 @@ body.loaded > #scene {
 	@include transition(opacity 1s ease 1.5s);
 }
 
+#sceneX {
+	width: 100%;
+	position: absolute;
+	left:0;
+	top:39vh;
+	@include opacity(0);
+	@include transition(opacity 1s ease 1.5s);
+}
 
 
 

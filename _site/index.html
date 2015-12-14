@@ -46,6 +46,14 @@
 			<li class="layer" data-depth="0.50"><img src="img/landing/img-2.png"/></li>
 			<li class="layer" data-depth="0.20"><img src="img/landing/img-3.png"/></li>
 		</ul> 
+		<ul id="sceneX" class="scene">
+			<li class="layer" data-depth="1.00">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2700.5 431" style="enable-background:new 0 0 2700.5 431;" xml:space="preserve">
+					<style type="text/css">.st0{fill:none;stroke:#FF7165;stroke-width:3;stroke-miterlimit:10;}</style>
+					<line class="st0" x1="0.2" y1="1.5" x2="2700.2" y2="429.5"/>
+				</svg>
+			</li> 		
+		</ul> 
 		
 		<div id="landing" class="landing"> 
 			<div class="logo">
@@ -510,8 +518,23 @@
 		  invertY: true,
 		  limitX: false,
 		  limitY: false,
-		  scalarX: 50,
-		  scalarY: 50,
+		  scalarX: 10,
+		  scalarY: 10,
+		  frictionX: 0.8,
+		  frictionY: 0.8,
+		  originX: 0.5,
+		  originY: 0.5
+		});
+		var scene = document.getElementById('sceneX');
+		var parallax = new Parallax(sceneX, {
+		  calibrateX: false,
+		  calibrateY: true,
+		  invertX: true,
+		  invertY: true,
+		  limitX: false,
+		  limitY: false,
+		  scalarX: 0,
+		  scalarY: 5,
 		  frictionX: 0.8,
 		  frictionY: 0.8,
 		  originX: 0.5,
