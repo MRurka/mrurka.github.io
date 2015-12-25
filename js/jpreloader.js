@@ -222,7 +222,7 @@
 	        $("body.loaded #typed").typed({
 	            strings: [
 	            	"Dear friends,<br>
-	            	Merry Christmas and have a very swell new year :)"
+	            	Merry Christmas and have a badass new year :)"
 	            	],
 	            typeSpeed: 15,
 	            typeDelay: 1600,
