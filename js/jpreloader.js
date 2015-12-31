@@ -221,8 +221,7 @@
 		$(document).ready( function() {
 	        $("body.loaded #typed").typed({
 	            strings: [
-	            	"Dear friends,<br>
-	            	Merry Christmas and have a very swell new year :)"
+	            	"Happy New Year!! :D<br>"
 	            	],
 	            typeSpeed: 15,
 	            typeDelay: 1600,

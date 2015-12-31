@@ -110,6 +110,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/master.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/master.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/css\/materialize.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -311,6 +320,39 @@
 		"initialSize": 211527,
 		"inputAbbreviatedPath": "\/_site\/img\/ele\/rurka-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/ele\/rurka-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/landing\/img-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22346,
+		"inputAbbreviatedPath": "\/_site\/img\/landing\/img-1.png",
+		"outputAbbreviatedPath": "\/_site\/img\/landing\/img-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/landing\/img-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16394,
+		"inputAbbreviatedPath": "\/_site\/img\/landing\/img-2.png",
+		"outputAbbreviatedPath": "\/_site\/img\/landing\/img-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/landing\/img-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12082,
+		"inputAbbreviatedPath": "\/_site\/img\/landing\/img-3.png",
+		"outputAbbreviatedPath": "\/_site\/img\/landing\/img-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
