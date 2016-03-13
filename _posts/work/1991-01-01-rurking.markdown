@@ -1,0 +1,27 @@
+---
+
+layout: post
+date:   2015-01-10 21:35:54
+categories: portfolio
+port-id: 2ru
+text-dark-light: light
+
+title: Rurking Hard
+subtitle: Illusion
+
+img-background: img/work/backgrounds/background-rurking.jpg
+
+---
+
+<br><b>Flip 1:</b> Awareness of a design entity. 
+<br><b>Flip 2:</b> Visceral intrigue, reading <i>"Fucking long"</i>.
+<br><b>Flip 3:</b> Eyes continue, reading <i>"Fucking long and hard"</i>. Moving onto the tagline below incites the double take, figuring out the profanity actually reads "Rurking long and hard".
+
+<div class="image-container">
+    <img class="clear" src=""/>
+    <img class="w2" src="./img/work/rurking/rurking-1.jpg"/>
+    <img class="w2" src="./img/work/rurking/rurking-2.jpg"/>
+    <img class="w2" src="./img/work/rurking/rurking-3.jpg"/>
+    <img class="w2" src="./img/work/rurking/rurking-4.jpg"/>
+    <img class="w2" src="./img/work/rurking/rurking-5.jpg"/>
+</div>

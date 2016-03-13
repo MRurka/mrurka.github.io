@@ -1,0 +1,4 @@
+# Site settings
+title: 
+baseurl: "/rude-website-rebuild-feb-2016" # the subpath of your site, e.g. /blog/
+url: "rurkadesign.com" # the base hostname & protocol for your site

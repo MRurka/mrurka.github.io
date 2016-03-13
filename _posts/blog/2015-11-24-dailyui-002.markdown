@@ -1,0 +1,17 @@
+---
+
+layout: post
+date:   2015-11-23 21:35:54
+categories: 
+
+title: "UI002 -- Credit Card Checkout"
+subtitle: New interaction-costly way of entering your credit card number
+
+---
+
+New interaction-costly way of entering your credit card number.
+
+<br>
+
+<img class="item w1" src="../img/dailyui/002_@2x.jpg" alt="Credit Card Concept"/>
+<img class="item w1" src="../img/dailyui/002-sketch_@2x.jpg" alt="Credit Card Concept - Sketches"/>

@@ -1,0 +1,23 @@
+<div class="site-container">
+    <div class="container">
+        <h1 class="post-title">UI001 -- Signup</h1>
+        <h2 class="post-subtitle">Part of the 100 days of UI challenge. This first piece is a signup concept.</h1>
+        <p>Concept is a natural-lang inspired signup. Bit playful. Speach bubble, for emersion. </p>
+
+<p><img class="item w1" src="../img/dailyui/001-signup-empty_@2x.jpg" alt="Signup concept - empty state" />
+<img class="item w1" src="../img/dailyui/001-signup-filled_@2x.jpg" alt="Signup concept - filled in state" />
+<img class="item w1" src="../img/dailyui/001-signup-sketch_@2x.jpg" alt="Signup concept - quick paper sketch" /></p>
+
+    </div>
+    <script>
+        var $container = $('.image-container').masonry();
+        $container.imagesLoaded( function() {
+          $container.masonry();
+        });
+        // Close Modal
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
+    </script>
+</div>
