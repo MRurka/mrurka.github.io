@@ -382,6 +382,21 @@ body.loaded nav ul li {
   100% {
     transform: translateY(0em);
     opacity: 1; } }
+nav .close-modal {
+  display: none; }
+nav.modal-open ul {
+  display: none; }
+nav.modal-open .close-modal {
+  display: block;
+  background: #FF9595;
+  color: #fff;
+  padding: .5em 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  letter-spacing: 3px;
+  font-weight: 700; }
+
 .landing {
   width: calc(100% - 10vw);
   top: calc(50% - ( ( 300px * 0.69333 ) / 2) );
@@ -411,7 +426,7 @@ body.loaded .landing .logo svg {
 
 @media (max-width: 480px) {
   .modal-content {
-    padding: 7em 0 3em 0; } }
+    padding: 3em 0 3em 0; } }
 @media (max-width: 480px) {
   .modal-content .container {
     padding: 0 7vw; } }
@@ -617,3 +632,13 @@ body.loaded .landing .logo svg {
       width: 100%; }
     .image-container .w4 {
       width: 100%; } }
+
+.modal-content .close-modal {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #FF9595;
+  position: fixed;
+  top: 0;
+  left: 0; }
