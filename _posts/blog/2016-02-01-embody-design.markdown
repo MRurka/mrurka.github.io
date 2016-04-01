@@ -8,7 +8,7 @@ categories: blog
 
 You'll hear me say, "Design is my life". I like to fantasize this is my calling. Though, I can't reasonably believe this given my serendipitous involvement in design.
 
-Long story (not so) short: Upon graduating high school, I spent few months in Montreal (hardly) working and (obsessively) pracicing Kung Fu. August swings around and mum suggests I try the New Brunswick College of Craft and Design (NBCCD). A small technical college in my <a href="https://en.wikipedia.org/wiki/Fredericton" target="_blank">hometown</a>. Luckily for mum, one of my life goals was becoming a better artist. So I very casually said "sure". The idea of a profession in the arts, or related, was nonexistent. 
+Long story (not so) short: Upon graduating high school, I spent few months in Montreal (hardly) working and (obsessively) practicing Kung Fu. August swings around and mum suggests I try the New Brunswick College of Craft and Design (NBCCD). A small technical college in my <a href="https://en.wikipedia.org/wiki/Fredericton" target="_blank">hometown</a>. Luckily for mum, one of my life goals was becoming a better artist. So I very casually said "sure". The idea of a profession in the arts, or related, was nonexistent. 
 
 <b>Year 1</b>, didn't take it very seriously. The Foundation Visual Arts Certificate Program (1 year). I hated writing papers, enjoyed drawing. Most importantly, this is where I discovered in fact there are professions in art, craft and design.
 
