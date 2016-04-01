@@ -1,0 +1,279 @@
+
+.modal-content {
+    @media (max-width: $screen-small) {
+        padding: 3em 0 3em 0;
+    }
+    .container {
+        @media (max-width: $screen-small) {
+            padding:0 7vw
+        }
+    }
+    h1 {
+        font-size: 6em;
+        font-weight: 700;
+        margin:0 0 .5em 0;
+        line-height: 1.2em;
+        @media (max-width: $screen-small) {
+            font-size: 2.4em;
+        }
+    }
+    h2 {
+        font-size:3em;
+        font-weight: 700;
+        color:#D6D6D6;
+        margin:0 0 1.5em 0;
+        text-align: right;
+        line-height: 1.2em;
+        @media (max-width: $screen-small) {
+            font-size: 2em;
+        }
+    }
+    p, ul {
+        font-size: 1.36em;
+        margin: 0 auto 1.5em auto;
+        line-height: 1.5em;
+        max-width: 740px;
+        color:#444;
+        @media (max-width: $screen-small) {
+            font-size: 1.2em;
+        }
+        b {
+            font-weight: 600;
+        }
+        a {
+            color:$c-main;
+            &:hover {
+                color:$c-main-dark;
+            }
+        }
+        &.quote {
+            font-style: italic;
+            font-size: 1.28em;
+            max-width: initial;
+            line-height: 1.7em;
+            color: #848484;
+            .source {
+                display: block;
+                margin:1em 0 0 0;
+                font-size:.8em;
+                text-align: right;
+            }
+        }
+    }
+    ul {
+        font-size:1.3em;    
+        padding: 0 0 0 1.5em;
+        // list-style-type:hiragana;
+        // list-style-type:hiragana-iroha;
+        // list-style-type:katakana;
+        list-style-type:katakana-iroha;
+        li {
+            padding: 0 0 0 1em;
+            margin: 0 0 .5em;
+        }
+    }
+}
+
+.modal-kill {
+    $icon-size: 5em;
+    height: $icon-size;
+    width: $icon-size;
+    position: fixed;
+    top:0;
+    left:0;
+    svg {
+        width:100%;
+        height:100%;
+        fill:$c-main;
+        transition: all .25s ease;
+    }
+    &:hover {
+        svg {
+            fill:$c-main-dark;
+        }
+    }
+}
+
+.modal-backdrop {
+    height:100%;
+    width:100%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+    z-index: 7;
+    position: absolute;
+    position: fixed;
+    background-color:#fff;
+
+    // display: none;
+    opacity: 0;
+
+    $animation-name: modal-backdrop-fadein;
+    $animation-duration: .5s;
+    $animation-delay: 0;
+    $animation-fill: forwards;
+
+    transition: opacity .5s ease;
+    -ms-animation-name: $animation-name;
+    -ms-animation-duration: $animation-duration;
+    -ms-animation-delay: $animation-delay;
+    -ms-animation-fill-mode: $animation-fill;
+    -webkit-animation-name: $animation-name;
+    -webkit-animation-duration: $animation-duration;
+    -webkit-animation-delay: $animation-delay;
+    -webkit-animation-fill-mode: $animation-fill;
+    animation-name: $animation-name;
+    animation-duration: $animation-duration;
+    animation-delay: $animation-delay;
+    animation-fill-mode: $animation-fill;
+
+    @-ms-keyframes #{$animation-name} {
+        0% {opacity:0; display: block;}
+        100% {opacity:1;}
+    }
+    @-webkit-keyframes #{$animation-name} {
+        0% {opacity:0; display: block;}
+        100% {opacity:1;}
+    }
+    @keyframes #{$animation-name} {
+        0% {opacity:0; display: block;}
+        100% {opacity:1;}
+    }
+}
+
+.modal-content {
+    height:100%;
+    width:100%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+    z-index: 9;
+    position: absolute;
+    position: fixed;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    display: none;
+    opacity: 0;
+
+    $animation-name: modal-content-fadein;
+    $animation-duration: 1s;
+    $animation-delay: .5s;
+    $animation-fill: forwards;
+
+    transition: opacity .5s ease;
+    -ms-animation-name: $animation-name;
+    -ms-animation-duration: $animation-duration;
+    -ms-animation-delay: $animation-delay;
+    -ms-animation-fill-mode: $animation-fill;
+    -webkit-animation-name: $animation-name;
+    -webkit-animation-duration: $animation-duration;
+    -webkit-animation-delay: $animation-delay;
+    -webkit-animation-fill-mode: $animation-fill;
+    animation-name: $animation-name;
+    animation-duration: $animation-duration;
+    animation-delay: $animation-delay;
+    animation-fill-mode: $animation-fill;
+
+    @-ms-keyframes #{$animation-name} {
+    0% {transform: translateY(2em); opacity:0; display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+    }
+    @-webkit-keyframes #{$animation-name} {
+        0% {transform: translateY(2em); opacity:0; display: block;}
+        100% {transform: translateY(0em); opacity:1;}
+    }
+    @keyframes #{$animation-name} {
+        0% {transform: translateY(2em); opacity:0; display: block;}
+        100% {transform: translateY(0em); opacity:1;}
+    }
+}
+
+.image-container {
+    $image-padding: .5em;
+    width: calc(100% + (#{$image-padding} * 2));
+    margin-left: calc(#{$image-padding} * -1);
+    margin-bottom:2em;
+    img {
+        width:100%;
+        height:auto;
+        padding: $image-padding;
+    }
+    .clear {
+        width:1px;
+        height:1px;
+        padding: 0;
+        opacity: 0;
+        overflow: hidden;
+    }
+    .w1 {
+        width:24.5%;
+    }
+    .w2 {
+        width:49.5%;
+    }
+    .w3 {
+        width:74.5%;
+    }
+    .w4 {
+        width: 99.5%;
+    }
+
+    // Tablet
+    @media screen and (max-width: $screen-medium) {
+        .w1 {
+        width:100%;
+        }
+        .w2 {
+            width:100%;
+        }
+        .w3 {
+            width:100%;
+        }
+        .w4 {
+            width: 100%;
+        }
+    }
+    
+    // Phone
+    @media screen and (max-width: $screen-small) {
+        .w1 {
+            width:100%;
+        }
+        .w2 {
+            width:100%;
+        }
+        .w3 {
+            width:100%;
+        }
+        .w4 {
+            width: 100%;
+        }
+    }
+}
+
+.modal-content {
+    .close-modal {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color:#fff;
+        background-color: $c-main;
+        position: fixed;
+        top:0;
+        left:0;
+    }
+}
+
+
+
+
+
+
+
+
+

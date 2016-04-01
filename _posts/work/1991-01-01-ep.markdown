@@ -1,0 +1,31 @@
+---
+
+layout: post
+date:   2015-01-10 21:35:54
+categories: portfolio
+port-id: 6ru
+text-dark-light: light
+
+title: EP
+subtitle: Fine Art
+
+img-background: img/work/backgrounds/background-ep.jpg
+
+---
+
+My children. A few of them.
+
+- <b>EP14</b> Acrylic, texture pastes on canvas
+- <b>EFS1</b> Ink, chalk, acrylic, pencil, china marker on stone paper
+- <b>EFS3</b> Ink, chalk, pastel shavings, coffee grind, wool, acrylic, china marker on stone paper
+- <b>EP15</b> Acrylic, ink well pen on canvas
+- <b>Untitled</b> Acrylic, pencil, gesso on cold-press watercolour paper
+
+<div class="image-container">
+    <img class="clear" src=""/>
+    <img class="w2" src="./img/work/ep/ep14.jpg"/>
+    <img class="w2" src="./img/work/ep/efs1.jpg"/>
+    <img class="w2" src="./img/work/ep/efs3.jpg"/>
+    <img class="w2" src="./img/work/ep/ep15.jpg"/>
+    <img class="w2" src="./img/work/ep/ep-study.jpg"/>
+</div>

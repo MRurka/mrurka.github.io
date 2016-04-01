@@ -1,0 +1,38 @@
+
+<section id="work-section" class="work content">
+    {% for post in site.categories.portfolio %}
+        <div id="{{ post.port-id }}" class="item-background" style="background-image:url({{ post.img-background }})"></div>
+    {% endfor %}
+    <div class="container">
+        <div class="items">
+            {% for post in site.categories.portfolio %}
+                <div id="{{ post.port-id }}" class="item">
+                    <a href="{{ post.url | prepend: site.baseurl }}" rel="modal:open" style="background-image:url({{ post.img-background }})">
+                        <h1 class="title {{ post.text-dark-light }}">{{ post.title }}</h1>
+                        <!-- <h2 class="subtitle">{{ post.subtitle }}</h2> -->
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script>
+        // Background Switches
+        {% for post in site.categories.portfolio %}
+            $("#work-section #{{ post.port-id }} a").hover(function() {
+                $("#{{ post.port-id }}.item-background").css("opacity", "1");  
+              }, function(){
+                $("#{{ post.port-id }}.item-background").css("opacity", "0");  
+            });
+        {% endfor %}
+
+        // Hide items except hovered
+        $('#work-section .item a').hover(
+            function() {
+                $("#work-section .item a:not(:hover)").css({"opacity":"0"});
+            },
+            function() {
+                $("#work-section .item a").css({"opacity":"1"});
+            }
+        );
+    </script>
+</section>
