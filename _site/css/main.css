@@ -388,6 +388,7 @@ nav.modal-open ul {
   display: none; }
 nav.modal-open .close-modal {
   display: block;
+  text-transform: uppercase;
   background: #FF9595;
   color: #fff;
   padding: .5em 1em;
