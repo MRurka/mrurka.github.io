@@ -1,4 +1,8 @@
 
+body {
+    display: none !important;
+}
+
 nav {
     $number-of-sections: 3;
     position: fixed;
