@@ -128,6 +128,7 @@ section.about {
         }
         a {
             color:$c-main;
+            display: inline-block;
             @media (min-width: $screen-medium) {
                 span {
                     transition: all 4s ease;

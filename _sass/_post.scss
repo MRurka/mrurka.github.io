@@ -1,7 +1,10 @@
 
 .modal-content {
     @media (max-width: $screen-small) {
-        padding: 3em 0 3em 0;
+        padding: 4em 0 3em 0;
+    }
+    .site-container {
+        padding: 7em 5vw 5em;
     }
     .container {
         @media (max-width: $screen-small) {
