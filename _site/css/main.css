@@ -384,6 +384,9 @@ body.loaded nav ul li {
     opacity: 1; } }
 nav .close-modal {
   display: none; }
+  nav {
+    display:none !important; 
+  }
 nav.modal-open ul {
   display: none; }
 nav.modal-open .close-modal {
