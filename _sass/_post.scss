@@ -1,7 +1,7 @@
 
 .modal-content {
     @media (max-width: $screen-small) {
-        padding: 3em 0 3em 0;
+        padding: 7em 0 3em 0;
     }
     .container {
         @media (max-width: $screen-small) {
@@ -256,18 +256,8 @@
     }
 }
 
-.modal-content {
-    .close-modal {
-        text-transform: uppercase;
-        font-weight: 600;
-        letter-spacing: 2px;
-        color:#fff;
-        background-color: $c-main;
-        position: fixed;
-        top:0;
-        left:0;
-    }
-}
+
+
 
 
 

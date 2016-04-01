@@ -41,7 +41,6 @@
 </div>
     
 <nav>
-    <a class="close-modal" href="#close-modal" rel="modal:close">Back</a>
     <ul>
         <li>
             <a id="work" rel="modal:close">
@@ -300,28 +299,18 @@
     $( document ).ready(function() {
 
         // Hide Landing
-        $("nav ul li a").click(function(){
+        $("nav a").click(function(){
             $(".landing .logo").fadeOut(500);
         });
 
         // Screen Transitions
-        $("nav ul li a").click(function(){
+        $("nav a").click(function(){
             var idName = $(this).attr('id');
             var className = $(this).attr('class');
             if(className !== 'active') {                
                 $(".content").fadeOut(500);
                 $('.' + idName).delay(500).fadeIn(1000);
             }
-        });
-
-        // If Mobile, hide the nav and show the "Back"
-        $(".work.content .item a").click(function(){
-            $("nav").addClass("modal-open");
-        });
-
-        // Bring back the content and nav once you click "Back"
-        $("nav a.close-modal").click(function(){
-            $("nav").removeClass("modal-open");
         });
 
         // Hide Modal

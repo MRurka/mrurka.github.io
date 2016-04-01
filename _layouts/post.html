@@ -1,6 +1,7 @@
 ---
 layout: content
 ---
+
 <div class="site-container">
     <div class="container">
         <h1 class="post-title">{{ page.title }}</h1>
@@ -13,9 +14,9 @@ layout: content
           $container.masonry();
         });
         // Close Modal
-        // $(".modal-kill").click(function(){
-        //     $(".modal-content").fadeOut(1);
-        //     $(".modal-backdrop").fadeOut(1);
-        // });
+        $(".modal-kill").click(function(){
+            $(".modal-content").fadeOut(1);
+            $(".modal-backdrop").fadeOut(1);
+        });
     </script>
 </div>
