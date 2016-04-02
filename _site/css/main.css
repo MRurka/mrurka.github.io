@@ -604,10 +604,10 @@ section.work .items .item {
     section.work .items .item {
       width: 100%;
       padding: 0;
-      height: 70vw; } }
+      height: 50vw; } }
   @media (max-width: 480px) {
     section.work .items .item {
-      height: 50vw; } }
+      height: 70vw; } }
   section.work .items .item a {
     border: 2px solid #333;
     padding: .5em;

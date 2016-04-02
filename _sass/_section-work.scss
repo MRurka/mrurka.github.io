@@ -36,10 +36,10 @@ section.work {
             @media (max-width: $screen-medium) {
                 width: 100%;
                 padding: 0;
-                height: 70vw;
+                height: 50vw;
             }
             @media (max-width: $screen-small) {
-                height: 50vw;
+                height: 70vw;
             }
             a {
                 border:2px solid $c-black;
