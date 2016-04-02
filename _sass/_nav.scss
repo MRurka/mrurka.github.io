@@ -47,7 +47,7 @@ nav {
                         fill: $c-main-dark;
                     }  
                 }
-                @media (max-width: $screen-small) {
+                @media (max-width: $screen-medium) {
                     &.negative {
                         span {
                             color:#fff;
@@ -142,7 +142,6 @@ nav {
                 padding: .8em 1em .7em;
                 font-weight: 700;
             }
-
 
             transform: translateY(-3em);
             -ms-animation-name: mobile-modal-back-button;

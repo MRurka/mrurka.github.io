@@ -9,7 +9,7 @@ text-dark-light: light
 title: Selective Few
 subtitle: Ecommerce Startup
 
-img-background: img/work/backgrounds/background-sf.jpg
+img-background: background-sf.jpg
 
 ---
 

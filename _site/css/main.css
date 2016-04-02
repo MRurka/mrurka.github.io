@@ -61,7 +61,7 @@ html, body {
 
 .site-container {
   padding: 10em 5vw 5em; }
-  @media (max-width: 480px) {
+  @media (max-width: 780px) {
     .site-container {
       padding: 0; } }
 
@@ -74,126 +74,6 @@ section.content {
   max-width: 100%;
   max-height: 100%;
   display: none; }
-
-@media (max-width: 480px) {
-  section.work {
-    padding-top: 8em;
-    background: #231F20; } }
-section.work .item-background {
-  background: #FF9595;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity .5s ease;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-  section.work .item-background.active {
-    opacity: 1; }
-  @media (max-width: 480px) {
-    section.work .item-background {
-      display: none; } }
-section.work .items .item {
-  width: calc(100% / 3.1);
-  height: 10em;
-  display: inline-block;
-  padding: 0 .75em 1.5em .75em; }
-  @media (max-width: 480px) {
-    section.work .items .item {
-      width: 100%;
-      padding: 0;
-      height: 70vw; } }
-  section.work .items .item a {
-    border: 2px solid #333;
-    padding: .5em;
-    display: block;
-    height: 100%;
-    color: #333;
-    transition: all .25s ease;
-    background-size: 0%; }
-    @media (max-width: 480px) {
-      section.work .items .item a {
-        border: none;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; } }
-    section.work .items .item a h1.title {
-      color: #333; }
-      @media (max-width: 480px) {
-        section.work .items .item a h1.title {
-          font-size: 1.2em;
-          padding: .5em;
-          opacity: .6;
-          letter-spacing: 1px; }
-          section.work .items .item a h1.title.light {
-            color: #fff; }
-          section.work .items .item a h1.title.dark {
-            color: #333; } }
-    section.work .items .item a:hover {
-      border-color: #FF9595; }
-      section.work .items .item a:hover h1 {
-        color: #FF9595;
-        transition: all .25s ease; }
-        section.work .items .item a:hover h1.light {
-          color: #fff; }
-        section.work .items .item a:hover h1.dark {
-          color: #333; }
-
-@media (max-width: 480px) {
-  section.about {
-    padding: 7em 0 3em 0; } }
-@media (max-width: 480px) {
-  section.about .container {
-    padding: 0 7vw; } }
-section.about p {
-  font-size: 2em;
-  line-height: 1.3em;
-  color: #606469;
-  font-weight: 600;
-  margin: 0 0 1em 0; }
-  @media (max-width: 480px) {
-    section.about p {
-      font-size: 1.34em; } }
-  section.about p a {
-    color: #FF9595;
-    display: inline-block; }
-    @media (min-width: 780px) {
-      section.about p a span {
-        transition: all 4s ease;
-        display: inline-block; }
-      section.about p a:hover span:nth-child(odd) {
-        transform: translateY(-0.05em); }
-      section.about p a:hover span:nth-child(even) {
-        transform: translateY(0.05em); } }
-  section.about p b {
-    font-weight: 700; }
-
-@media (max-width: 480px) {
-  section.blog {
-    padding: 7em 0 3em 0; } }
-@media (max-width: 480px) {
-  section.blog .container {
-    padding: 0 7vw; } }
-section.blog .items .item {
-  margin: 0 0 2em 0; }
-  section.blog .items .item a {
-    font-size: 1.4em;
-    line-height: 1.3em;
-    transition: all .25s ease; }
-    @media (max-width: 480px) {
-      section.blog .items .item a {
-        font-size: 1.24em; } }
-    section.blog .items .item a h1 {
-      font-weight: 700; }
-    section.blog .items .item a h2 {
-      margin: .25em 0 0 0; }
-    section.blog .items .item a:hover {
-      color: #FF9595;
-      text-indent: 1em; }
 
 body {
   display: none; }
@@ -324,7 +204,7 @@ nav {
         fill: #FF9595; }
       nav ul li a:hover svg {
         fill: #FA8283; }
-      @media (max-width: 480px) {
+      @media (max-width: 780px) {
         nav ul li a.negative span {
           color: #fff; }
         nav ul li a.negative svg {
@@ -689,3 +569,135 @@ body.loaded .landing .logo svg {
   position: fixed;
   top: 0;
   left: 0; }
+
+@media (max-width: 780px) {
+  section.work {
+    padding-top: 8em;
+    background: #231F20; } }
+@media (max-width: 480px) {
+  section.work {
+    padding-top: 8em; } }
+section.work .item-background {
+  background: #FF9595;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .5s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  section.work .item-background.active {
+    opacity: 1; }
+  @media (max-width: 480px) {
+    section.work .item-background {
+      display: none; } }
+section.work .items .item {
+  width: calc(100% / 3.1);
+  height: 10em;
+  display: inline-block;
+  padding: 0 .75em 1.5em .75em; }
+  @media (max-width: 780px) {
+    section.work .items .item {
+      width: 100%;
+      padding: 0;
+      height: 70vw; } }
+  @media (max-width: 480px) {
+    section.work .items .item {
+      height: 50vw; } }
+  section.work .items .item a {
+    border: 2px solid #333;
+    padding: .5em;
+    display: block;
+    height: 100%;
+    color: #333;
+    transition: all .25s ease;
+    background-size: 0%; }
+    @media (max-width: 780px) {
+      section.work .items .item a {
+        border: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; } }
+    section.work .items .item a h1.title {
+      color: #333; }
+      @media (max-width: 780px) {
+        section.work .items .item a h1.title {
+          font-size: 1.2em;
+          padding: .5em;
+          opacity: .6;
+          letter-spacing: 1px; }
+          section.work .items .item a h1.title.light {
+            color: #fff; }
+          section.work .items .item a h1.title.dark {
+            color: #333; } }
+    section.work .items .item a:hover {
+      border-color: #FF9595; }
+      section.work .items .item a:hover h1 {
+        color: #FF9595;
+        transition: all .25s ease; }
+        section.work .items .item a:hover h1.light {
+          color: #fff; }
+        section.work .items .item a:hover h1.dark {
+          color: #333; }
+
+@media (max-width: 780px) {
+  section.about {
+    padding: 10em 0 3em 0; } }
+@media (max-width: 480px) {
+  section.about {
+    padding: 7em 0 3em 0; } }
+@media (max-width: 780px) {
+  section.about .container {
+    padding: 0 7vw; } }
+section.about p {
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #606469;
+  font-weight: 600;
+  margin: 0 0 1em 0; }
+  @media (max-width: 480px) {
+    section.about p {
+      font-size: 1.34em; } }
+  section.about p a {
+    color: #FF9595;
+    display: inline-block; }
+    @media (min-width: 780px) {
+      section.about p a span {
+        transition: all 4s ease;
+        display: inline-block; }
+      section.about p a:hover span:nth-child(odd) {
+        transform: translateY(-0.05em); }
+      section.about p a:hover span:nth-child(even) {
+        transform: translateY(0.05em); } }
+  section.about p b {
+    font-weight: 700; }
+
+@media (max-width: 780px) {
+  section.blog {
+    padding: 10em 0 3em 0; } }
+@media (max-width: 480px) {
+  section.blog {
+    padding: 7em 0 3em 0; } }
+@media (max-width: 780px) {
+  section.blog .container {
+    padding: 0 7vw; } }
+section.blog .items .item {
+  margin: 0 0 2em 0; }
+  section.blog .items .item a {
+    font-size: 1.4em;
+    line-height: 1.3em;
+    transition: all .25s ease; }
+    @media (max-width: 480px) {
+      section.blog .items .item a {
+        font-size: 1.24em; } }
+    section.blog .items .item a h1 {
+      font-weight: 700; }
+    section.blog .items .item a h2 {
+      margin: .25em 0 0 0; }
+    section.blog .items .item a:hover {
+      color: #FF9595;
+      text-indent: 1em; }

@@ -9,7 +9,7 @@ text-dark-light: dark
 title: Naive Prowess
 subtitle: Champion Illustration
 
-img-background: img/work/backgrounds/background-naive-prowess.jpg
+img-background: background-naive-prowess.jpg
 
 ---
 

@@ -9,7 +9,7 @@ text-dark-light: light
 title: Ornithologie
 subtitle: Grid Exploration
 
-img-background: img/work/backgrounds/background-orni.jpg
+img-background: background-orni.jpg
 
 ---
 

@@ -9,7 +9,7 @@ text-dark-light: dark
 title: KAA
 subtitle: Fashion Graphic
 
-img-background: img/work/backgrounds/background-kaa.jpg
+img-background: background-kaa.jpg
 
 ---
 

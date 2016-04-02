@@ -1,0 +1,39 @@
+
+section.blog {
+    @media (max-width: $screen-medium) {
+        padding: 10em 0 3em 0;
+    }
+    @media (max-width: $screen-small) {
+        padding: 7em 0 3em 0;
+    }
+    .container {
+        @media (max-width: $screen-medium) {
+            padding:0 7vw
+        }
+    }
+    .items {
+        .item {
+            margin:0 0 2em 0;
+            a {
+                font-size:1.4em;
+                line-height: 1.3em;
+                transition: all .25s ease;
+                @media (max-width: $screen-small) {
+                    font-size: 1.24em;
+                }
+                h1 {
+                    font-weight: 700;
+                }
+                h2 {
+                    margin: .25em 0 0 0;
+                }
+                &:hover {
+                    color:$c-main;
+                    text-indent: 1em;
+                }
+            }
+        }
+    }
+}
+
+

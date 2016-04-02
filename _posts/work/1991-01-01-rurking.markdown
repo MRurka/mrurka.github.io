@@ -9,7 +9,7 @@ text-dark-light: light
 title: Rurking Hard
 subtitle: Illusion
 
-img-background: img/work/backgrounds/background-rurking.jpg
+img-background: background-rurking.jpg
 
 ---
 

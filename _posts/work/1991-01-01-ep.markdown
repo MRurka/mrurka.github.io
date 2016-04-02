@@ -9,7 +9,7 @@ text-dark-light: light
 title: EP
 subtitle: Fine Art
 
-img-background: img/work/backgrounds/background-ep.jpg
+img-background: background-ep.jpg
 
 ---
 

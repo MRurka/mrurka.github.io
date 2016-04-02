@@ -9,7 +9,7 @@ text-dark-light: light
 title: Nu Messenger
 subtitle: Social Experiment
 
-img-background: img/work/backgrounds/background-nu.gif
+img-background: background-nu.gif
 
 ---
 

@@ -9,7 +9,7 @@ text-dark-light: light
 title: RED
 subtitle: Catalogue Cover Design
 
-img-background: img/work/backgrounds/background-red.jpg
+img-background: background-red.jpg
 
 ---
 
