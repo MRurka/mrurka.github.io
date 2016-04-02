@@ -7,7 +7,7 @@
         <div class="items">
             {% for post in site.categories.portfolio %}
                 <div id="{{ post.port-id }}" class="item">
-                    <a href="{{ post.url | prepend: site.baseurl }}" rel="modal:open" style="background-image:url(img/work/backgrounds/phone/{{ post.img-background }})">
+                    <a href="{{ post.url }}" rel="modal:open" style="background-image:url(img/work/backgrounds/phone/{{ post.img-background }})">
                         <h1 class="title {{ post.text-dark-light }}">{{ post.title }}</h1>
                     </a>
                 </div>
