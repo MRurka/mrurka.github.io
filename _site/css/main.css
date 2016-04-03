@@ -296,9 +296,11 @@ nav.modal-open .take-me-back-top {
   animation-delay: 1.5s; }
   @media (max-width: 480px) {
     nav.modal-open .take-me-back-top {
-      padding: .8em 1em .7em;
+      padding: .64em .6em .5em .8em;
       font-weight: 700;
-      font-size: 1.1em; } }
+      font-size: 1.06em;
+      letter-spacing: 4px;
+      background: #fff; } }
 
 @-ms-keyframes mobile-modal-back-button {
   0% {
@@ -355,7 +357,7 @@ body.loaded .landing .logo svg {
   padding: 7em 5vw 5em; }
   @media (max-width: 480px) {
     .modal-content .site-container {
-      padding: 4em 0 3em 0; } }
+      padding: 5em 0 3em 0; } }
   @media (max-width: 480px) {
     .modal-content .site-container .container {
       padding: 0 6vw; } }

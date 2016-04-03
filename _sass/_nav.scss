@@ -140,9 +140,11 @@ nav {
             padding: .5em 1em;
             cursor: pointer;
             @media (max-width: $screen-small) {
-                padding: .8em 1em .7em;
+                padding: .64em .6em .5em .8em;
                 font-weight: 700;
-                font-size: 1.1em;
+                font-size: 1.06em;
+                letter-spacing: 4px;
+                background:#fff;
             }
 
             transform: translateY(-3em);
