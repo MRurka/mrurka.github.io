@@ -8,7 +8,7 @@ text-dark-light: light
 
 title: Ornithologie
 subtitle: Grid Exploration
-take-me-back-text:
+take-me-back-text: Cute birds. Take me back.
 
 img-background: background-orni.jpg
 

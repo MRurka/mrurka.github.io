@@ -8,7 +8,7 @@ text-dark-light: light
 
 title: "Jelly Invoice V1"
 subtitle: Invoicing webapp for ghetto freelancers
-take-me-back-text:
+take-me-back-text: Can't code, damn. Take me back.
 
 img-background: background-jelly.jpg
 

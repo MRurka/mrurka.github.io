@@ -8,7 +8,7 @@ text-dark-light: light
 
 title: Selective Few
 subtitle: Ecommerce Startup
-take-me-back-text:
+take-me-back-text: $300 for shoes? Take me back.
 
 img-background: background-sf.jpg
 

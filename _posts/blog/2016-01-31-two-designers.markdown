@@ -4,7 +4,7 @@ title:  "Two Designers"
 subtitle: "To be (or not to be) altruistic in the profession of design"
 date:   2016-01-31
 categories: blog
-take-me-back-text:
+take-me-back-text: Obviously. Take me back.
 ---
 
 Listening to Mike Monteiro was an eye opener for my back in fall 2015. 

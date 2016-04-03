@@ -270,6 +270,9 @@
     display: block;
     text-align: center;
     margin:4em 0 0 0;
+    @media (max-width: $screen-small) {
+        margin:3em 0 0 0;
+    }
     a.take-me-back-bottom-button {
         color: $c-main;
         border: 2px solid $c-main;
