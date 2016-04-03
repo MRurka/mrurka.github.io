@@ -280,6 +280,7 @@ nav.modal-open .take-me-back-top {
   font-weight: 600;
   font-size: 1.2em;
   padding: .5em 1em;
+  cursor: pointer;
   transform: translateY(-3em);
   -ms-animation-name: mobile-modal-back-button;
   -ms-animation-duration: 1s;
@@ -355,6 +356,9 @@ body.loaded .landing .logo svg {
   @media (max-width: 480px) {
     .modal-content .site-container {
       padding: 4em 0 3em 0; } }
+  @media (max-width: 480px) {
+    .modal-content .site-container .container {
+      padding: 0 6vw; } }
 .modal-content h1 {
   font-size: 6em;
   font-weight: 700;
@@ -568,7 +572,7 @@ body.loaded .landing .logo svg {
 .take-me-back-bottom-container {
   display: block;
   text-align: center;
-  margin: 2em 0 0 0; }
+  margin: 4em 0 0 0; }
   .take-me-back-bottom-container a.take-me-back-bottom-button {
     color: #FF9595;
     border: 2px solid #FF9595;
@@ -576,10 +580,7 @@ body.loaded .landing .logo svg {
     cursor: pointer;
     font-weight: 600;
     display: inline-block;
-    font-size: 1.1em;
-    transition: transform .25s ease; }
-    .take-me-back-bottom-container a.take-me-back-bottom-button:hover {
-      transform: scale(1.01, 1.01); }
+    font-size: 1.1em; }
 
 @media (max-width: 780px) {
   section.work {

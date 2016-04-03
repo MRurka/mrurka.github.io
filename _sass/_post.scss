@@ -6,7 +6,7 @@
             padding: 4em 0 3em 0;
         }
         .container {
-            @media (max-width: $phone) {
+            @media (max-width: $screen-small) {
                 padding:0 6vw
             }
         }
@@ -269,7 +269,7 @@
 .take-me-back-bottom-container {
     display: block;
     text-align: center;
-    margin:2em 0 0 0;
+    margin:4em 0 0 0;
     a.take-me-back-bottom-button {
         color: $c-main;
         border: 2px solid $c-main;
@@ -278,10 +278,6 @@
         font-weight: 600;
         display: inline-block;
         font-size: 1.1em;
-        transition:transform .25s ease;
-        &:hover {
-            transform: scale(1.01,1.01);
-        }
     }
 }
 

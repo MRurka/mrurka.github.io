@@ -8,7 +8,7 @@ text-dark-light: light
 
 title: EP
 subtitle: Fine Art
-take-me-back-text:
+take-me-back-text: Elephants suck. Take me back.
 
 img-background: background-ep.jpg
 
