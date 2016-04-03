@@ -8,7 +8,7 @@ text-dark-light: light
 
 title: Nu Messenger
 subtitle: Social Experiment
-take-me-back-text: Another messenger? Take me back!
+take-me-back-text: Another messenger?! Take me back.
 
 img-background: background-nu.gif
 
