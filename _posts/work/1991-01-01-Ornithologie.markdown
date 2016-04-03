@@ -8,6 +8,7 @@ text-dark-light: light
 
 title: Ornithologie
 subtitle: Grid Exploration
+take-me-back-text:
 
 img-background: background-orni.jpg
 

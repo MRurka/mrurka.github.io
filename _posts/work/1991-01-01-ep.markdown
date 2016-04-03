@@ -8,6 +8,7 @@ text-dark-light: light
 
 title: EP
 subtitle: Fine Art
+take-me-back-text:
 
 img-background: background-ep.jpg
 

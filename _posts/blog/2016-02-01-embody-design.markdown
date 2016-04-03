@@ -4,6 +4,7 @@ title:  "Embody Design (Part_1)"
 subtitle: "My Obsession from Kung Fu to Design"
 date:   2016-02-07
 categories: blog
+take-me-back-text:
 ---
 
 You'll hear me say, "Design is my life". I like to fantasize this is my calling. Though, I can't reasonably believe this given my serendipitous involvement in design.

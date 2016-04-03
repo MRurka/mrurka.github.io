@@ -118,7 +118,7 @@ body.loaded nav ul li {
 // if modal is open on mobile
 
 nav {
-    .close-modal { 
+    .take-me-back-top { 
         display: none;
         opacity: 0;
     }
@@ -126,17 +126,17 @@ nav {
         ul {
             display: none;
         }
-        .close-modal {
+        .take-me-back-top {
             display: block;
             position: fixed;
-            top:0;
-            left:0;
+            top: 1em;
+            left: 1em;
             text-transform: uppercase;
-            background:$c-main;
-            color:#fff;
+            border: 2px solid $c-main;
             letter-spacing: 5px;
+            color: $c-main;
             font-weight: 600;
-            font-size: 1.5em;
+            font-size: 1.2em;
             padding: .5em 1em;
             @media (max-width: $screen-small) {
                 padding: .8em 1em .7em;

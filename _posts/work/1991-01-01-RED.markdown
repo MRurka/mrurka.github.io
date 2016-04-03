@@ -8,6 +8,7 @@ text-dark-light: light
 
 title: RED
 subtitle: Catalogue Cover Design
+take-me-back-text:
 
 img-background: background-red.jpg
 

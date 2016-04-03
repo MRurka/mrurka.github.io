@@ -8,6 +8,7 @@ text-dark-light: dark
 
 title: KAA
 subtitle: Fashion Graphic
+take-me-back-text:
 
 img-background: background-kaa.jpg
 

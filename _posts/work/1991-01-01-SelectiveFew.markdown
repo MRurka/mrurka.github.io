@@ -8,6 +8,7 @@ text-dark-light: light
 
 title: Selective Few
 subtitle: Ecommerce Startup
+take-me-back-text:
 
 img-background: background-sf.jpg
 

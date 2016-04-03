@@ -8,6 +8,7 @@ text-dark-light: dark
 
 title: Naive Prowess
 subtitle: Champion Illustration
+take-me-back-text:
 
 img-background: background-naive-prowess.jpg
 

@@ -263,22 +263,22 @@ body.loaded nav ul li {
   100% {
     transform: translateY(0em);
     opacity: 1; } }
-nav .close-modal {
+nav .take-me-back-top {
   display: none;
   opacity: 0; }
 nav.modal-open ul {
   display: none; }
-nav.modal-open .close-modal {
+nav.modal-open .take-me-back-top {
   display: block;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 1em;
+  left: 1em;
   text-transform: uppercase;
-  background: #FF9595;
-  color: #fff;
+  border: 2px solid #FF9595;
   letter-spacing: 5px;
+  color: #FF9595;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding: .5em 1em;
   transform: translateY(-3em);
   -ms-animation-name: mobile-modal-back-button;
@@ -294,7 +294,7 @@ nav.modal-open .close-modal {
   animation-fill-mode: forwards;
   animation-delay: 1.5s; }
   @media (max-width: 480px) {
-    nav.modal-open .close-modal {
+    nav.modal-open .take-me-back-top {
       padding: .8em 1em .7em;
       font-weight: 700;
       font-size: 1.1em; } }
@@ -565,15 +565,21 @@ body.loaded .landing .logo svg {
     .image-container .w4 {
       width: 100%; } }
 
-.modal-content .close-modal {
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: #fff;
-  background-color: #FF9595;
-  position: fixed;
-  top: 0;
-  left: 0; }
+.take-me-back-bottom-container {
+  display: block;
+  text-align: center;
+  margin: 2em 0 0 0; }
+  .take-me-back-bottom-container a.take-me-back-bottom-button {
+    color: #FF9595;
+    border: 2px solid #FF9595;
+    padding: 1em 2em .8em;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 1.1em;
+    transition: transform .25s ease; }
+    .take-me-back-bottom-container a.take-me-back-bottom-button:hover {
+      transform: scale(1.01, 1.01); }
 
 @media (max-width: 780px) {
   section.work {
