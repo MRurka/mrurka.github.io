@@ -6,20 +6,23 @@ layout: content
         <h1 class="post-title">{{ page.title }}</h1>
         <h2 class="post-subtitle">{{ page.subtitle }}</h1>
         {{ content }}
-        <div class="take-me-back">
-            <div class="take-me-back-bottom-container">
-                {% if page.take-me-back-text %}
-                    <a class="take-me-back-bottom-button close-modal" rel="modal:close">{{ page.take-me-back-text }}</a>
-                {% else %}
-                    <a class="take-me-back-bottom-button close-modal" rel="modal:close">Rurka, take me back please</a>
-                {% endif %}
-            </div>
+        <div class="take-me-back-bottom-container">
+            {% if page.take-me-back-text %}
+                <a class="take-me-back-bottom-button close-modal" rel="modal:close">{{ page.take-me-back-text }}</a>
+            {% else %}
+                <a class="take-me-back-bottom-button close-modal" rel="modal:close">Rurka, take me back please</a>
+            {% endif %}
         </div>
     </div>
     <script>
         var $container = $('.image-container').masonry();
         $container.imagesLoaded( function() {
           $container.masonry();
+        });
+
+        // Bring back the content and nav once you click "Back"
+        $("a.take-me-back-bottom-button").click(function(){
+            $("nav").removeClass("modal-open");
         });
     </script>
 </div>
