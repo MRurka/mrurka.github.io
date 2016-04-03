@@ -1,14 +1,9 @@
 
 .modal-content {
-    @media (max-width: $screen-small) {
-        padding: 4em 0 3em 0;
-    }
     .site-container {
         padding: 7em 5vw 5em;
-    }
-    .container {
         @media (max-width: $screen-small) {
-            padding:0 7vw
+            padding: 4em 0 3em 0;
         }
     }
     h1 {
@@ -18,17 +13,21 @@
         line-height: 1.2em;
         @media (max-width: $screen-small) {
             font-size: 2.4em;
+            margin:0 0 .25em 0;
         }
     }
     h2 {
         font-size:3em;
         font-weight: 700;
-        color:#D6D6D6;
+        color:#c5ccd0;
         margin:0 0 1.5em 0;
         text-align: right;
         line-height: 1.2em;
         @media (max-width: $screen-small) {
-            font-size: 2em;
+            font-size: 1.8em;
+            text-align: left;
+            margin:0 0 1em 0;
+            font-weight: 600;
         }
     }
     p, ul {
@@ -64,7 +63,6 @@
         }
     }
     ul {
-        font-size:1.3em;    
         padding: 0 0 0 1.5em;
         // list-style-type:hiragana;
         // list-style-type:hiragana-iroha;
@@ -73,6 +71,10 @@
         li {
             padding: 0 0 0 1em;
             margin: 0 0 .5em;
+            @media (max-width: $screen-small) {
+                padding: 0 0 0 .2em;
+                margin: 0 0 .8em;
+            }
         }
     }
 }

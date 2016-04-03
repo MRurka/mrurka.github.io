@@ -296,7 +296,8 @@ nav.modal-open .close-modal {
   @media (max-width: 480px) {
     nav.modal-open .close-modal {
       padding: .8em 1em .7em;
-      font-weight: 700; } }
+      font-weight: 700;
+      font-size: 1.1em; } }
 
 @-ms-keyframes mobile-modal-back-button {
   0% {
@@ -349,14 +350,11 @@ nav.modal-open .close-modal {
 body.loaded .landing .logo svg {
   opacity: .1; }
 
-@media (max-width: 480px) {
-  .modal-content {
-    padding: 4em 0 3em 0; } }
 .modal-content .site-container {
   padding: 7em 5vw 5em; }
-@media (max-width: 480px) {
-  .modal-content .container {
-    padding: 0 7vw; } }
+  @media (max-width: 480px) {
+    .modal-content .site-container {
+      padding: 4em 0 3em 0; } }
 .modal-content h1 {
   font-size: 6em;
   font-weight: 700;
@@ -364,17 +362,21 @@ body.loaded .landing .logo svg {
   line-height: 1.2em; }
   @media (max-width: 480px) {
     .modal-content h1 {
-      font-size: 2.4em; } }
+      font-size: 2.4em;
+      margin: 0 0 .25em 0; } }
 .modal-content h2 {
   font-size: 3em;
   font-weight: 700;
-  color: #D6D6D6;
+  color: #c5ccd0;
   margin: 0 0 1.5em 0;
   text-align: right;
   line-height: 1.2em; }
   @media (max-width: 480px) {
     .modal-content h2 {
-      font-size: 2em; } }
+      font-size: 1.8em;
+      text-align: left;
+      margin: 0 0 1em 0;
+      font-weight: 600; } }
 .modal-content p, .modal-content ul {
   font-size: 1.36em;
   margin: 0 auto 1.5em auto;
@@ -402,12 +404,15 @@ body.loaded .landing .logo svg {
       font-size: .8em;
       text-align: right; }
 .modal-content ul {
-  font-size: 1.3em;
   padding: 0 0 0 1.5em;
   list-style-type: katakana-iroha; }
   .modal-content ul li {
     padding: 0 0 0 1em;
     margin: 0 0 .5em; }
+    @media (max-width: 480px) {
+      .modal-content ul li {
+        padding: 0 0 0 .2em;
+        margin: 0 0 .8em; } }
 
 .modal-kill {
   height: 5em;
