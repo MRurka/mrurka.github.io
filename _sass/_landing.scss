@@ -23,10 +23,32 @@
             }
         }
     }
+    h1.landing-text {
+        font-size: 2.3em;
+        font-weight: 500;
+        line-height: 1.2em;
+        text-align: center;
+        max-width: 700px;
+        margin: -.5em auto 0 auto;
+        opacity: 0;
+        transition: opacity 3s ease 1.5s;
+        color: #D1D3D6;
+    }
 }
 
 body.loaded {
-    .landing .logo svg {
-        opacity:.1;
+    // .landing .logo svg {
+    //     opacity:.2;
+    // }
+    .landing h1.landing-text {
+        opacity: 1;
     }
 }
+
+
+
+
+
+
+
+

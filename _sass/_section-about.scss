@@ -11,14 +11,28 @@ section.about {
             padding:0 7vw
         }
     }
-    p {       
-        font-size: 2em;
-        line-height: 1.3em;
-        color:#606469;
-        font-weight: 600;
-        margin:0 0 1em 0;
+    h2 {
+        font-size:1.4em;
+        font-weight: 700;
+        margin:0 0 .5em;
+        line-height: 1.5em;
         @media (max-width: $screen-small) {
             font-size: 1.34em;
+            line-height: 1.4em;
+        }
+    }
+    p {       
+        font-size: 1.4em;
+        line-height: 1.5em;
+        color:#606469;
+        padding:0 0 0 1em;
+        max-width: 650px;
+        font-weight: 600;
+        margin:0 0 2em 0;
+        @media (max-width: $screen-small) {
+            font-size: 1.26em;
+            padding:0;
+            line-height: 1.4em;
         }
         a {
             color:$c-main;
