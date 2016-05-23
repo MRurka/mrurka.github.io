@@ -3,7 +3,7 @@ layout: post
 title:  "San Francisco"
 subtitle: "Shit happens"
 date:   2016-05-15
-categories: blog
+categories: 
 take-me-back-text: Warriors 4 life, Take me back.
 ---
 
