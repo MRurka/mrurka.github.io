@@ -21,7 +21,7 @@
         $("nav ul li a").click(function(){
             var idName = $(this).attr('id');
             var className = $(this).attr('class');
-            if(className !== 'active') {                
+            if(className !== 'active') {
                 $(".content").fadeOut(500);
                 $('.' + idName).delay(500).fadeIn(1000);
             }
@@ -60,19 +60,33 @@
     });
 </script>
 <script>
+  $("#work").click(function() {
+    gaTracker('UA-76182672-1');
+    gaTrack('/work', 'Work');
+  });
+  $("#about").click(function() {
+    gaTracker('UA-76182672-1');
+    gaTrack('/about', 'About');
+  });
+  $("#blog").click(function() {
+    gaTracker('UA-76182672-1');
+    gaTrack('/blog', 'Blog');
+  });
+</script>
+<script>
     //
     // jPreloader
     //
     $(document).ready( function() {
         var timer;  //timer for splash screen
-        
+
         //navigation swap
         $('#navigation a').on('click', function() {
             if( !$(this).hasClass('btn-main') ) {
                 $('#navigation a')
                 .toggleClass('btn-secondary')
                 .toggleClass('btn-main');
-                
+
                 var tar = $(this).attr('href');
                 $('.holder').fadeOut(500, function() {
                     $(tar).fadeIn(500);
@@ -84,18 +98,18 @@
         $('#header').css('top', '-100px');
         $('#footer').css('bottom', '-100px');
         $('#wrapper').hide();
-        
+
         //calling jPreLoader
         $('body').jpreLoader({
             splashID: "#jSplash",
             // loaderVPos: '70%',
             autoClose: true,
             // closeBtnText: "Let's Begin!",
-            splashFunction: function() {  
+            splashFunction: function() {
                 //passing Splash Screen script to jPreLoader
                 $('#jSplash').children('section').not('.selected').hide();
                 $('#jSplash').hide().fadeIn(0);
-                
+
                 timer = setInterval(function() {
                     splashRotator();
                 }, 4000);
@@ -113,13 +127,13 @@
         function splashRotator(){
             var cur = $('#jSplash').children('.selected');
             var next = $(cur).next();
-            
+
             if($(next).length != 0) {
                 $(next).addClass('selected');
             } else {
                 $('#jSplash').children('section:first-child').addClass('selected');
                 next = $('#jSplash').children('section:first-child');
-            }    
+            }
             $(cur).removeClass('selected').fadeOut(800, function() {
                 $(next).fadeIn(800);
             });
@@ -149,5 +163,3 @@
         } catch (ex) {}
     }
 </script>
-
-

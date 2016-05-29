@@ -18,9 +18,9 @@
         // Background Switches
         {% for post in site.categories.portfolio %}
             $("#work-section #{{ post.port-id }} a").hover(function() {
-                $("#{{ post.port-id }}.item-background").css("opacity", "1");  
+                $("#{{ post.port-id }}.item-background").css("opacity", "1");
               }, function(){
-                $("#{{ post.port-id }}.item-background").css("opacity", "0");  
+                $("#{{ post.port-id }}.item-background").css("opacity", "0");
             });
         {% endfor %}
 
