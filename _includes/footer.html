@@ -60,17 +60,30 @@
     });
 </script>
 <script>
-  $("#work").click(function() {
-    gaTracker('UA-76182672-1');
-    gaTrack('/work', 'Work');
-  });
-  $("#about").click(function() {
-    gaTracker('UA-76182672-1');
-    gaTrack('/about', 'About');
-  });
-  $("#blog").click(function() {
-    gaTracker('UA-76182672-1');
-    gaTrack('/blog', 'Blog');
+  $(document).ready( function() {
+    // WORK SECTION
+    $("#work").click(function() {
+      gaTracker('UA-76182672-1');
+      gaTrack('/work', 'Work');
+    });
+    $("#portfolio-back-button").click(function() {
+      gaTracker('UA-76182672-1');
+      gaTrack('/work', 'Work');
+    });
+    // ABOUT SECTION
+    $("#about").click(function() {
+      gaTracker('UA-76182672-1');
+      gaTrack('/about', 'About');
+    });
+    // BLOG SECTION
+    $("#blog").click(function() {
+      gaTracker('UA-76182672-1');
+      gaTrack('/blog', 'Blog');
+    });
+    $("#blog-back-button").click(function() {
+      gaTracker('UA-76182672-1');
+      gaTrack('/blog', 'Blog');
+    });
   });
 </script>
 <script>
