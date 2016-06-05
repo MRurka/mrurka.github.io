@@ -36,10 +36,10 @@
         }
     }
     p, ul {
-        font-size: 1.36em;
+        font-size: 1.3em;
         margin: 0 auto 1.5em auto;
-        line-height: 1.5em;
-        max-width: 740px;
+        line-height: 1.7em;
+        max-width: 700px;
         color:#444;
         @media (max-width: $screen-small) {
             font-size: 1.2em;
@@ -48,24 +48,12 @@
             font-weight: 600;
         }
         a {
-            color:$c-main;
-            &:hover {
-                color:$c-main-dark;
-            }
+          color:$c-main;
+          &:hover {
+              color:$c-main-dark;
+          }
         }
-        &.quote {
-            font-style: italic;
-            font-size: 1.28em;
-            max-width: initial;
-            line-height: 1.7em;
-            color: #848484;
-            .source {
-                display: block;
-                margin:1em 0 0 0;
-                font-size:.8em;
-                text-align: right;
-            }
-        }
+      }
     }
     ul {
         padding: 0 0 0 1.5em;
@@ -82,6 +70,41 @@
             }
         }
     }
+
+
+.modal-content {
+  .quote {
+    max-width: 700px;
+    margin:0 auto 2em auto;
+    display: block;
+    &.long {
+      max-width: 900px;
+      display: block;
+      font-size: 1.2em;
+      font-style: italic;
+      color:#909090;
+      p {
+        font-size:1.1em;
+      }
+      .source {
+
+      }
+    }
+    &.big {
+      p {
+        font-size:3em;
+        font-weight: 300;
+        line-height: 1.4em;
+        margin:0 0 0.25em 0;
+      }
+      .source {
+        display: block;
+        font-size: 1.2em;
+        font-style: italic;
+        color: #c5ccd0;
+      }
+    }
+  }
 }
 
 .modal-kill {
@@ -248,7 +271,7 @@
             width: 100%;
         }
     }
-    
+
     // Phone
     @media screen and (max-width: $screen-small) {
         .w1 {
@@ -283,10 +306,3 @@
         font-size: 1.1em;
     }
 }
-
-
-
-
-
-
-
