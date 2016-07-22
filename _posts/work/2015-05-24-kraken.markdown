@@ -1,16 +1,16 @@
 ---
 
-layout: post
-date:   2016-5-24 21:35:54
-categories: 
-port-id: 10ru
-text-dark-light: light
+# layout: post
+# date:   2016-5-24 21:35:54
+# categories:
+# port-id: 10ru
+# text-dark-light: light
 
-title: Kraken International
-subtitle: Initial Visual Identity
-take-me-back-text: Slick. Take me back.
+# title: Kraken International
+# subtitle: Initial Visual Identity
+# take-me-back-text: Slick. Take me back.
 
-img-background: background-kraken.jpg
+# img-background: background-kraken.jpg
 
 ---
 
