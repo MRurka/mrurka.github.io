@@ -1,0 +1,67 @@
+---
+
+layout: post
+date:   2016-5-24 21:35:54
+categories: 
+port-id: 10ru
+text-dark-light: light
+
+title: Kraken International
+subtitle: Initial Visual Identity
+take-me-back-text: Slick. Take me back.
+
+img-background: background-kraken.jpg
+
+---
+
+<div class="image-container-center">
+  <img class="w2" src="./img/work/kraken/kraken-black-on-white.jpg"/>
+</div>
+
+Kraken International, headed by one of my main man hustlers, Mr. Seeley. The man hits me up on the flip. Needs a face and a card. Black metal card, to be specific. Machine carved in the UK. Cray player.
+
+But really, the task at hand was to create an initial visual identity for Kraken International. Self described as a "proprietary turnkey technology [that] monitors and forecasts the world's financial markets, adaptively managing a highly efficient and optimized portfolio." E.i. the kraken turns cash into gold, for any hedge fund.
+
+<b>Key Demographic</b><br>
+Very rich white males aged 40-50, running successful hedge funds.
+
+Kraken International had to be "professional, badass, elitist, matte black (sexy)". James Bond (Daniel Craig) turned out to be a great inspiration. He embodied this professional, expensive suit, badass, persona so well. And like any intimate game, it begins with a few key discovery conversation, note taking and getting the mood... board.
+
+<div class="image-container">
+  <img class="clear" src=""/>
+  <img class="w4" src="./img/work/kraken/kraken-moodboard.jpg"/>
+</div>
+
+Wasn't the first time I created a moodboard, but it was the first time I'd referenced one so much (let alone more than once). It'd also been a long time since I'd designed a logo. This made me a bit nervous. Hitting up even more concepts than ever before (still not enough imo). I'm well aware of my trend of seeking too shallow, too soon, and too quick. More so, for this project, I made it a point to not really check my time, and not really consider the budget. I wanted to make it about the product, and not some hourly metric. Granted, it's a luxury byproduct of having a full time job.
+
+<div class="image-container">
+  <img class="clear" src=""/>
+  <img class="w2" src="./img/work/kraken/kraken-sketch-5.jpg"/>
+  <img class="w2" src="./img/work/kraken/kraken-sketch-1.jpg"/>
+  <img class="w2" src="./img/work/kraken/kraken-sketch-4.jpg"/>
+  <img class="w2" src="./img/work/kraken/kraken-sketch-2.jpg"/>
+  <img class="w2" src="./img/work/kraken/kraken-sketch-3.jpg"/>
+  <img class="w2" src="./img/work/kraken/kraken-sketch-6.jpg"/>
+</div>
+
+<b>The "Tail"</b><br>
+Decidedly 4 positive arms. Earlier concepts had these arms have equal positive and negative weights (together creating 8 arms). However this created a heavy visual vibration, taking away from the entire form of the symbol. To unify the form, the negative weights were reduced, giving the arms ("the tail") are more solid appearance, able to equally counter the "head".
+
+<b>Square Dimensions</b><br>
+For maximum versatility, and a greater sense of stability and strength. For contrast, previous explorations included more a more Nike "swooshy" look, but appeared too playful, weak, malleable. The "squished" look also hurt the tail's potential vertical rise. Old school emblems were also a source of inspiration, not necessarily drawing on their iconic symmetrical properties, but on that they can stand on their own as a stamp.
+
+<b>Bold vs. Sharp</b><br>
+
+
+<div class="image-container centre">
+  <img class="clear" src=""/>
+  <!-- <img class="w2" src="./img/work/kraken/kraken-process-1.png"/> -->
+  <img class="w4" src="./img/work/kraken/kraken-process-2.png"/>
+</div>
+
+<div class="image-container">
+  <img class="clear" src=""/>
+  <!-- <img class="w2" src="./img/work/kraken/kraken-black-on-white.jpg"/> -->
+  <img class="w2" src="./img/work/kraken/kraken-business-card-2.jpg"/>
+  <img class="w2" src="./img/work/kraken/kraken-business-card.jpg"/>
+</div>
