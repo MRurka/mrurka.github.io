@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'The Valley'
+title:  'Valley'
 subtitle: "From Second Cup to San Francisco"
 date:   2016-05-15
 categories: blog

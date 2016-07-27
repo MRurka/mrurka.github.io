@@ -40,7 +40,7 @@
         margin: 0 auto 1.5em auto;
         line-height: 1.7em;
         max-width: 700px;
-        color:#444;
+        color:#6B7880;
         @media (max-width: $screen-small) {
             font-size: 1.2em;
         }
@@ -91,15 +91,16 @@
       }
     }
     &.big {
+      margin: 3em auto 3em auto;
       p {
-        font-size:3em;
+        font-size:2.9em;
         font-weight: 300;
-        line-height: 1.4em;
-        margin:0 0 0.25em 0;
+        line-height: 1.24em;
+        margin:0 0 0.3em 0;
       }
       .source {
         display: block;
-        font-size: 1.2em;
+        font-size: 1.4em;
         font-style: italic;
         color: #c5ccd0;
       }
@@ -231,6 +232,9 @@
     width: calc(100% + (#{$image-padding} * 2));
     margin-left: calc(#{$image-padding} * -1);
     margin-bottom:2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
     img {
         width:100%;
         height:auto;
@@ -287,6 +291,14 @@
             width: 100%;
         }
     }
+}
+
+.image-container-center {
+  @extend .image-container;
+  img {
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .take-me-back-bottom-container {

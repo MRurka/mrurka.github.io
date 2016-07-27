@@ -2,7 +2,7 @@
 
 layout: post
 date:   2015-01-10 21:35:54
-categories: portfolio
+categories:
 port-id: 4ru
 text-dark-light: light
 

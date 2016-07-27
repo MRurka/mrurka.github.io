@@ -13,7 +13,7 @@ section.blog {
     }
     .items {
         .item {
-            margin:0 0 2em 0;
+            margin:0 0 3em 0;
             a {
                 font-size:1.4em;
                 line-height: 1.3em;
@@ -25,15 +25,15 @@ section.blog {
                     font-weight: 700;
                 }
                 h2 {
-                    margin: .25em 0 0 0;
+                  font-size: .84em;
+                  color: #b8bcbf;
+                  font-weight: 600;
                 }
                 &:hover {
                     color:$c-main;
-                    text-indent: 1em;
+                    // text-indent: 1em;
                 }
             }
         }
     }
 }
-
-
