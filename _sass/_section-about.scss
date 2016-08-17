@@ -26,7 +26,7 @@ section.about {
         line-height: 1.5em;
         color:#606469;
         max-width: 650px;
-        margin:0 0 2em 0;
+        margin: 0 auto 2em auto;
         @media (max-width: $screen-small) {
             font-size: 1.26em;
             padding:0;
