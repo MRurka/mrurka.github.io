@@ -11,13 +11,14 @@
     <img class="w3" src="./img/work/kaa/kaa-jackets.jpg" />
 </div>
 
-        <div class="take-me-back-bottom-container">
+        <div class="take-me-back-bottom-container portfolio">
             
-                <a class="take-me-back-bottom-button close-modal" rel="modal:close">I speak Russian. Take me back.</a>
+                <a class="take-me-back-bottom-button close-modal" rel="modal:close" id="portfolio-back-button">I speak Russian. Take me back.</a>
             
         </div>
     </div>
     <script>
+        // Masonry
         var $container = $('.image-container').masonry();
         $container.imagesLoaded( function() {
           $container.masonry();
@@ -27,5 +28,10 @@
         $("a.take-me-back-bottom-button").click(function(){
             $("nav").removeClass("modal-open");
         });
+
+        // Google Analytics Goodness
+        gaTracker('UA-76182672-1');
+        gaTrack('/KAA', 'KAA');
     </script>
 </div>
+

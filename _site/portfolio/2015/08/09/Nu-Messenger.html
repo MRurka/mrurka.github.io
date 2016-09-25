@@ -39,13 +39,14 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
 </div>
 
 
-        <div class="take-me-back-bottom-container">
+        <div class="take-me-back-bottom-container portfolio">
             
-                <a class="take-me-back-bottom-button close-modal" rel="modal:close">Another messenger?! Take me back.</a>
+                <a class="take-me-back-bottom-button close-modal" rel="modal:close" id="portfolio-back-button">Another messenger?! Take me back.</a>
             
         </div>
     </div>
     <script>
+        // Masonry
         var $container = $('.image-container').masonry();
         $container.imagesLoaded( function() {
           $container.masonry();
@@ -55,5 +56,10 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
         $("a.take-me-back-bottom-button").click(function(){
             $("nav").removeClass("modal-open");
         });
+
+        // Google Analytics Goodness
+        gaTracker('UA-76182672-1');
+        gaTrack('/Nu Messenger', 'Nu Messenger');
     </script>
 </div>
+
