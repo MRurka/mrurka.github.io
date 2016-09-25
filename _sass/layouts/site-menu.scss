@@ -1,0 +1,177 @@
+nav {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 999;
+  ul {
+    li {
+      width: calc(100% / #{$number-of-sections});
+      display: inline;
+      text-align: center;
+      float:left;
+      a {
+        padding: 4vh 0 0 0;
+        display: inline-block;
+        cursor: pointer;
+        span {
+          color: #333;
+          font-size: .7em;
+          letter-spacing: 6px;
+          margin: 0 0 1em 0;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: inline-block;
+          @media (max-width: $screen-small) {
+            margin: 0 0 .6em 0;
+            font-weight: 700;
+          }
+        }
+        svg {
+          height: 1.4em;
+          display: block;
+          transition: all .25s ease;
+          fill: $c-black;
+          @media (max-width: $screen-small) {
+            height: 1.1em;
+          }
+        }
+        &.active {
+          svg {
+            fill: $c-main;
+          }
+        }
+        &:hover {
+          svg {
+            fill: $c-main-dark;
+          }
+        }
+        @media (max-width: $screen-medium) {
+          &.negative {
+            span {
+              color:#fff;
+            }
+            svg {
+              fill: #fff;
+            }
+            &.active {
+              svg {
+                fill: $c-main;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+nav ul li {
+  opacity: 0;
+}
+
+body.loaded nav ul li {
+  transform: translateY(-3em);
+  -ms-animation-name: website-ready-nav-drop;
+  -ms-animation-duration: 2s;
+  -ms-animation-fill-mode: forwards;
+  -webkit-animation-name: website-ready-nav-drop;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: website-ready-nav-drop;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+  &:nth-child(1) {
+   -ms-animation-delay: 300ms;
+   -webkit-animation-delay: 300ms;
+   animation-delay: 300ms;
+  }
+  &:nth-child(2) {
+   -ms-animation-delay: 500ms;
+   -webkit-animation-delay: 500ms;
+   animation-delay: 500ms;
+  }
+  &:nth-child(3) {
+   -ms-animation-delay: 700ms;
+   -webkit-animation-delay: 700ms;
+   animation-delay: 700ms;
+  }
+}
+
+@-ms-keyframes website-ready-nav-drop {
+    0% {transform: translateY(-3em); opacity:0; display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+}
+@-webkit-keyframes website-ready-nav-drop {
+    0% {transform: translateY(-3em); opacity:0;display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+}
+@keyframes website-ready-nav-drop {
+    0% {transform: translateY(-3em); opacity:0;display: block;}
+    100% {transform: translateY(0em); opacity:1;}
+}
+
+
+//=================================//
+//========== MODAL OPEN ===========//
+//=================================//
+
+nav {
+  .take-me-back-top {
+    display: none;
+    opacity: 0;
+  }
+  &.modal-open {
+    ul {
+        display: none;
+    }
+    .take-me-back-top {
+      display: block;
+      position: fixed;
+      top: 1em;
+      left: 1em;
+      text-transform: uppercase;
+      border: 2px solid $c-main;
+      letter-spacing: 5px;
+      color: $c-main;
+      font-weight: 600;
+      font-size: 1.2em;
+      padding: .5em 1em;
+      cursor: pointer;
+      @media (max-width: $screen-small) {
+        padding: .64em .6em .5em .8em;
+        font-weight: 700;
+        font-size: 1.06em;
+        letter-spacing: 4px;
+        background:#fff;
+      }
+      transform: translateY(-3em);
+      -ms-animation-name: mobile-modal-back-button;
+      -ms-animation-duration: 1s;
+      -ms-animation-fill-mode: forwards;
+      -ms-animation-delay: 1.5s;
+      -webkit-animation-name: mobile-modal-back-button;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: forwards;
+      -webkit-animation-delay: 1.5s;
+      animation-name: mobile-modal-back-button;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 1.5s;
+    }
+  }
+}
+
+@-ms-keyframes mobile-modal-back-button {
+  0% {transform: translateX(-3em); opacity:0; display: block;}
+  100% {transform: translateX(0em); opacity:1;}
+}
+@-webkit-keyframes mobile-modal-back-button {
+  0% {transform: translateX(-3em); opacity:0;display: block;}
+  100% {transform: translateX(0em); opacity:1;}
+}
+@keyframes mobile-modal-back-button {
+  0% {transform: translateX(-3em); opacity:0;display: block;}
+  100% {transform: translateX(0em); opacity:1;}
+}

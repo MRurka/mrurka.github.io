@@ -1,0 +1,25 @@
+//===========================//
+//========== FONTS ==========//
+//===========================//
+$primary-font  : 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900';
+
+
+//============================//
+//========== COLORS ==========//
+//============================//
+
+
+//===========================//
+//========= LAYOUT ==========//
+//===========================//
+$number-of-sections: 4;
+
+
+//=================================//
+//==== Media Query Breakpoints ====//
+//=================================//
+$media-query-xxs  : 420px;  // custom
+$media-query-xs   : 767px;  // bootsrap // max
+$media-query-sm   : 992px;  // bootsrap
+$media-query-md   : 1200px; // bootsrap
+$media-query-lg   : 1500px; // custom 15" Retina is 1440

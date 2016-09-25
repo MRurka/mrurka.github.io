@@ -1,0 +1,49 @@
+
+@mixin xxs {
+  @media (max-width: #{$media-query-xxs}) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: #{$media-query-xs}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: #{$media-query-sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$media-query-md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$media-query-lg}) {
+    @content;
+  }
+}
+
+@mixin xlg {
+  @media (min-width: #{$media-query-lg} + 1px) {
+    @content;
+  }
+}
+
+// Media Query - Retina
+@mixin retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}

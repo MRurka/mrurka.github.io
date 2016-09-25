@@ -1,0 +1,63 @@
+
+//==============================//
+// TODO - Make this agnostic and slap in /layouts
+//==============================//
+
+section.about {
+    @media (max-width: $screen-medium) {
+        padding: 10em 0 3em 0;
+    }
+    @media (max-width: $screen-small) {
+        padding: 7em 0 3em 0;
+    }
+    .container {
+        @media (max-width: $screen-medium) {
+            padding:0 7vw
+        }
+    }
+    h2 {
+        font-size:1.4em;
+        font-weight: 600;
+        margin:0 0 .25em 0;
+        line-height: 1.5em;
+        @media (max-width: $screen-small) {
+            font-size: 1.34em;
+            line-height: 1.4em;
+        }
+    }
+    p {
+        font-size: 1.4em;
+        line-height: 1.5em;
+        color:#606469;
+        max-width: 650px;
+        margin: 0 auto 2em auto;
+        @media (max-width: $screen-small) {
+            font-size: 1.26em;
+            padding:0;
+            line-height: 1.4em;
+        }
+        a {
+            color:$c-main;
+            display: inline-block;
+            @media (min-width: $screen-medium) {
+                span {
+                    transition: all 4s ease;
+                    display: inline-block;
+                }
+                &:hover {
+                    span {
+                        &:nth-child(odd) {
+                            transform:translateY(-.05em);
+                        }
+                        &:nth-child(even) {
+                            transform:translateY(.05em);
+                        }
+                    }
+                }
+            }
+        }
+        b {
+            font-weight: 700;
+        }
+    }
+}
