@@ -5,7 +5,7 @@ html, body {
 
 .site-container {
   padding: 10em 5vw 5em;
-  @media (max-width: $screen-medium) {
+  @include max-xs {
     padding: 0;
   }
 }

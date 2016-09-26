@@ -4,14 +4,14 @@
 //==============================//
 
 section.blog {
-    @media (max-width: $screen-medium) {
+    @include max-xs {
         padding: 10em 0 3em 0;
     }
-    @media (max-width: $screen-small) {
+    @include max-xxs {
         padding: 7em 0 3em 0;
     }
     .container {
-        @media (max-width: $screen-medium) {
+        @include max-xs {
             padding:0 7vw
         }
     }
@@ -22,7 +22,7 @@ section.blog {
                 font-size:1.4em;
                 line-height: 1.3em;
                 transition: all .25s ease;
-                @media (max-width: $screen-small) {
+                @include max-xxs {
                     font-size: 1.24em;
                 }
                 h1 {

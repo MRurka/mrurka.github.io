@@ -4,7 +4,7 @@
   top: calc(50% - 150px);
   position: absolute;
   transition: all 1s ease;
-  @media (max-width: $screen-small) {
+  @include max-xxs {
     width:100%;
     top: calc(50% - 125px);
   }
@@ -16,7 +16,7 @@
       margin: 0 auto;
       display: block;
       transition: opacity 3s ease .3s;
-      @media (max-width: $screen-small) {
+      @include max-xxs {
         max-width: 250px;
         max-height: 300px;
         margin:auto;

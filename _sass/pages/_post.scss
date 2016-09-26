@@ -2,11 +2,11 @@
 .modal-content {
   .site-container {
     padding: 7em 5vw 5em;
-  @media (max-width: $screen-small) {
+  @include max-xxs {
     padding: 5em 0 3em 0;
   }
   .container {
-      @media (max-width: $screen-small) {
+      @include max-xxs {
         padding:0 6vw
       }
     }
@@ -16,7 +16,7 @@
     font-weight: 700;
     margin:0 0 .5em 0;
     line-height: 1.2em;
-    @media (max-width: $screen-small) {
+    @include max-xxs {
       font-size: 2.4em;
       margin:0 0 .25em 0;
     }
@@ -28,7 +28,7 @@
     margin:0 0 1.5em 0;
     text-align: right;
     line-height: 1.2em;
-    @media (max-width: $screen-small) {
+    @include max-xxs {
       font-size: 1.8em;
       text-align: left;
       margin:0 0 1em 0;
@@ -41,7 +41,7 @@
     line-height: 1.7em;
     max-width: 700px;
     color:#6B7880;
-    @media (max-width: $screen-small) {
+    @include max-xxs {
       font-size: 1.2em;
     }
     b {
@@ -66,7 +66,7 @@ ul {
   li {
     padding: 0 0 0 1em;
     margin: 0 0 .5em;
-    @media (max-width: $screen-small) {
+    @include max-xxs {
       padding: 0 0 0 .2em;
       margin: 0 0 .8em;
     }
@@ -260,7 +260,7 @@ ul {
   }
 
   // Tablet
-  @media screen and (max-width: $screen-medium) {
+  @include max-xs {
     .w1 {
       width:100%;
     }
@@ -276,7 +276,7 @@ ul {
   }
 
   // Phone
-  @media screen and (max-width: $screen-small) {
+  @include max-xxs {
     .w1 {
       width:100%;
     }
@@ -304,7 +304,7 @@ ul {
   display: block;
   text-align: center;
   margin:4em 0 0 0;
-  @media (max-width: $screen-small) {
+  @include max-xxs {
     margin:3em 0 0 0;
   }
   a.take-me-back-bottom-button {

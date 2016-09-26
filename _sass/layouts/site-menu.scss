@@ -22,7 +22,7 @@ nav {
           font-weight: 600;
           text-transform: uppercase;
           display: inline-block;
-          @media (max-width: $screen-small) {
+          @include max-xxs {
             margin: 0 0 .6em 0;
             font-weight: 700;
           }
@@ -32,7 +32,7 @@ nav {
           display: block;
           transition: all .25s ease;
           fill: $c-black;
-          @media (max-width: $screen-small) {
+          @include max-xxs {
             height: 1.1em;
           }
         }
@@ -46,7 +46,7 @@ nav {
             fill: $c-main-dark;
           }
         }
-        @media (max-width: $screen-medium) {
+        @include max-xs {
           &.negative {
             span {
               color:#fff;
@@ -139,7 +139,7 @@ nav {
       font-size: 1.2em;
       padding: .5em 1em;
       cursor: pointer;
-      @media (max-width: $screen-small) {
+      @include max-xxs {
         padding: .64em .6em .5em .8em;
         font-weight: 700;
         font-size: 1.06em;

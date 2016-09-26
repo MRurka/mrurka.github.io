@@ -4,93 +4,88 @@
 //==============================//
 
 section.work {
-    @media (max-width: $screen-medium) {
-        padding-top: 8em;
-        background: #02263e;
+  // Tablet and smaller
+  @include max-xs {
+    padding-top: 8em;
+    background: #02263e;
+  }
+  .item-background {
+    background:$c-main;
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .5s ease;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &.active {
+      opacity: 1;
     }
-    @media (max-width: $screen-small) {
-        padding-top: 8em;
+    @include max-xxs {
+      display: none;
     }
-    .item-background {
-        background:$c-main;
-        position: fixed;
-        top:0;
-        right:0;
-        bottom:0;
-        left:0;
-        z-index: -1;
-        opacity: 0;
-        transition: opacity .5s ease;
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        &.active {
-            opacity: 1;
+  }
+  .items {
+    .item{
+      width: calc(100% / 3.1);
+      height: 10em;
+      display: inline-block;
+      padding: 0 .75em 1.5em .75em;
+      @include max-xs {
+        width: 100%;
+        padding: 0;
+        height: 50vw;
+      }
+      @include max-xxs {
+        height: 70vw;
+      }
+      a {
+        border:2px solid $c-black;
+        padding:.5em;
+        display: block;
+        height:100%;
+        color: $c-black;
+        transition: all .25s ease;
+        background-size: 0%;
+        @include max-xs {
+          border:none;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
         }
-        @media (max-width: $screen-small) {
-            display: none;
+        h1.title {
+          color:#333;
+          @include max-xs {
+            font-size: 1.2em;
+            padding: .5em;
+            opacity: .6;
+            letter-spacing: 1px;
+            &.light {
+                color:#fff;
+            }
+            &.dark {
+                color:#333;
+            }
+          }
         }
-    }
-    .items {
-        .item{
-            width: calc(100% / 3.1);
-            height: 10em;
-            display: inline-block;
-            padding: 0 .75em 1.5em .75em;
-            @media (max-width: $screen-medium) {
-                width: 100%;
-                padding: 0;
-                height: 50vw;
+        &:hover {
+          border-color:$c-main;
+          h1 {
+            color:$c-main;
+            transition: all .25s ease;
+            &.light {
+              color:#fff;
             }
-            @media (max-width: $screen-small) {
-                height: 70vw;
+            &.dark {
+              color:#333;
             }
-            a {
-                border:2px solid $c-black;
-                padding:.5em;
-                display: block;
-                height:100%;
-                color: $c-black;
-                transition: all .25s ease;
-                background-size: 0%;
-                @media (max-width: $screen-medium) {
-                    border:none;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-                h1.title {
-                    color:#333;
-                    @media (max-width: $screen-medium) {
-                        font-size: 1.2em;
-                        padding: .5em;
-                        opacity: .6;
-                        letter-spacing: 1px;
-                        &.light {
-                            color:#fff;
-                        }
-                        &.dark {
-                            color:#333;
-                        }
-                    }
-                }
-                h2 {
-
-                }
-                &:hover {
-                    border-color:$c-main;
-                    h1 {
-                        color:$c-main;
-                        transition: all .25s ease;
-                        &.light {
-                            color:#fff;
-                        }
-                        &.dark {
-                            color:#333;
-                        }
-                    }
-                }
-            }
+          }
         }
+      }
     }
+  }
 }
