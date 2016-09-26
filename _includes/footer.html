@@ -9,61 +9,63 @@
 </section>
 
 <script>
-    //
-    // Screen Transition
-    //
-    $( document ).ready(function() {
+  //===============================//
+  //====== Page Transitions =======//
+  //===============================//
+  $( document ).ready(function() {
 
-        // Hide Landing
-        $("nav ul li a").click(function(){
-            $(".landing").fadeOut(500);
-        });
-
-        // Screen Transitions
-        $("nav ul li a").click(function(){
-            var idName = $(this).attr('id');
-            var className = $(this).attr('class');
-            if(className !== 'active') {
-                $(".content").fadeOut(500);
-                $('.' + idName).delay(500).fadeIn(1000);
-            }
-        });
-
-        // If Mobile, hide the nav and show the "Back"
-        $(".work.content .item a, .blog.content .item a").click(function(){
-            $("nav").addClass("modal-open");
-        });
-
-        // Bring back the content and nav once you click "Back"
-        $("nav a.close-modal").click(function(){
-            $("nav").removeClass("modal-open");
-        });
-
-        // Hide Modal
-        $("nav a").click(function(){
-            $(".modal-content").fadeOut(1);
-            $(".modal-backdrop").fadeOut(1);
-        });
-
-        // Active Class to Nav Item
-        $("#work, #about, #blog").click(function() {
-            var $links = $("#work, #about, #blog");
-            $links.not($(this)).removeClass('active');
-            $(this).addClass('active');
-
-            // Add negative class to nav items
-            if($(this).is('#work')){
-                $links.addClass('negative');
-            }
-            else{
-                $links.removeClass('negative');
-            }
-        });
+    // Hide landing content
+    $("nav ul li a").click(function(){
+      $(".landing").fadeOut(500);
     });
-</script>
-<script>
+
+    // Page transition logic
+    $("nav ul li a").click(function(){
+      var idName = $(this).attr('id');
+      var className = $(this).attr('class');
+      if(className !== 'active') {
+        $(".content").fadeOut(500);
+        $('.' + idName).delay(500).fadeIn(1000);
+      }
+    });
+
+    // If Mobile, hide the nav and show the "Back"
+    $(".work.content .item a, .blog.content .item a").click(function(){
+      $("nav").addClass("modal-open");
+    });
+
+    // Bring back the content and nav once you click "Back"
+    $("nav a.close-modal").click(function(){
+      $("nav").removeClass("modal-open");
+    });
+
+    // Hide Modal
+    $("nav a").click(function(){
+      $(".modal-content").fadeOut(1);
+      $(".modal-backdrop").fadeOut(1);
+    });
+
+    // Active Class to Nav Item
+    $("#work, #about, #blog, #asia").click(function() {
+      var $links = $("#work, #about, #blog");
+      $links.not($(this)).removeClass('active');
+      $(this).addClass('active');
+
+      // Add negative class to nav items
+      if($(this).is('#work')){
+        $links.addClass('negative');
+      }
+      else{
+        $links.removeClass('negative');
+      }
+    });
+  });
+
+
+  //====================================//
+  //==== Google Analytics Sections =====//
+  //====================================//
   $(document).ready( function() {
-    // WORK SECTION
     $("#work").click(function() {
       gaTracker('UA-76182672-1');
       gaTrack('/work', 'Work');
@@ -72,12 +74,10 @@
       gaTracker('UA-76182672-1');
       gaTrack('/work', 'Work');
     });
-    // ABOUT SECTION
     $("#about").click(function() {
       gaTracker('UA-76182672-1');
       gaTrack('/about', 'About');
     });
-    // BLOG SECTION
     $("#blog").click(function() {
       gaTracker('UA-76182672-1');
       gaTrack('/blog', 'Blog');
@@ -87,94 +87,95 @@
       gaTrack('/blog', 'Blog');
     });
   });
-</script>
-<script>
-    //
-    // jPreloader
-    //
-    $(document).ready( function() {
-        var timer;  //timer for splash screen
 
-        //navigation swap
-        $('#navigation a').on('click', function() {
-            if( !$(this).hasClass('btn-main') ) {
-                $('#navigation a')
-                .toggleClass('btn-secondary')
-                .toggleClass('btn-main');
 
-                var tar = $(this).attr('href');
-                $('.holder').fadeOut(500, function() {
-                    $(tar).fadeIn(500);
-                });
-            }
-            return false;
+  //===============================//
+  //========= jPreloader ==========//
+  //===============================//
+  $(document).ready( function() {
+    //timer for splash screen
+    var timer;
+    //navigation swap
+    $('#navigation a').on('click', function() {
+      if( !$(this).hasClass('btn-main') ) {
+        $('#navigation a')
+        .toggleClass('btn-secondary')
+        .toggleClass('btn-main');
+
+        var tar = $(this).attr('href');
+        $('.holder').fadeOut(500, function() {
+          $(tar).fadeIn(500);
         });
-        $('#set2').hide();
-        $('#header').css('top', '-100px');
-        $('#footer').css('bottom', '-100px');
-        $('#wrapper').hide();
-
-        //calling jPreLoader
-        $('body').jpreLoader({
-            splashID: "#jSplash",
-            // loaderVPos: '70%',
-            autoClose: true,
-            // closeBtnText: "Let's Begin!",
-            splashFunction: function() {
-                //passing Splash Screen script to jPreLoader
-                $('#jSplash').children('section').not('.selected').hide();
-                $('#jSplash').hide().fadeIn(0);
-
-                timer = setInterval(function() {
-                    splashRotator();
-                }, 4000);
-            }
-        }, function() { //callback function
-            clearInterval(timer);
-            $('#footer')
-            .animate({"bottom":0}, 500);
-            $('#header')
-            .animate({"top":0}, 800, function() {
-                $('#wrapper').fadeIn(1000);
-            });
-        });
-        //create splash screen animation
-        function splashRotator(){
-            var cur = $('#jSplash').children('.selected');
-            var next = $(cur).next();
-
-            if($(next).length != 0) {
-                $(next).addClass('selected');
-            } else {
-                $('#jSplash').children('section:first-child').addClass('selected');
-                next = $('#jSplash').children('section:first-child');
-            }
-            $(cur).removeClass('selected').fadeOut(800, function() {
-                $(next).fadeIn(800);
-            });
-        }
+      }
+      return false;
     });
-</script>
-<script>
-    // Disable all CSS hover styles for mobile devices
-    var touch = window.ontouchstart
-            || (navigator.MaxTouchPoints > 0)
-            || (navigator.msMaxTouchPoints > 0);
+    $('#set2').hide();
+    $('#header').css('top', '-100px');
+    $('#footer').css('bottom', '-100px');
+    $('#wrapper').hide();
 
-    if (touch) { // remove all :hover stylesheets
-        try { // prevent crash on browsers not supporting DOM styleSheets properly
-            for (var si in document.styleSheets) {
-                var styleSheet = document.styleSheets[si];
-                if (!styleSheet.rules) continue;
+    //calling jPreLoader
+    $('body').jpreLoader({
+      splashID: "#jSplash",
+      // loaderVPos: '70%',
+      autoClose: true,
+      // closeBtnText: "Let's Begin!",
+      splashFunction: function() {
+        //passing Splash Screen script to jPreLoader
+        $('#jSplash').children('section').not('.selected').hide();
+        $('#jSplash').hide().fadeIn(0);
 
-                for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
-                    if (!styleSheet.rules[ri].selectorText) continue;
+        timer = setInterval(function() {
+          splashRotator();
+        }, 4000);
+      }
+    }, function() { //callback function
+      clearInterval(timer);
+      $('#footer')
+      .animate({"bottom":0}, 500);
+      $('#header')
+      .animate({"top":0}, 800, function() {
+        $('#wrapper').fadeIn(1000);
+      });
+    });
+    //create splash screen animation
+    function splashRotator(){
+      var cur = $('#jSplash').children('.selected');
+      var next = $(cur).next();
 
-                    if (styleSheet.rules[ri].selectorText.match(':hover')) {
-                        styleSheet.deleteRule(ri);
-                    }
-                }
-            }
-        } catch (ex) {}
+      if($(next).length != 0) {
+        $(next).addClass('selected');
+      } else {
+        $('#jSplash').children('section:first-child').addClass('selected');
+        next = $('#jSplash').children('section:first-child');
+      }
+      $(cur).removeClass('selected').fadeOut(800, function() {
+        $(next).fadeIn(800);
+      });
     }
+  });
+
+
+  //====================================//
+  //==== Disable :hovers on Mobile =====//
+  //====================================//
+  var touch = window.ontouchstart
+    || (navigator.MaxTouchPoints > 0)
+    || (navigator.msMaxTouchPoints > 0);
+   // remove all :hover stylesheets
+  if (touch) {
+    // prevent crash on browsers not supporting DOM styleSheets properly
+    try {
+      for (var si in document.styleSheets) {
+        var styleSheet = document.styleSheets[si];
+        if (!styleSheet.rules) continue;
+        for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+          if (!styleSheet.rules[ri].selectorText) continue;
+          if (styleSheet.rules[ri].selectorText.match(':hover')) {
+              styleSheet.deleteRule(ri);
+          }
+        }
+      }
+    } catch (ex) {}
+  }
 </script>
