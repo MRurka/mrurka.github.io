@@ -48,9 +48,9 @@
       font-weight: 600;
     }
     a {
-      color:$c-main;
+      color:$c-salmon;
       &:hover {
-        color:$c-main-dark;
+        color:$c-salmon-dark;
       }
     }
   }
@@ -117,12 +117,12 @@ ul {
   svg {
     width:100%;
     height:100%;
-    fill:$c-main;
+    fill:$c-salmon;
     transition: all .25s ease;
   }
   &:hover {
     svg {
-      fill:$c-main-dark;
+      fill:$c-salmon-dark;
     }
   }
 }
@@ -308,8 +308,8 @@ ul {
     margin:3em 0 0 0;
   }
   a.take-me-back-bottom-button {
-    color: $c-main;
-    border: 2px solid $c-main;
+    color: $c-salmon;
+    border: 2px solid $c-salmon;
     padding: 1em 2em .8em;
     cursor: pointer;
     font-weight: 600;
