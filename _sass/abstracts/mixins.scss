@@ -1,39 +1,76 @@
 
-@mixin xxs {
+// Media query cascade: From small to large.
+
+// PHONE and BELOW
+@mixin max-xxs {
   @media (max-width: #{$media-query-xxs}) {
     @content;
   }
 }
 
-@mixin xs {
+// LARGER than PHONE
+@mixin xxs {
+  @media (min-width: #{$media-query-xxs} + 1px) {
+    @content;
+  }
+}
+
+// TABLET and BELOW
+@mixin max-xs {
   @media (max-width: #{$media-query-xs}) {
     @content;
   }
 }
 
-@mixin sm {
+// LARGER than TABLET
+@mixin xs {
+  @media (min-width: #{$media-query-xs} + 1px) {
+    @content;
+  }
+}
+
+// SMALL DESKTOP and BELOW
+@mixin max-sm {
   @media (max-width: #{$media-query-sm}) {
     @content;
   }
 }
 
-@mixin md {
+// LARGER than SMALL DESKTOP
+@mixin sm {
+  @media (min-width: #{$media-query-sm} + 1px) {
+    @content;
+  }
+}
+
+// MEDIUM DESKTOP and BELOW
+@mixin max-md {
   @media (max-width: #{$media-query-md}) {
     @content;
   }
 }
 
-@mixin lg {
+// LARGER than MEDIUM DESKTOP
+@mixin md {
+  @media (min-width: #{$media-query-md} + 1px) {
+    @content;
+  }
+}
+
+// LARGE DESKTOP and BELOW
+@mixin max-lg {
   @media (max-width: #{$media-query-lg}) {
     @content;
   }
 }
 
-@mixin xlg {
+// LARGER than LARGE DESKTOP
+@mixin lg {
   @media (min-width: #{$media-query-lg} + 1px) {
     @content;
   }
 }
+
 
 // Media Query - Retina
 @mixin retina {
