@@ -1,10 +1,5 @@
 
-//==============================//
-// TODO - Make this agnostic and slap in /layouts
-//==============================//
-
-section.work {
-  // Tablet and smaller
+.page-template-grid {
   @include max-xs {
     padding-top: 8em;
     background: #02263e;

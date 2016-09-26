@@ -1,3 +1,4 @@
+
 .landing {
   width:calc(100% - 10vw);
   top: calc(50% - ( ( 300px * 0.69333 ) / 2) );
@@ -38,9 +39,6 @@
 }
 
 body.loaded {
-  // .landing .logo svg {
-  //     opacity:.2;
-  // }
   .landing h1.landing-text {
       opacity: 1;
   }
