@@ -5,7 +5,7 @@
     background: #02263e;
   }
   .item-background {
-    background:$c-main;
+    background:$c-salmon;
     position: fixed;
     top:0;
     right:0;
@@ -68,9 +68,9 @@
           }
         }
         &:hover {
-          border-color:$c-main;
+          border-color:$c-salmon;
           h1 {
-            color:$c-main;
+            color:$c-salmon;
             transition: all .25s ease;
             &.light {
               color:#fff;

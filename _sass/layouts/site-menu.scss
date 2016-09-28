@@ -38,12 +38,12 @@ nav {
         }
         &.active {
           svg {
-            fill: $c-main;
+            fill: $c-salmon;
           }
         }
         &:hover {
           svg {
-            fill: $c-main-dark;
+            fill: $c-salmon-dark;
           }
         }
         @include max-xs {
@@ -56,7 +56,7 @@ nav {
             }
             &.active {
               svg {
-                fill: $c-main;
+                fill: $c-salmon;
               }
             }
           }
@@ -132,9 +132,9 @@ nav {
       top: 1em;
       left: 1em;
       text-transform: uppercase;
-      border: 2px solid $c-main;
+      border: 2px solid $c-salmon;
       letter-spacing: 5px;
-      color: $c-main;
+      color: $c-salmon;
       font-weight: 600;
       font-size: 1.2em;
       padding: .5em 1em;
