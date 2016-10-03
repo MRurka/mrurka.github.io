@@ -19,16 +19,6 @@
       $(".landing").fadeOut(500);
     });
 
-    // Page transition logic
-    $("nav ul li a").click(function(){
-      var idName = $(this).attr('id');
-      var className = $(this).attr('class');
-      if(className !== 'active') {
-        $(".content").fadeOut(500);
-        $('.' + idName).delay(500).fadeIn(1000);
-      }
-    });
-
     // If Mobile, hide the nav and show the "Back"
     $(".work.content .item a, .blog.content .item a").click(function(){
       $("nav").addClass("modal-open");
@@ -45,22 +35,7 @@
       $(".modal-backdrop").fadeOut(1);
     });
 
-    // Active Class to Nav Item
-    $("#work, #about, #blog, #asia").click(function() {
-      var $links = $("#work, #about, #blog");
-      $links.not($(this)).removeClass('active');
-      $(this).addClass('active');
-
-      // Add negative class to nav items
-      if($(this).is('#work')){
-        $links.addClass('negative');
-      }
-      else{
-        $links.removeClass('negative');
-      }
-    });
   });
-
 
   //====================================//
   //==== Google Analytics Sections =====//
