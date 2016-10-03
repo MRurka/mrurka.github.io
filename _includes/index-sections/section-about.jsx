@@ -1,6 +1,6 @@
 
-<section class="about content page-template-bio">
-  <div class="container">
+<section className="about content page-template-bio">
+  <div className="container">
     <p>
       It's evident that what we produce and consume is a reflection of who we are as individuals and as a society. And on my end, I work hard to be honest with my friends, family, and colleagues, and for this effort to be the foundation of my design work. To be considerate of both the natural and fabricated environment, occupied or unoccupied, for those who are a part of these environments in any capacity. To learn, and be the best that I can, for myself and for others.
     </p>

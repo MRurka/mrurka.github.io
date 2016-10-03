@@ -1,12 +1,12 @@
 
-<section class="blog content page-template-list">
-  <div class="container">
-    <div class="items">
+<section className="blog content page-template-list">
+  <div className="container">
+    <div className="items">
       {% for post in site.categories.blog %}
-          <div class="item">
+          <div className="item">
             <a href="{{ post.url }}" rel="modal:open">
-              <h1 class="title">{{ post.title }}</h1>
-              <h2 class="subtitle">{{ post.subtitle }}</h2>
+              <h1 className="title">{{ post.title }}</h1>
+              <h2 className="subtitle">{{ post.subtitle }}</h2>
             </a>
         </div>
       {% endfor %}
