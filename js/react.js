@@ -3317,6 +3317,7 @@ var HTMLDOMPropertyConfig = {
    cite: 0,
    classID: 0,
    className: 0,
+   classname: 0,
    cols: HAS_POSITIVE_NUMERIC_VALUE,
    colSpan: 0,
    content: 0,
@@ -3471,6 +3472,7 @@ var HTMLDOMPropertyConfig = {
  DOMAttributeNames: {
    acceptCharset: 'accept-charset',
    className: 'class',
+   classname: 'class',
    htmlFor: 'for',
    httpEquiv: 'http-equiv'
  },
