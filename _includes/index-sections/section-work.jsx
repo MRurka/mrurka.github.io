@@ -14,4 +14,7 @@
       {% endfor %}
     </div>
   </div>
+  {% for post in site.categories.portfolio %}
+    <Link to="/{{ post.path }}">{{ post.title }}</Link><br />
+  {% endfor %}
 </section>

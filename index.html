@@ -3,13 +3,15 @@ layout: default
 ---
 
 
-<div id="containerXX" style="margin-top:12rem; margin-left: 5rem;">
+<div id="containerXX"></div>
 
-</div>
+<div id="test-container"></div>
 
 
 <script type="text/babel">
+
   var destination = document.querySelector("#containerXX");
+  var destinationXX = document.querySelector("#test-container");
 
   var { Router,
     Route,
@@ -61,6 +63,7 @@ layout: default
               $("#work-section .item a").css({"opacity":"1"});
             }
           );
+
           {% for post in site.categories.portfolio %}
             var myStyle_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
           {% endfor %}
@@ -81,26 +84,48 @@ layout: default
         }
     });
 
-    var Blog = React.createClass({
+  var Blog = React.createClass({
     render: function() {
-        return (
-          {% include index-sections/section-blog.jsx %}
-        );
-      }
+      return (
+        {% include index-sections/section-blog.jsx %}
+      );
+    }
   });
 
   var Asia = React.createClass({
-  render: function() {
+    render: function() {
       return (
         {% include index-sections/section-asia2016.jsx %}
       );
     }
-});
+  });
+
+  var Test = React.createClass({
+    render: function() {
+      return (
+        <div className="xxx">
+          This works!
+        </div>
+      );
+    }
+  });
+
+  {% for post in site.categories.portfolio %}
+    var YYY{{ post.path }} = React.createClass({
+      render: function() {
+        return (
+          <div>
+            {{ post.take-me-back-text }}
+          </div>
+        );
+      }
+    });
+  {% endfor %}
 
   var App = React.createClass({
     render: function() {
       return (
-        <div className="site-nav-container"> 
+        <div className="site-nav-container">
           <nav className="site-nav">
             <a className="take-me-back-top close-modal" rel="modal:close">Back</a>
             <ul>
@@ -178,10 +203,61 @@ layout: default
         <Route path="about" component={About} />
         <Route path="blog" component={Blog} />
         <Route path="asia" component={Asia} />
+        {% for post in site.categories.portfolio %}
+          <Route path="{{ post.path }}" component={ YYY{{ post.path }} } />
+        {% endfor %}
       </Route>
     </Router>,
     destination
   );
+
+  var WorkSection = React.createClass({
+    render: function() {
+      return (
+        <div className="modal-content">
+          <div className="site-container">
+            <div className="container">
+              {this.props.children}
+            </div>
+          </div>
+          <a href="#close-modal" rel="modal:close" className="close-modal modal-close"></a>
+        </div>
+      )
+    }
+  });
+
+  {% for post in site.categories.portfolio %}
+    var XXX{{post.path}} = React.createClass({
+    render: function() {
+        return (
+          <div>
+            <h1 className="post-title">{{ post.title }}</h1>
+            <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+            {{ post.content }}
+            <div className="take-me-back-bottom-container {{ page.categories }}">
+              {% if post.take-me-back-text %}
+                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+              {% else %}
+                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+              {% endif %}
+            </div>
+          </div>
+        );
+      }
+    });
+  {% endfor %}
+
+  ReactDOM.render(
+    <Router>
+      <Route path="/" component={WorkSection}>
+        {% for post in site.categories.portfolio %}
+          <Route path="/{{post.path}}" component={ XXX{{post.path}} } />
+        {% endfor %}
+      </Route>
+    </Router>,
+    destinationXX
+  );
+
 </script>
 
 <img src="https://store-images.s-microsoft.com/image/apps.41678.9007199266445909.1adf987e-21ae-4351-8cab-2b5ff526deaa.fb3d5958-3886-4f34-ac45-1e9dfc30ff12?w=96&h=96&q=60"/>
