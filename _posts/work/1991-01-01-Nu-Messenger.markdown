@@ -12,6 +12,8 @@ take-me-back-text: Another messenger?! Take me back.
 
 img-background: background-nu.gif
 
+path: numsg
+
 ---
 
 <b>Design Lead, 6 months.</b>
@@ -21,12 +23,12 @@ Nu Messenger is an accessible, lightweight, hyper fast messaging app centered ar
 
 - <a href="https://ca.linkedin.com/in/adrianseeley" target="_blank">Adrian Seeley</a>, machine learning data wizard.
 - <a href="https://ca.linkedin.com/pub/jean-rené-carle-mossdorf/13/882/a10" target="_blank">Jean-René Carle</a>, business and finance guru.
-- Myself. 
+- Myself.
 
 <b>The Story</b><br>
-Nu Messenger is the product of a divergent evolution from Hive, which was initially destined to be a Social Media Managing platform for businesses of any size. Going through the <a href="http://founderfuel.com/en/" target="_blank">FounderFuel</a> Hive pivoted to become the holy grail of commenting plugins, similar to Disqus. 
+Nu Messenger is the product of a divergent evolution from Hive, which was initially destined to be a Social Media Managing platform for businesses of any size. Going through the <a href="http://founderfuel.com/en/" target="_blank">FounderFuel</a> Hive pivoted to become the holy grail of commenting plugins, similar to Disqus.
 
-The commenting world is limited to the boundaries of it's environment (e.g. an article on a news site). We envisioned a world of no boundaries, where you could easily comment, with zero barriers to entry, and also take it away with you on the go, in app form, web or native. From there, we were inevitably creating a communication platform, centered around topics. And this is where we narrowed our energy to develope an MVP messenger. 
+The commenting world is limited to the boundaries of it's environment (e.g. an article on a news site). We envisioned a world of no boundaries, where you could easily comment, with zero barriers to entry, and also take it away with you on the go, in app form, web or native. From there, we were inevitably creating a communication platform, centered around topics. And this is where we narrowed our energy to develope an MVP messenger.
 
 <div class="image-container">
     <img class="clear" src=""/>
@@ -47,10 +49,3 @@ The commenting world is limited to the boundaries of it's environment (e.g. an a
     <img class="w1" src="./img/work/nu/header-3.jpg"/>
     <img class="w3" src="./img/work/nu/nu-screens-3.gif"/>
 </div>
-
-
-
-
-
-
-

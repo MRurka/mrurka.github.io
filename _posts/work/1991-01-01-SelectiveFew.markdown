@@ -12,11 +12,13 @@ take-me-back-text: $300 for shoes?! Take me back.
 
 img-background: background-sf.jpg
 
+path: selective
+
 ---
 
 <b>Product Designer, 9 months.</b>
 
-Selective Few is an Ecommerce company that sells rare fashion from the worlds top boutiques. Empowering traditional brick and mortar boutiques with a beautiful online presence and the reach of a global market. Selective Few is also a graduate of the <a href="http://founderfuel.com/en/" target="_blank">FounderFuel Program</a>, one of Canada's top startup incubator, based in Montreal, QC. 
+Selective Few is an Ecommerce company that sells rare fashion from the worlds top boutiques. Empowering traditional brick and mortar boutiques with a beautiful online presence and the reach of a global market. Selective Few is also a graduate of the <a href="http://founderfuel.com/en/" target="_blank">FounderFuel Program</a>, one of Canada's top startup incubator, based in Montreal, QC.
 
 <div class="image-container">
     <img class="clear" src=""/>

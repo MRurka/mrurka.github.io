@@ -12,6 +12,8 @@ take-me-back-text: I speak Russian. Take me back.
 
 img-background: background-kaa.jpg
 
+path: kaa
+
 ---
 
 Those are Adidas jackets. I took the photos and that is my cousin, Jenny.

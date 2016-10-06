@@ -12,6 +12,8 @@ take-me-back-text: Cute birds. Take me back.
 
 img-background: background-orni.jpg
 
+path: orni
+
 ---
 
 The result of a desire to explore negative space as an element and with some bird photos I took earlier the day.

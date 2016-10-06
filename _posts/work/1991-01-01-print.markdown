@@ -12,6 +12,8 @@ take-me-back-text:
 
 img-background: background-red.jpg
 
+path: print
+
 ---
 
 Working on replacing these with actual, new work. Stay tuned.

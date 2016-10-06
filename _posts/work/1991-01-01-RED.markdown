@@ -2,7 +2,7 @@
 
 layout: post
 date:   2015-01-10 21:35:54
-categories: 
+categories:
 port-id: 3ru
 text-dark-light: light
 
@@ -11,6 +11,8 @@ subtitle: Catalogue Cover Design
 take-me-back-text: I prefer blue.. Take me back.
 
 img-background: background-red.jpg
+
+path: red
 
 ---
 

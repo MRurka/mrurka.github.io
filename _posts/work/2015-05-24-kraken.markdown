@@ -12,13 +12,17 @@ take-me-back-text: Slick. Take me back.
 
 img-background: background-kraken.jpg
 
+path: kraken
+
 ---
 
-<div class="image-container-center">
-  <img class="w2" src="./img/work/kraken/kraken-black-on-white.jpg"/>
+<div className="image-container-center">
+  <img className="w2" src="./img/work/kraken/kraken-black-on-white.jpg"/>
 </div>
 
-Kraken International, headed by one of my main man hustlers, Mr. Seeley, its me up on the flip. Needs a face and a card. Black metal card, to be specific. Machine carved in pre brexit UK. Cray player.
+<p className="green">
+  Kraken International, headed by one of my main man hustlers, Mr. Seeley, its me up on the flip. Needs a face and a card. Black metal card, to be specific. Machine carved in pre brexit UK. Cray player.
+</p>
 
 The task at hand was to create an initial visual identity for Kraken International. Self described as a "proprietary turnkey technology [that] monitors and forecasts the world's financial markets, adaptively managing a highly efficient and optimized portfolio." E.i. the kraken turns cash into gold for any hedge fund. Plug and play, make it rain.
 
@@ -27,29 +31,29 @@ Rich white males aged 40-50, heading successful hedge funds.
 
 Kraken International had to be "professional, badass, elitist, matte black (sexy)". James Bond (Daniel Craig) turned out to be a great inspiration. He embodied this professional, expensive, badass, persona so well. And like any intimate game, it begins with a few key discovery conversation, note taking and getting the mood... board.
 
-<div class="image-container">
-  <img class="clear" src=""/>
-  <img class="w4" src="./img/work/kraken/kraken-moodboard.jpg"/>
+<div className="image-container">
+  <img className="clear" src=""/>
+  <img className="w4" src="./img/work/kraken/kraken-moodboard.jpg"/>
 </div>
 
 Wasn't the first time I created a moodboard, but it was the first time I'd referenced one so much (let alone more than once). It'd also been a long time since I'd designed a logo. This made me a nervous. Hitting up even more concepts than ever before (granted, still not enough). I'm well aware of my trend of seeking too shallow, too soon, and too quickly. More so, for this project, I made it a point to not really check my time, and not really consider the budget (too much). I wanted to make it about the product, and not some hourly metric. And if you're curious: I did go over the "ideal budget" for this one. But that's totally fine.
 
-<div class="image-container">
-  <img class="clear" src=""/>
-  <img class="w2" src="./img/work/kraken/kraken-sketch-5.jpg"/>
-  <img class="w2" src="./img/work/kraken/kraken-sketch-1.jpg"/>
-  <img class="w2" src="./img/work/kraken/kraken-sketch-4.jpg"/>
-  <img class="w2" src="./img/work/kraken/kraken-sketch-2.jpg"/>
-  <img class="w2" src="./img/work/kraken/kraken-sketch-3.jpg"/>
-  <img class="w2" src="./img/work/kraken/kraken-sketch-6.jpg"/>
+<div className="image-container">
+  <img className="clear" src=""/>
+  <img className="w2" src="./img/work/kraken/kraken-sketch-5.jpg"/>
+  <img className="w2" src="./img/work/kraken/kraken-sketch-1.jpg"/>
+  <img className="w2" src="./img/work/kraken/kraken-sketch-4.jpg"/>
+  <img className="w2" src="./img/work/kraken/kraken-sketch-2.jpg"/>
+  <img className="w2" src="./img/work/kraken/kraken-sketch-3.jpg"/>
+  <img className="w2" src="./img/work/kraken/kraken-sketch-6.jpg"/>
 </div>
 
 <b>Square Dimensions</b><br>
 Kraken International will make appearances on both physical and digital mediums. For maximum versatility, and a greater sense of stability and icon-ism, I decided this logo should take square dimensional form. For contrast, previous explorations included more a more Nike "swooshy" look, but appeared too playful, weak, malleable. The "squished" look also hurt the tail's potential vertical rise. Old school emblems were also a source of inspiration, not necessarily drawing on their iconic symmetrical properties, but on that they can stand on their own as an insignia.
 
-<div class="image-container-center">
-  <img class="clear" src=""/>
-  <img class="w2" src="./img/work/kraken/kraken-square-2.jpg"/>
+<div className="image-container-center">
+  <img className="clear" src=""/>
+  <img className="w2" src="./img/work/kraken/kraken-square-2.jpg"/>
 </div>
 
 <b>The "Tail"</b><br>
@@ -57,16 +61,16 @@ The kraken form decidedly has 4 positive tentacles, visually creating another se
 
 The tail was to end in a rising graph (see immediate image below), to represent the key value of the Kraken International business: growth (and analytics). The <a href="https://en.wikipedia.org/wiki/Fibonacci_number" target="_blank">Fibonacci sequence</a> was also explored to represent this compound, exponential growth. However this was later scrapped as it failed to compliment the entirety due to it's harsh variation in heights, and abrupt "unfinished" ends.
 
-<div class="image-container-center">
-  <img class="clear" src=""/>
-  <img class="w3" src="./img/work/kraken/kraken-process-5.jpg"/>
+<div className="image-container-center">
+  <img className="clear" src=""/>
+  <img className="w3" src="./img/work/kraken/kraken-process-5.jpg"/>
 </div>
 
 Fomo (fear of missing out) makes me run endless copies of each tiny iteration. More of an exploratory process, however. There's a balance to mess with. Clinging to the past can stifle the future. Truly, if an idea is worth while, it will persist and present itself both superior, and obvious. Sometimes it's good to let the past go. A method of moving forward into un-attached and unexplored creative alleys.
 
-<div class="image-container">
-  <img class="clear" src=""/>
-  <img class="w4" src="./img/work/kraken/kraken-process-7.svg"/>
+<div className="image-container">
+  <img className="clear" src=""/>
+  <img className="w4" src="./img/work/kraken/kraken-process-7.svg"/>
 </div>
 
 <b>The Eye</b><br>
@@ -75,16 +79,16 @@ Much consideration went into the eye, and whether or not there should be one at 
 <b>Evolution</b><br>
 The "4th" concept (image below) was actually the latter (5th). An appropriate step back in the process.
 
-<div class="quote big">
+<div className="quote big">
   <p>
     Exploration is not only knowing how to move forward in various directions, but also knowing when to move back, and mark a (temporary) dead end. For real.
   </p>
-  <span class="source">Me</span>
+  <span className="source">Me</span>
 </div>
 
-<div class="image-container centre">
-  <img class="clear" src=""/>
-  <img class="w4" src="./img/work/kraken/kraken-process-2.png"/>
+<div className="image-container centre">
+  <img className="clear" src=""/>
+  <img className="w4" src="./img/work/kraken/kraken-process-2.png"/>
 </div>
 
 <b>Challenges</b><br>
@@ -95,11 +99,10 @@ Honest, my initial instinct was to send him the initial designs by email, with a
 
 On top of that, simply exploring new ways of concept exploration, thinking outside the box as much as possible, with some added technical difficulties with Illustrator in producing a clean-vector logo.
 
-<div class="image-container">
-  <img class="clear" src=""/>
-  <!-- <img class="w2" src="./img/work/kraken/kraken-black-on-white.jpg"/> -->
-  <img class="w2" src="./img/work/kraken/kraken-business-card-2.jpg"/>
-  <img class="w2" src="./img/work/kraken/kraken-business-card.jpg"/>
+<div className="image-container">
+  <img className="clear" src=""/>
+  <img className="w2" src="./img/work/kraken/kraken-business-card-2.jpg"/>
+  <img className="w2" src="./img/work/kraken/kraken-business-card.jpg"/>
 </div>
 
 <b>Conclusion</b><br>

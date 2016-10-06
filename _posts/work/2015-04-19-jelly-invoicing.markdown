@@ -12,6 +12,8 @@ take-me-back-text: Can't code, damn. Take me back.
 
 img-background: background-jelly.jpg
 
+path: jelly
+
 ---
 
 A flexible solution for producing invoices and keeping them neatly organized on your local or shared drive.
@@ -27,7 +29,7 @@ Check out <a href="http://mrurka.github.io/jelly-invoice-website/" target="_blan
     <img class="w4" src="./img/work/jelly/jelly-invoice-screen3.jpg" alt="Preview of Jelly Invoice Exporting an invoice"/>
 </div>
 
-Early Artwork for Jelly: 
+Early Artwork for Jelly:
 
 <div class="image-container">
     <img class="clear" src=""/>

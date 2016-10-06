@@ -12,6 +12,8 @@ take-me-back-text: Elephants suck. Take me back.
 
 img-background: background-ep.jpg
 
+path: epep
+
 ---
 
 My children. A few of them.

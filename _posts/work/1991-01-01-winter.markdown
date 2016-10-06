@@ -12,6 +12,8 @@ take-me-back-text: Close but no cigar. Take me back
 
 img-background: background-naive-prowess.jpg
 
+path: winter
+
 ---
 
 Pen & digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and subsiquently nominated for an AACE Award (top 10). Full details here: <a href="http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&year=2013&clip=1" target="_blank">Applied Arts Magazine</a>
@@ -26,8 +28,6 @@ Pen & digital illustration published in the Applied Arts Magazine, 2013 Student 
 <div class="image-container">
     <img class="clear" src=""/>
     <img class="w2" src="./img/work/winter/naive-prowess-magazine.jpg">
-    <!-- <img class="w2" src="./img/work/winter/naive-prowess-applied-arts-award.jpg"> -->
-    <!-- <img class="w2" src="./img/work/winter/naive-prowess-sketch.jpg"> -->
     <img class="w2" src="./img/work/winter/naive-prowess-illustrator.jpg">
     <img class="w2" src="./img/work/winter/naive-prowess-photoshop.jpg">
 </div>
