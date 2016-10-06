@@ -105,7 +105,7 @@ layout: default
       return (
         <div className="site-nav-container">
           <nav className="site-nav">
-            <a className="take-me-back-top close-modal" rel="modal:close">Back</a>
+            <a className="take-me-back-top close-modal">Back</a>
             <ul>
               <li>
                 <Link to="/work" id="work" rel="modal:close" activeClassName="active">
@@ -189,13 +189,8 @@ layout: default
   var WorkSection = React.createClass({
     render: function() {
       return (
-        <div className="modal-content">
-          <div className="site-container">
-            <div className="container">
-              {this.props.children}
-            </div>
-          </div>
-          <a href="#close-modal" rel="modal:close" className="close-modal modal-close"></a>
+        <div>
+          {this.props.children}
         </div>
       )
     }
@@ -206,16 +201,24 @@ layout: default
     render: function() {
         return (
           <div>
-            <h1 className="post-title">{{ post.title }}</h1>
-            <h2 className="post-subtitle">{{ post.subtitle }}</h2>
-            {{ post.content }}
-            <div className="take-me-back-bottom-container {{ page.categories }}">
-              {% if post.take-me-back-text %}
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
-              {% else %}
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
-              {% endif %}
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">{{ post.title }}</h1>
+                  <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                  {{ post.content }}
+                  <div className="take-me-back-bottom-container {{ page.categories }}">
+                    {% if post.take-me-back-text %}
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                    {% else %}
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }

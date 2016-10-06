@@ -1243,7 +1243,6 @@ ul {
   position: fixed;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
-  display: none;
   opacity: 0;
   transition: opacity .5s ease;
   -ms-animation-name: modal-content-fadein;

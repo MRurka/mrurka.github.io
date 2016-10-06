@@ -369,7 +369,7 @@
       return (
         <div className="site-nav-container">
           <nav className="site-nav">
-            <a className="take-me-back-top close-modal" rel="modal:close">Back</a>
+            <a className="take-me-back-top close-modal">Back</a>
             <ul>
               <li>
                 <Link to="/work" id="work" rel="modal:close" activeClassName="active">
@@ -453,13 +453,8 @@
   var WorkSection = React.createClass({
     render: function() {
       return (
-        <div className="modal-content">
-          <div className="site-container">
-            <div className="container">
-              {this.props.children}
-            </div>
-          </div>
-          <a href="#close-modal" rel="modal:close" className="close-modal modal-close"></a>
+        <div>
+          {this.props.children}
         </div>
       )
     }
@@ -470,9 +465,12 @@
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Kraken International</h1>
-            <h2 className="post-subtitle">Initial Visual Identity</h2>
-            <div classname="image-container-center">
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Kraken International</h1>
+                  <h2 className="post-subtitle">Initial Visual Identity</h2>
+                  <div classname="image-container-center">
   <img classname="w2" src="./img/work/kraken/kraken-black-on-white.jpg" />
 </div>
 
@@ -564,11 +562,16 @@ Honest, my initial instinct was to send him the initial designs by email, with a
 <p><b>Conclusion</b><br />
 This was a super fun side gig. Adrian is such a pleasure to work with. He’s no stranger however. We met and worked together at Startup Weekend Ottawa 2014 (Startup: <b>Opt-In</b>). Shortly afterwards, I took part in designing an identity and website for <b>Fxture</b>, premium forex forecasting startup. Shortly after that, I’d moved to Montreal and join <b>Hive / Nu Messenger</b>, a startup co-founded by <a href="https://ca.linkedin.com/in/adrianseeley" target="_blank">Adrian</a> and <a href="https://ca.linkedin.com/in/jean-rené-carle-mossdorf-a1088213" target="_blank">Jean-René Carle</a>. Even crazier, he’s the one who serendipitously introduced me to Hans, CEO of Nurx.</p>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Slick. Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Slick. Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -578,9 +581,12 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Selective Few</h1>
-            <h2 className="post-subtitle">Ecommerce Startup</h2>
-            <p><b>Product Designer, 9 months.</b></p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Selective Few</h1>
+                  <h2 className="post-subtitle">Ecommerce Startup</h2>
+                  <p><b>Product Designer, 9 months.</b></p>
 
 <p>Selective Few is an Ecommerce company that sells rare fashion from the worlds top boutiques. Empowering traditional brick and mortar boutiques with a beautiful online presence and the reach of a global market. Selective Few is also a graduate of the <a href="http://founderfuel.com/en/" target="_blank">FounderFuel Program</a>, one of Canada’s top startup incubator, based in Montreal, QC.</p>
 
@@ -609,11 +615,16 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
     <img class="w2" src="./img/work/sf/sf-boutique-mac.jpg" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">$300 for shoes?! Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">$300 for shoes?! Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -623,9 +634,12 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Nu Messenger</h1>
-            <h2 className="post-subtitle">Social Experiment</h2>
-            <p><b>Design Lead, 6 months.</b></p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Nu Messenger</h1>
+                  <h2 className="post-subtitle">Social Experiment</h2>
+                  <p><b>Design Lead, 6 months.</b></p>
 
 <p><b>TL;DR</b><br />
 Nu Messenger is an accessible, lightweight, hyper fast messaging app centered around topical discussions. Below, you’ll see an evolution of versions as we progressed through the development of Nu Messenger. Our team was as follows:</p>
@@ -661,11 +675,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w3" src="./img/work/nu/nu-screens-3.gif" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Another messenger?! Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Another messenger?! Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -675,9 +694,12 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Jelly Invoice V1</h1>
-            <h2 className="post-subtitle">Invoicing webapp for ghetto freelancers</h2>
-            <p>A flexible solution for producing invoices and keeping them neatly organized on your local or shared drive.</p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Jelly Invoice V1</h1>
+                  <h2 className="post-subtitle">Invoicing webapp for ghetto freelancers</h2>
+                  <p>A flexible solution for producing invoices and keeping them neatly organized on your local or shared drive.</p>
 
 <p>Extending <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>’s ability to easily create static web pages (blogs) with its many blog-aware features, Jelly has been adapted to output invoices in place of blogs. Jelly calculates for you, hourly or fixed pricing, with or without tax needs.</p>
 
@@ -697,11 +719,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w4" src="./img/work/jelly/jelly-invoice-wide.jpg" alt="Promo photo for Jelly Invoice" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Can't code, damn. Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Can't code, damn. Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -711,9 +738,12 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Naive Prowess</h1>
-            <h2 className="post-subtitle">Champion Illustration</h2>
-            <p>Pen &amp; digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and subsiquently nominated for an AACE Award (top 10). Full details here: <a href="http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&amp;year=2013&amp;clip=1" target="_blank">Applied Arts Magazine</a></p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Naive Prowess</h1>
+                  <h2 className="post-subtitle">Champion Illustration</h2>
+                  <p>Pen &amp; digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and subsiquently nominated for an AACE Award (top 10). Full details here: <a href="http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&amp;year=2013&amp;clip=1" target="_blank">Applied Arts Magazine</a></p>
 
 <div class="image-container">
     <img class="clear" src="" />
@@ -729,11 +759,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w2" src="./img/work/winter/naive-prowess-photoshop.jpg" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Close but no cigar. Take me back</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Close but no cigar. Take me back</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -743,9 +778,12 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Rurking Hard</h1>
-            <h2 className="post-subtitle">Illusion</h2>
-            <p><br /><b>Flip 1:</b> Awareness of a design entity.
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Rurking Hard</h1>
+                  <h2 className="post-subtitle">Illusion</h2>
+                  <p><br /><b>Flip 1:</b> Awareness of a design entity.
 <br /><b>Flip 2:</b> Visceral intrigue, reading <i>“Fucking long”</i>.
 <br /><b>Flip 3:</b> Eyes continue, reading <i>“Fucking long and hard”</i>. Moving onto the tagline below incites the double take, figuring out the profanity actually reads “Rurking long and hard”.</p>
 
@@ -758,11 +796,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w2" src="./img/work/rurking/rurking-5.jpg" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">lolol, good one. Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">lolol, good one. Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -772,9 +815,12 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     render: function() {
         return (
           <div>
-            <h1 className="post-title">Print Design</h1>
-            <h2 className="post-subtitle">Play Projects</h2>
-            <p>Working on replacing these with actual, new work. Stay tuned.</p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">Print Design</h1>
+                  <h2 className="post-subtitle">Play Projects</h2>
+                  <p>Working on replacing these with actual, new work. Stay tuned.</p>
 
 <div class="image-container">
     <img class="clear" src="" />
@@ -791,11 +837,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w2" src="./img/work/orni/orni-spread.jpg" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Rurka, take me back please</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Rurka, take me back please</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -805,9 +856,12 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     render: function() {
         return (
           <div>
-            <h1 className="post-title">EP</h1>
-            <h2 className="post-subtitle">Fine Art</h2>
-            <p>My children. A few of them.</p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">EP</h1>
+                  <h2 className="post-subtitle">Fine Art</h2>
+                  <p>My children. A few of them.</p>
 
 <ul>
   <li><b>EP14</b> Acrylic, texture pastes on canvas</li>
@@ -826,11 +880,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w2" src="./img/work/ep/ep-study.jpg" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Elephants suck. Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">Elephants suck. Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
@@ -840,9 +899,12 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     render: function() {
         return (
           <div>
-            <h1 className="post-title">KAA</h1>
-            <h2 className="post-subtitle">Fashion Graphic</h2>
-            <p>Those are Adidas jackets. I took the photos and that is my cousin, Jenny.</p>
+            <div className="modal-content">
+              <div className="site-container">
+                <div className="container">
+                  <h1 className="post-title">KAA</h1>
+                  <h2 className="post-subtitle">Fashion Graphic</h2>
+                  <p>Those are Adidas jackets. I took the photos and that is my cousin, Jenny.</p>
 
 <div class="image-container">
     <img class="clear" src="" />
@@ -851,11 +913,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     <img class="w3" src="./img/work/kaa/kaa-jackets.jpg" />
 </div>
 
-            <div className="take-me-back-bottom-container ">
-              
-                <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">I speak Russian. Take me back.</a>
-              
+                  <div className="take-me-back-bottom-container ">
+                    
+                      <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="-back-button">I speak Russian. Take me back.</a>
+                    
+                  </div>
+                </div>
+              </div>
+              <a className="close-modal modal-close"></a>
             </div>
+            <div className="modal-backdrop"></div>
           </div>
         );
       }
