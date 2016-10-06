@@ -205,80 +205,61 @@
     <div className="items">
       
         <div id="10ru" className="item">
-          <Link to="/kraken" rel="modal:open" style={ myStyle_10ru }>
+          <Link to="/kraken">
             <h1 className="title light">Kraken International</h1>
           </Link>
         </div>
       
         <div id="7ru" className="item">
-          <Link to="/selective" rel="modal:open" style={ myStyle_7ru }>
+          <Link to="/selective">
             <h1 className="title light">Selective Few</h1>
           </Link>
         </div>
       
         <div id="8ru" className="item">
-          <Link to="/numsg" rel="modal:open" style={ myStyle_8ru }>
+          <Link to="/numsg">
             <h1 className="title light">Nu Messenger</h1>
           </Link>
         </div>
       
         <div id="9ru" className="item">
-          <Link to="/jelly" rel="modal:open" style={ myStyle_9ru }>
+          <Link to="/jelly">
             <h1 className="title light">Jelly Invoice V1</h1>
           </Link>
         </div>
       
         <div id="1ru" className="item">
-          <Link to="/winter" rel="modal:open" style={ myStyle_1ru }>
+          <Link to="/winter">
             <h1 className="title dark">Naive Prowess</h1>
           </Link>
         </div>
       
         <div id="2ru" className="item">
-          <Link to="/rurking" rel="modal:open" style={ myStyle_2ru }>
+          <Link to="/rurking">
             <h1 className="title light">Rurking Hard</h1>
           </Link>
         </div>
       
         <div id="3ru" className="item">
-          <Link to="/print" rel="modal:open" style={ myStyle_3ru }>
+          <Link to="/print">
             <h1 className="title light">Print Design</h1>
           </Link>
         </div>
       
         <div id="6ru" className="item">
-          <Link to="/epep" rel="modal:open" style={ myStyle_6ru }>
+          <Link to="/epep">
             <h1 className="title light">EP</h1>
           </Link>
         </div>
       
         <div id="5ru" className="item">
-          <Link to="/kaa" rel="modal:open" style={ myStyle_5ru }>
+          <Link to="/kaa">
             <h1 className="title dark">KAA</h1>
           </Link>
         </div>
       
     </div>
   </div>
-  
-    <Link to="/kraken">Kraken International</Link><br />
-  
-    <Link to="/selective">Selective Few</Link><br />
-  
-    <Link to="/numsg">Nu Messenger</Link><br />
-  
-    <Link to="/jelly">Jelly Invoice V1</Link><br />
-  
-    <Link to="/winter">Naive Prowess</Link><br />
-  
-    <Link to="/rurking">Rurking Hard</Link><br />
-  
-    <Link to="/print">Print Design</Link><br />
-  
-    <Link to="/epep">EP</Link><br />
-  
-    <Link to="/kaa">KAA</Link><br />
-  
 </section>
 
           );
@@ -383,108 +364,6 @@
     }
   });
 
-  var Test = React.createClass({
-    render: function() {
-      return (
-        <div className="xxx">
-          This works!
-        </div>
-      );
-    }
-  });
-
-  
-    var YYYkraken = React.createClass({
-      render: function() {
-        return (
-          <div>
-            Slick. Take me back.
-          </div>
-        );
-      }
-    });
-  
-    var YYYselective = React.createClass({
-      render: function() {
-        return (
-          <div>
-            $300 for shoes?! Take me back.
-          </div>
-        );
-      }
-    });
-  
-    var YYYnumsg = React.createClass({
-      render: function() {
-        return (
-          <div>
-            Another messenger?! Take me back.
-          </div>
-        );
-      }
-    });
-  
-    var YYYjelly = React.createClass({
-      render: function() {
-        return (
-          <div>
-            Can't code, damn. Take me back.
-          </div>
-        );
-      }
-    });
-  
-    var YYYwinter = React.createClass({
-      render: function() {
-        return (
-          <div>
-            Close but no cigar. Take me back
-          </div>
-        );
-      }
-    });
-  
-    var YYYrurking = React.createClass({
-      render: function() {
-        return (
-          <div>
-            lolol, good one. Take me back.
-          </div>
-        );
-      }
-    });
-  
-    var YYYprint = React.createClass({
-      render: function() {
-        return (
-          <div>
-            
-          </div>
-        );
-      }
-    });
-  
-    var YYYepep = React.createClass({
-      render: function() {
-        return (
-          <div>
-            Elephants suck. Take me back.
-          </div>
-        );
-      }
-    });
-  
-    var YYYkaa = React.createClass({
-      render: function() {
-        return (
-          <div>
-            I speak Russian. Take me back.
-          </div>
-        );
-      }
-    });
-  
-
   var App = React.createClass({
     render: function() {
       return (
@@ -566,25 +445,6 @@
         <Route path="about" component={About} />
         <Route path="blog" component={Blog} />
         <Route path="asia" component={Asia} />
-        
-          <Route path="kraken" component={ YYYkraken } />
-        
-          <Route path="selective" component={ YYYselective } />
-        
-          <Route path="numsg" component={ YYYnumsg } />
-        
-          <Route path="jelly" component={ YYYjelly } />
-        
-          <Route path="winter" component={ YYYwinter } />
-        
-          <Route path="rurking" component={ YYYrurking } />
-        
-          <Route path="print" component={ YYYprint } />
-        
-          <Route path="epep" component={ YYYepep } />
-        
-          <Route path="kaa" component={ YYYkaa } />
-        
       </Route>
     </Router>,
     destination

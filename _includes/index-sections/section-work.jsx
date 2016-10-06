@@ -7,14 +7,11 @@
     <div className="items">
       {% for post in site.categories.portfolio %}
         <div id="{{ post.port-id }}" className="item">
-          <Link to="/{{ post.path }}" rel="modal:open" style={ myStyle_{{ post.port-id }} }>
+          <Link to="/{{ post.path }}">
             <h1 className="title {{ post.text-dark-light }}">{{ post.title }}</h1>
           </Link>
         </div>
       {% endfor %}
     </div>
   </div>
-  {% for post in site.categories.portfolio %}
-    <Link to="/{{ post.path }}">{{ post.title }}</Link><br />
-  {% endfor %}
 </section>

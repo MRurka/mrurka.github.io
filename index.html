@@ -100,28 +100,6 @@ layout: default
     }
   });
 
-  var Test = React.createClass({
-    render: function() {
-      return (
-        <div className="xxx">
-          This works!
-        </div>
-      );
-    }
-  });
-
-  {% for post in site.categories.portfolio %}
-    var YYY{{ post.path }} = React.createClass({
-      render: function() {
-        return (
-          <div>
-            {{ post.take-me-back-text }}
-          </div>
-        );
-      }
-    });
-  {% endfor %}
-
   var App = React.createClass({
     render: function() {
       return (
@@ -203,9 +181,6 @@ layout: default
         <Route path="about" component={About} />
         <Route path="blog" component={Blog} />
         <Route path="asia" component={Asia} />
-        {% for post in site.categories.portfolio %}
-          <Route path="{{ post.path }}" component={ YYY{{ post.path }} } />
-        {% endfor %}
       </Route>
     </Router>,
     destination
