@@ -1,5 +1,5 @@
 
-<section className="blog content page-template-list">
+<section className="blog site-section-content page-template-list">
   <div className="container">
     <div className="items">
       {% for post in site.categories.asia2016 %}

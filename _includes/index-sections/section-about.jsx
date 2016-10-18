@@ -1,20 +1,21 @@
 
-<section className="about content page-template-bio">
+<section className="about site-section-content page-template-bio">
   <div className="container">
     <p>
-      It's evident that what we produce and consume is a reflection of who we are as individuals and as a society. And on my end, I work hard to be honest with my friends, family, and colleagues, and for this effort to be the foundation of my design work. To be considerate of both the natural and fabricated environment, occupied or unoccupied, for those who are a part of these environments in any capacity. To learn, and be the best that I can, for myself and for others.
+      What we produce, consume, and attribute to every breath is a reflection of who we are as individuals and as societies.
+      To do good.
+      To be earnest.
+      To be emphathetic.
+      And to leave earth fulfilled.
     </p>
     <p>
-      This is important.
+      Currently in Asia, hitting up design festivals, getting lost, and designing + coding at <a href="https://nurx.com">Nurx</a>.
+      We're doing some cool shit, check it out :)
     </p>
     <p>
-      Currently, I'm working as a designer with Nurx. Designing, creating, and coding interfaces on the front and back facing sides of the business. Nurx is based in San Francisco, and although I consider my home to be in Montreal, Canada, I'm originally from a little town in New Brunswick, Canada.
+      Let's talk design,<br />Hit me up via <a href="mailto:michael@rurkadesign.com">email</a> or <a href="instagram.com/_rurka_">insta</a>.
     </p>
     <p>
-      Let's talk design: <a href="mailto:michael@rurkadesign.com">michael@rurkadesign.com</a>
-    </p>
-    <p>
-      Cheers,<br />
       - Michael Rurka
     </p>
   </div>

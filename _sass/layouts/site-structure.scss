@@ -20,3 +20,28 @@ section.content {
   max-width: 100%;
   max-height: 100%;
 }
+
+.site-section-content {
+  -ms-animation-name: website-section-fadein;
+  -ms-animation-duration: 1s;
+  -ms-animation-fill-mode: forwards;
+  -webkit-animation-name: website-section-fadein;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: website-section-fadein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@-ms-keyframes website-section-fadein {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+@-webkit-keyframes website-section-fadein {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+@keyframes website-section-fadein {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}

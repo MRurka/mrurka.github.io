@@ -1,5 +1,5 @@
 
-<section id="work-section" className="work content page-template-grid">
+<section id="work-section" className="work site-section-content page-template-grid">
   {% for post in site.categories.portfolio %}
     <div id="{{ post.port-id }}" className="item-background" style={ backgroundImage_{{ post.port-id }} }></div>
   {% endfor %}
