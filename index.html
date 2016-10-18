@@ -5,13 +5,18 @@ layout: default
 
 <div id="containerXX"></div>
 
-<div id="test-container"></div>
-
 
 <script type="text/babel">
 
+//=======================================//
+//========== App Destination ============//
+//=======================================//
+
 var destination = document.querySelector("#containerXX");
-var destinationXX = document.querySelector("#test-container");
+
+//=======================================//
+//======== React Router Helper ==========//
+//=======================================//
 
 var {
   Router,
@@ -20,6 +25,10 @@ var {
   IndexLink,
   Link
 } = ReactRouter;
+
+//=======================================//
+//=============== HOME ==================//
+//=======================================//
 
 var Home = React.createClass({
   render: function() {
@@ -45,8 +54,18 @@ var Home = React.createClass({
   }
 });
 
+//=======================================//
+//================ WORK =================//
+//=======================================//
+
 var Work = React.createClass({
   render: function() {
+    //
+    // Load hover background images
+    {% for post in site.categories.portfolio %}
+      var backgroundImage_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
+    {% endfor %}
+    //
     // Background Switches
     {% for post in site.categories.portfolio %}
       $("#work-section #{{ post.port-id }} a").hover(function() {
@@ -55,7 +74,7 @@ var Work = React.createClass({
         $("#{{ post.port-id }}.item-background").css("opacity", "0");
       });
     {% endfor %}
-
+    //
     // Hide items except hovered
     $('#work-section .item a').hover(
       function() {
@@ -65,16 +84,18 @@ var Work = React.createClass({
         $("#work-section .item a").css({"opacity":"1"});
       }
     );
-
-    {% for post in site.categories.portfolio %}
-      var myStyle_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
-    {% endfor %}
-
+    // Render this HTML
     return (
-      {% include index-sections/section-work.jsx %}
+      <div>
+        {% include index-sections/section-work.jsx %}
+      </div>
     );
   }
 });
+
+//=======================================//
+//=============== ABOUT =================//
+//=======================================//
 
 var About = React.createClass({
   render: function() {
@@ -86,31 +107,79 @@ var About = React.createClass({
   }
 });
 
+//=======================================//
+//=============== BLOG ==================//
+//=======================================//
+
 var Blog = React.createClass({
   render: function() {
     return (
-      {% include index-sections/section-blog.jsx %}
+      <div>
+        {% include index-sections/section-blog.jsx %}
+      </div>
     );
   }
 });
 
+//=======================================//
+//=============== ASIA ==================//
+//=======================================//
+
 var Asia = React.createClass({
   render: function() {
     return (
-      {% include index-sections/section-asia2016.jsx %}
+      <div>
+        {% include index-sections/section-asia2016.jsx %}
+      </div>
     );
   }
 });
+
+//=======================================//
+//============ POST Template ============//
+//=======================================//
+
+{% for post in site.categories.portfolio %}
+  var XXX{{post.path}} = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">{{ post.title }}</h1>
+                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                {{ post.content }}
+                <div className="take-me-back-bottom-container {{ page.categories }}">
+                  {% if post.take-me-back-text %}
+                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                  {% else %}
+                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+{% endfor %}
+
+//=======================================//
+//======== App Default Template =========//
+//=======================================//
 
 var App = React.createClass({
   render: function() {
     return (
       <div className="site-nav-container">
         <nav className="site-nav">
-          <a className="take-me-back-top close-modal">Back</a>
           <ul>
             <li>
-              <Link to="/work" id="work" rel="modal:close" activeClassName="active">
+              <Link to="/work" id="work" activeClassName="active">
                 <span>Work</span>
                 <svg width="89px" height="23px" viewBox="0 0 89 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <g stroke="none" strokeWidth="1" fillRule="evenodd">
@@ -124,7 +193,7 @@ var App = React.createClass({
               </Link>
             </li>
             <li>
-              <Link to="/about" id="about" rel="modal:close" activeClassName="active">
+              <Link to="/about" id="about" activeClassName="active">
                 <span>About</span>
                 <svg width="90px" height="22px" viewBox="0 0 90 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <g stroke="none" strokeWidth="1" fillRule="evenodd">
@@ -138,7 +207,7 @@ var App = React.createClass({
               </Link>
             </li>
             <li>
-              <Link to="/blog" id="blog" rel="modal:close" activeClassName="active">
+              <Link to="/blog" id="blog" activeClassName="active">
                 <span>Blog</span>
                 <svg width="66px" height="22px" viewBox="0 0 66 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <g stroke="none" strokeWidth="1" fillRule="evenodd">
@@ -152,7 +221,7 @@ var App = React.createClass({
               </Link>
             </li>
             <li>
-              <Link to="/asia" id="asia" rel="modal:close" activeClassName="active">
+              <Link to="/asia" id="asia" activeClassName="active">
                 <span>Asia 2016</span>
                 <svg width="97px" height="22px" viewBox="0 0 97 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <g stroke="none" strokeWidth="1" fillRule="evenodd">
@@ -175,56 +244,21 @@ var App = React.createClass({
   }
 });
 
-var WorkSection = React.createClass({
-  render: function() {
-    return (
-      <div>
-        {this.props.children}
-      </div>
-    )
-  }
-});
-
-{% for post in site.categories.portfolio %}
-  var XXX{{post.path}} = React.createClass({
-  render: function() {
-      return (
-        <div>
-          <div className="modal-content">
-            <div className="site-container">
-              <div className="container">
-                <h1 className="post-title">{{ post.title }}</h1>
-                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
-                {{ post.content }}
-                <div className="take-me-back-bottom-container {{ page.categories }}">
-                  {% if post.take-me-back-text %}
-                    <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
-                  {% else %}
-                    <a className="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
-                  {% endif %}
-                </div>
-              </div>
-            </div>
-            <a className="close-modal modal-close"></a>
-          </div>
-          <div className="modal-backdrop"></div>
-        </div>
-      );
-    }
-  });
-{% endfor %}
+//=======================================//
+//=============== ROUTES ================//
+//=======================================//
 
 ReactDOM.render(
   <Router>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
-      <Route path="work" component={Work} />
-      <Route path="about" component={About} />
-      <Route path="blog" component={Blog} />
-      <Route path="asia" component={Asia} />
-      {% for post in site.categories.portfolio %}
-        <Route path="/{{post.path}}" component={ XXX{{post.path}} } />
-      {% endfor %}
+      <Route path="work" component={Work}/>
+        {% for post in site.categories.portfolio %}
+          <Route path="/{{post.path}}" component={ XXX{{post.path}} }/>
+        {% endfor %}
+      <Route path="about" component={About}/>
+      <Route path="blog" component={Blog}/>
+      <Route path="asia" component={Asia}/>
     </Route>
   </Router>,
   destination
@@ -233,24 +267,3 @@ ReactDOM.render(
 </script>
 
 <img src="https://store-images.s-microsoft.com/image/apps.41678.9007199266445909.1adf987e-21ae-4351-8cab-2b5ff526deaa.fb3d5958-3886-4f34-ac45-1e9dfc30ff12?w=96&h=96&q=60"/>
-
-<script>
-  // Background Switches
-  {% for post in site.categories.portfolio %}
-    $("#work-section #{{ post.port-id }} a").hover(function() {
-      $("#{{ post.port-id }}.item-background").css("opacity", "1");
-    }, function(){
-      $("#{{ post.port-id }}.item-background").css("opacity", "0");
-    });
-  {% endfor %}
-
-  // Hide items except hovered
-  $('#work-section .item a').hover(
-    function() {
-      $("#work-section .item a:not(:hover)").css({"opacity":"0"});
-    },
-    function() {
-      $("#work-section .item a").css({"opacity":"1"});
-    }
-  );
-</script>
