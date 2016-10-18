@@ -437,19 +437,6 @@
     }
   });
 
-  ReactDOM.render(
-    <Router>
-      <Route path="/" component={App}>
-        <IndexRoute component={Home}/>
-        <Route path="work" component={Work} />
-        <Route path="about" component={About} />
-        <Route path="blog" component={Blog} />
-        <Route path="asia" component={Asia} />
-      </Route>
-    </Router>,
-    destination
-  );
-
   var WorkSection = React.createClass({
     render: function() {
       return (
@@ -929,9 +916,16 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     });
   
 
+
+
   ReactDOM.render(
     <Router>
-      <Route path="/" component={WorkSection}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Home}/>
+        <Route path="work" component={Work} />
+        <Route path="about" component={About} />
+        <Route path="blog" component={Blog} />
+        <Route path="asia" component={Asia} />
         
           <Route path="/kraken" component={ XXXkraken } />
         
@@ -953,7 +947,7 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
         
       </Route>
     </Router>,
-    destinationXX
+    destination
   );
 
 </script>

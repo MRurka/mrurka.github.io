@@ -173,19 +173,6 @@ layout: default
     }
   });
 
-  ReactDOM.render(
-    <Router>
-      <Route path="/" component={App}>
-        <IndexRoute component={Home}/>
-        <Route path="work" component={Work} />
-        <Route path="about" component={About} />
-        <Route path="blog" component={Blog} />
-        <Route path="asia" component={Asia} />
-      </Route>
-    </Router>,
-    destination
-  );
-
   var WorkSection = React.createClass({
     render: function() {
       return (
@@ -225,15 +212,22 @@ layout: default
     });
   {% endfor %}
 
+
+
   ReactDOM.render(
     <Router>
-      <Route path="/" component={WorkSection}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Home}/>
+        <Route path="work" component={Work} />
+        <Route path="about" component={About} />
+        <Route path="blog" component={Blog} />
+        <Route path="asia" component={Asia} />
         {% for post in site.categories.portfolio %}
           <Route path="/{{post.path}}" component={ XXX{{post.path}} } />
         {% endfor %}
       </Route>
     </Router>,
-    destinationXX
+    destination
   );
 
 </script>
