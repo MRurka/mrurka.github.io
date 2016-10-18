@@ -106,37 +106,7 @@ var Home = React.createClass({
 //=======================================//
 
 var Work = React.createClass({
-  render: function() {
-    //
-    // Load hover background images
-    
-      var backgroundImageDesktop_10ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kraken.jpg)' };
-      var backgroundImageMobile_10ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-kraken.jpg)' };
-    
-      var backgroundImageDesktop_7ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-sf.jpg)' };
-      var backgroundImageMobile_7ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-sf.jpg)' };
-    
-      var backgroundImageDesktop_8ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-nu.gif)' };
-      var backgroundImageMobile_8ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-nu.gif)' };
-    
-      var backgroundImageDesktop_9ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-jelly.jpg)' };
-      var backgroundImageMobile_9ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-jelly.jpg)' };
-    
-      var backgroundImageDesktop_1ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-naive-prowess.jpg)' };
-      var backgroundImageMobile_1ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-naive-prowess.jpg)' };
-    
-      var backgroundImageDesktop_2ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-rurking.jpg)' };
-      var backgroundImageMobile_2ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-rurking.jpg)' };
-    
-      var backgroundImageDesktop_3ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-red.jpg)' };
-      var backgroundImageMobile_3ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-red.jpg)' };
-    
-      var backgroundImageDesktop_6ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-ep.jpg)' };
-      var backgroundImageMobile_6ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-ep.jpg)' };
-    
-      var backgroundImageDesktop_5ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kaa.jpg)' };
-      var backgroundImageMobile_5ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-kaa.jpg)' };
-    
+  componentDidMount: function() {
     //
     // Background Switches
     
@@ -204,6 +174,40 @@ var Work = React.createClass({
         $("#work-section .item a").css({"opacity":"1"});
       }
     );
+  },
+
+  render: function() {
+    //
+    // Load hover background images
+    
+      var backgroundImageDesktop_10ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kraken.jpg)' };
+      var backgroundImageMobile_10ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-kraken.jpg)' };
+    
+      var backgroundImageDesktop_7ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-sf.jpg)' };
+      var backgroundImageMobile_7ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-sf.jpg)' };
+    
+      var backgroundImageDesktop_8ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-nu.gif)' };
+      var backgroundImageMobile_8ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-nu.gif)' };
+    
+      var backgroundImageDesktop_9ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-jelly.jpg)' };
+      var backgroundImageMobile_9ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-jelly.jpg)' };
+    
+      var backgroundImageDesktop_1ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-naive-prowess.jpg)' };
+      var backgroundImageMobile_1ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-naive-prowess.jpg)' };
+    
+      var backgroundImageDesktop_2ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-rurking.jpg)' };
+      var backgroundImageMobile_2ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-rurking.jpg)' };
+    
+      var backgroundImageDesktop_3ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-red.jpg)' };
+      var backgroundImageMobile_3ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-red.jpg)' };
+    
+      var backgroundImageDesktop_6ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-ep.jpg)' };
+      var backgroundImageMobile_6ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-ep.jpg)' };
+    
+      var backgroundImageDesktop_5ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kaa.jpg)' };
+      var backgroundImageMobile_5ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-kaa.jpg)' };
+    
+    //
     // Render this HTML
     return (
       <div>
@@ -310,7 +314,7 @@ var About = React.createClass({
       To do good.
       To be earnest.
       To be emphathetic.
-      And to leave earth fulfilled.
+      And to leave earth fulfilled. This is my priority.
     </p>
     <p>
       Currently in Asia, hitting up design festivals, getting lost, and designing + coding at <a href="https://nurx.com">Nurx</a>.
@@ -513,6 +517,44 @@ var Asia = React.createClass({
 //
 
   var XXXkraken = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -629,6 +671,44 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
   });
 
   var XXXselective_few = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -682,6 +762,44 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
   });
 
   var XXXnumsg = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -742,6 +860,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXjelly = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -786,6 +942,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXwinter = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -826,6 +1020,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXrurking = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -863,6 +1095,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXprint = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -904,6 +1174,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXep = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -947,6 +1255,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXkaa = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -984,6 +1330,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
 //
 
   var XXXdesignlife = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -1026,6 +1410,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXcontrolla = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -1074,6 +1496,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXasiaxxx = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -1100,6 +1560,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXsanfran = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -1160,6 +1658,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXembody = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>
@@ -1206,6 +1742,44 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   });
 
   var XXXtwo = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+        gaTracker('UA-76182672-1');
+        gaTrack('/', '');
+      
+    },
     render: function() {
       return (
         <div>

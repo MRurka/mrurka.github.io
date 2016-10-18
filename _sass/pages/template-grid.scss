@@ -20,12 +20,12 @@
     &.active {
       opacity: 1;
     }
-    @include max-xxs {
+    @include max-xs {
       display: none;
     }
   }
   .items {
-    .item{
+    .item {
       float: left;
       width: calc(100% / 3);
       height: 10em;
@@ -52,6 +52,7 @@
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+          opacity: 1 !important;
         }
         h1.title {
           color:#333;

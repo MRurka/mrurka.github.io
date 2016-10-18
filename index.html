@@ -59,13 +59,7 @@ var Home = React.createClass({
 //=======================================//
 
 var Work = React.createClass({
-  render: function() {
-    //
-    // Load hover background images
-    {% for post in site.categories.portfolio %}
-      var backgroundImageDesktop_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
-      var backgroundImageMobile_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/phone/{{ post.img-background }})' };
-    {% endfor %}
+  componentDidMount: function() {
     //
     // Background Switches
     {% for post in site.categories.portfolio %}
@@ -85,6 +79,16 @@ var Work = React.createClass({
         $("#work-section .item a").css({"opacity":"1"});
       }
     );
+  },
+
+  render: function() {
+    //
+    // Load hover background images
+    {% for post in site.categories.portfolio %}
+      var backgroundImageDesktop_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
+      var backgroundImageMobile_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/phone/{{ post.img-background }})' };
+    {% endfor %}
+    //
     // Render this HTML
     return (
       <div>
@@ -169,6 +173,20 @@ var Asia = React.createClass({
 //
 {% for post in site.categories.portfolio %}
   var XXX{{post.path}} = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      {% for post in site.categories.portfolio %}
+        gaTracker('UA-76182672-1');
+        gaTrack('/{{ page.title }}', '{{ page.title }}');
+      {% endfor %}
+    },
     render: function() {
       return (
         <div>
@@ -200,6 +218,20 @@ var Asia = React.createClass({
 //
 {% for post in site.categories.blog %}
   var XXX{{post.path}} = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      {% for post in site.categories.portfolio %}
+        gaTracker('UA-76182672-1');
+        gaTrack('/{{ page.title }}', '{{ page.title }}');
+      {% endfor %}
+    },
     render: function() {
       return (
         <div>
@@ -231,6 +263,20 @@ var Asia = React.createClass({
 //
 {% for post in site.categories.asia2016 %}
   var XXX{{post.path}} = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      {% for post in site.categories.portfolio %}
+        gaTracker('UA-76182672-1');
+        gaTrack('/{{ page.title }}', '{{ page.title }}');
+      {% endfor %}
+    },
     render: function() {
       return (
         <div>

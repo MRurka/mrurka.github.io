@@ -782,48 +782,51 @@ nav {
   left: 0;
   width: 100%;
   z-index: 999; }
-  nav ul li {
-    width: calc(100% / 4);
-    display: inline;
-    text-align: center;
-    float: left; }
-    nav ul li a {
-      padding: 4vh 0 0 0;
-      display: inline-block;
-      cursor: pointer; }
-      nav ul li a span {
-        color: #333;
-        font-size: .7em;
-        letter-spacing: 6px;
-        margin: 0 0 1em 0;
-        font-weight: 600;
-        text-transform: uppercase;
-        display: inline-block; }
-        @media (max-width: 420px) {
-          nav ul li a span {
-            margin: 0 0 .6em 0;
-            font-weight: 700; } }
-      nav ul li a svg {
-        height: 1.4em;
-        display: block;
-        transition: all .25s ease;
-        fill: #44434A; }
-        @media (max-width: 420px) {
-          nav ul li a svg {
-            height: 1.1em; } }
-      nav ul li a.active svg {
-        fill: #FF9595; }
-      nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
-        outline: none; }
-        nav ul li a:hover svg, nav ul li a:focus svg, nav ul li a:active svg {
-          fill: #FA8283; }
-      @media (max-width: 768px) {
-        nav ul li a.negative span {
-          color: #fff; }
-        nav ul li a.negative svg {
-          fill: #fff; }
-        nav ul li a.negative.active svg {
-          fill: #FF9595; } }
+  nav ul {
+    padding: 0; }
+    nav ul li {
+      width: calc(100% / 4);
+      display: inline;
+      text-align: center;
+      float: left;
+      padding: 0; }
+      nav ul li a {
+        padding: 4vh 0 0 0;
+        display: inline-block;
+        cursor: pointer; }
+        nav ul li a span {
+          color: #333;
+          font-size: .7em;
+          letter-spacing: 6px;
+          margin: 0 0 1em 0;
+          font-weight: 600;
+          text-transform: uppercase;
+          display: inline-block; }
+          @media (max-width: 420px) {
+            nav ul li a span {
+              margin: 0 0 .6em 0;
+              font-weight: 700; } }
+        nav ul li a svg {
+          height: 1.4em;
+          display: block;
+          transition: all .25s ease;
+          fill: #44434A; }
+          @media (max-width: 420px) {
+            nav ul li a svg {
+              height: 1.1em; } }
+        nav ul li a.active svg {
+          fill: #FF9595; }
+        nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
+          outline: none; }
+          nav ul li a:hover svg, nav ul li a:focus svg, nav ul li a:active svg {
+            fill: #FA8283; }
+        @media (max-width: 768px) {
+          nav ul li a.negative span {
+            color: #fff; }
+          nav ul li a.negative svg {
+            fill: #fff; }
+          nav ul li a.negative.active svg {
+            fill: #FF9595; } }
 
 nav ul li {
   opacity: 0; }
@@ -1000,7 +1003,7 @@ body.loaded .landing h1.landing-text {
   background-repeat: no-repeat; }
   .page-template-grid .item-background.active {
     opacity: 1; }
-  @media (max-width: 420px) {
+  @media (max-width: 768px) {
     .page-template-grid .item-background {
       display: none; } }
 .page-template-grid .items .item {
@@ -1030,7 +1033,8 @@ body.loaded .landing h1.landing-text {
         border: none;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover; } }
+        background-size: cover;
+        opacity: 1 !important; } }
     .page-template-grid .items .item a h1.title {
       color: #333; }
       @media (max-width: 768px) {
@@ -1123,10 +1127,10 @@ body.loaded .landing h1.landing-text {
     font-weight: 700; }
 
 .modal-content .site-container {
-  padding: 7em 5vw 5em; }
+  padding: 10rem 5vw 5em; }
   @media (max-width: 420px) {
     .modal-content .site-container {
-      padding: 5em 0 3em 0; } }
+      padding: 7rem 0 3em 0; } }
   @media (max-width: 420px) {
     .modal-content .site-container .container {
       padding: 0 6vw; } }

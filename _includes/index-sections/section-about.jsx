@@ -6,7 +6,7 @@
       To do good.
       To be earnest.
       To be emphathetic.
-      And to leave earth fulfilled.
+      And to leave earth fulfilled. This is my priority.
     </p>
     <p>
       Currently in Asia, hitting up design festivals, getting lost, and designing + coding at <a href="https://nurx.com">Nurx</a>.
