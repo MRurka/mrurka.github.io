@@ -113,6 +113,31 @@ var About = React.createClass({
 
 var Blog = React.createClass({
   render: function() {
+    //
+    // Load hover background images
+    {% for post in site.categories.portfolio %}
+      var backgroundImage_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
+    {% endfor %}
+    //
+    // Background Switches
+    {% for post in site.categories.portfolio %}
+      $("#work-section #{{ post.port-id }} a").hover(function() {
+        $("#{{ post.port-id }}.item-background").css("opacity", "1");
+      }, function(){
+        $("#{{ post.port-id }}.item-background").css("opacity", "0");
+      });
+    {% endfor %}
+    //
+    // Hide items except hovered
+    $('#work-section .item a').hover(
+      function() {
+        $("#work-section .item a:not(:hover)").css({"opacity":"0"});
+      },
+      function() {
+        $("#work-section .item a").css({"opacity":"1"});
+      }
+    );
+    // Render this HTML
     return (
       <div>
         {% include index-sections/section-blog.jsx %}
@@ -138,8 +163,72 @@ var Asia = React.createClass({
 //=======================================//
 //============ POST Template ============//
 //=======================================//
-
+//
+// PORTFOLIO
+//
 {% for post in site.categories.portfolio %}
+  var XXX{{post.path}} = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">{{ post.title }}</h1>
+                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                {{ post.content }}
+                <div className="take-me-back-bottom-container {{ page.categories }}">
+                  {% if post.take-me-back-text %}
+                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                  {% else %}
+                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+{% endfor %}
+//
+// BLOG
+//
+{% for post in site.categories.blog %}
+  var XXX{{post.path}} = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">{{ post.title }}</h1>
+                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                {{ post.content }}
+                <div className="take-me-back-bottom-container {{ page.categories }}">
+                  {% if post.take-me-back-text %}
+                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                  {% else %}
+                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+{% endfor %}
+//
+// ASIA 2016
+//
+{% for post in site.categories.asia2016 %}
   var XXX{{post.path}} = React.createClass({
     render: function() {
       return (
@@ -258,6 +347,9 @@ ReactDOM.render(
         {% endfor %}
       <Route path="about" component={About}/>
       <Route path="blog" component={Blog}/>
+        {% for post in site.categories.blog %}
+          <Route path="/{{post.path}}" component={ XXX{{post.path}} }/>
+        {% endfor %}
       <Route path="asia" component={Asia}/>
     </Route>
   </Router>,

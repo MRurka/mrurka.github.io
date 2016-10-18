@@ -1,33 +1,29 @@
 ---
 layout: content
 ---
+
 <div class="site-container">
-    <div class="container">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <h2 class="post-subtitle">{{ page.subtitle }}</h1>
-        {{ content }}
-        <div class="take-me-back-bottom-container {{ page.categories }}">
-            {% if page.take-me-back-text %}
-                <a class="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">{{ page.take-me-back-text }}</a>
-            {% else %}
-                <a class="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
-            {% endif %}
-        </div>
+  <div class="container">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-subtitle">{{ page.subtitle }}</h1>
+    {{ content }}
+    <div class="take-me-back-bottom-container {{ page.categories }}">
+      {% if page.take-me-back-text %}
+        <a class="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">{{ page.take-me-back-text }}</a>
+      {% else %}
+        <a class="take-me-back-bottom-button close-modal" rel="modal:close" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+      {% endif %}
     </div>
-    <script>
-        // Masonry
-        var $container = $('.image-container').masonry();
-        $container.imagesLoaded( function() {
-          $container.masonry();
-        });
+  </div>
+  <script>
+    // Masonry
+    // var $container = $('.image-container').masonry();
+    // $container.imagesLoaded( function() {
+    //   $container.masonry();
+    // });
 
-        // Bring back the content and nav once you click "Back"
-        $("a.take-me-back-bottom-button").click(function(){
-            $("nav").removeClass("modal-open");
-        });
-
-        // Google Analytics Goodness
-        gaTracker('UA-76182672-1');
-        gaTrack('/{{ page.title }}', '{{ page.title }}');
-    </script>
+    // Google Analytics Goodness
+    // gaTracker('UA-76182672-1');
+    // gaTrack('/{{ page.title }}', '{{ page.title }}');
+  </script>
 </div>

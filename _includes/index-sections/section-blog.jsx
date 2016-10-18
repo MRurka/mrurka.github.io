@@ -4,10 +4,10 @@
     <div className="items">
       {% for post in site.categories.blog %}
           <div className="item">
-            <a href="{{ post.url }}" rel="modal:open">
+            <Link to="/{{ post.path }}">
               <h1 className="title">{{ post.title }}</h1>
               <h2 className="subtitle">{{ post.subtitle }}</h2>
-            </a>
+            </Link>
         </div>
       {% endfor %}
     </div>

@@ -1,19 +1,15 @@
 ---
+layout:               post
+title:                Kraken International
+subtitle:             Initial Visual Identity
+date:                 2016-5-24 21:35:54
+categories:           portfolio
+take-me-back-text:    Slick. Take me back.
+path:                 kraken
 
-layout: post
-date:   2016-5-24 21:35:54
-categories: portfolio
-port-id: 10ru
-text-dark-light: light
-
-title: Kraken International
-subtitle: Initial Visual Identity
-take-me-back-text: Slick. Take me back.
-
-img-background: background-kraken.jpg
-
-path: kraken
-
+port-id:              10ru
+text-dark-light:      light
+img-background:       background-kraken.jpg
 ---
 
 <div className="image-container-center">

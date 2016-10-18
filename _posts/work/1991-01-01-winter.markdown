@@ -18,16 +18,16 @@ path: winter
 
 Pen & digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and subsiquently nominated for an AACE Award (top 10). Full details here: <a href="http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&year=2013&clip=1" target="_blank">Applied Arts Magazine</a>
 
-<div class="image-container">
-    <img class="clear" src=""/>
-    <img class="w4" src="./img/work/winter/naive-prowess.jpg">
+<div className="image-container">
+    <img className="clear" src=""/>
+    <img className="w4" src="./img/work/winter/naive-prowess.jpg">
 </div>
 
 <i>"I virtually only ever paint and draw elephants. Naive Prowess is an exploration that meshed both design and illustration. It was a new way to utilize my drawings and incorporate my graphic design practice. The overall look and feel, and desire to expose various layers comes from my attraction to blatant brush strokes in painting. It seems more intimate and provides an additional perspective into how the piece was created."</i>
 
-<div class="image-container">
-    <img class="clear" src=""/>
-    <img class="w2" src="./img/work/winter/naive-prowess-magazine.jpg">
-    <img class="w2" src="./img/work/winter/naive-prowess-illustrator.jpg">
-    <img class="w2" src="./img/work/winter/naive-prowess-photoshop.jpg">
+<div className="image-container">
+    <img className="clear" src=""/>
+    <img className="w2" src="./img/work/winter/naive-prowess-magazine.jpg">
+    <img className="w2" src="./img/work/winter/naive-prowess-illustrator.jpg">
+    <img className="w2" src="./img/work/winter/naive-prowess-photoshop.jpg">
 </div>

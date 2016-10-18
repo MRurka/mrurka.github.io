@@ -229,7 +229,7 @@ var Work = React.createClass({
         </div>
       
         <div id="7ru" className="item">
-          <Link to="/selective">
+          <Link to="/selective_few">
             <h1 className="title light">Selective Few</h1>
           </Link>
         </div>
@@ -265,7 +265,7 @@ var Work = React.createClass({
         </div>
       
         <div id="6ru" className="item">
-          <Link to="/epep">
+          <Link to="/ep">
             <h1 className="title light">EP</h1>
           </Link>
         </div>
@@ -326,6 +326,95 @@ var About = React.createClass({
 
 var Blog = React.createClass({
   render: function() {
+    //
+    // Load hover background images
+    
+      var backgroundImage_10ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kraken.jpg)' };
+    
+      var backgroundImage_7ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-sf.jpg)' };
+    
+      var backgroundImage_8ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-nu.gif)' };
+    
+      var backgroundImage_9ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-jelly.jpg)' };
+    
+      var backgroundImage_1ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-naive-prowess.jpg)' };
+    
+      var backgroundImage_2ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-rurking.jpg)' };
+    
+      var backgroundImage_3ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-red.jpg)' };
+    
+      var backgroundImage_6ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-ep.jpg)' };
+    
+      var backgroundImage_5ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kaa.jpg)' };
+    
+    //
+    // Background Switches
+    
+      $("#work-section #10ru a").hover(function() {
+        $("#10ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#10ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #7ru a").hover(function() {
+        $("#7ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#7ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #8ru a").hover(function() {
+        $("#8ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#8ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #9ru a").hover(function() {
+        $("#9ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#9ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #1ru a").hover(function() {
+        $("#1ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#1ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #2ru a").hover(function() {
+        $("#2ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#2ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #3ru a").hover(function() {
+        $("#3ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#3ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #6ru a").hover(function() {
+        $("#6ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#6ru.item-background").css("opacity", "0");
+      });
+    
+      $("#work-section #5ru a").hover(function() {
+        $("#5ru.item-background").css("opacity", "1");
+      }, function(){
+        $("#5ru.item-background").css("opacity", "0");
+      });
+    
+    //
+    // Hide items except hovered
+    $('#work-section .item a').hover(
+      function() {
+        $("#work-section .item a:not(:hover)").css({"opacity":"0"});
+      },
+      function() {
+        $("#work-section .item a").css({"opacity":"1"});
+      }
+    );
+    // Render this HTML
     return (
       <div>
         
@@ -334,45 +423,45 @@ var Blog = React.createClass({
     <div className="items">
       
           <div className="item">
-            <a href="/blog/2016/07/03/design-life.html" rel="modal:open">
+            <Link to="/designlife">
               <h1 className="title">Raison d'être</h1>
               <h2 className="subtitle">Why I need to become a great designer</h2>
-            </a>
+            </Link>
         </div>
       
           <div className="item">
-            <a href="/blog/2016/06/06/control.html" rel="modal:open">
+            <Link to="/controlla">
               <h1 className="title">Controlla</h1>
               <h2 className="subtitle">The Marriage of Hip-Hop and Independence</h2>
-            </a>
+            </Link>
         </div>
       
           <div className="item">
-            <a href="/blog/2016/06/06/asia2016-w1.html" rel="modal:open">
+            <Link to="/asiaxxx">
               <h1 className="title">AW01</h1>
               <h2 className="subtitle">The Marriage of Hip-Hop and Independence</h2>
-            </a>
+            </Link>
         </div>
       
           <div className="item">
-            <a href="/blog/2016/05/15/san-francisco.html" rel="modal:open">
+            <Link to="/sanfran">
               <h1 className="title">Valley</h1>
               <h2 className="subtitle">From Second Cup to San Francisco</h2>
-            </a>
+            </Link>
         </div>
       
           <div className="item">
-            <a href="/blog/2016/02/07/embody-design.html" rel="modal:open">
+            <Link to="/embody">
               <h1 className="title">Embody Design (Part 1)</h1>
               <h2 className="subtitle">My Obsession from Kung Fu to Design</h2>
-            </a>
+            </Link>
         </div>
       
           <div className="item">
-            <a href="/blog/2016/01/31/two-designers.html" rel="modal:open">
+            <Link to="/two">
               <h1 className="title">Two Designers</h1>
               <h2 className="subtitle">To be (or not to be) altruistic in the profession of design</h2>
-            </a>
+            </Link>
         </div>
       
     </div>
@@ -392,7 +481,14 @@ var Asia = React.createClass({
   render: function() {
     return (
       <div>
-        <div className="test">woo</div>
+        
+<section className="blog content page-template-list">
+  <div className="container">
+    <div className="items">
+      
+    </div>
+  </div>
+</section>
 
       </div>
     );
@@ -402,7 +498,9 @@ var Asia = React.createClass({
 //=======================================//
 //============ POST Template ============//
 //=======================================//
-
+//
+// PORTFOLIO
+//
 
   var XXXkraken = React.createClass({
     render: function() {
@@ -520,7 +618,7 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
     }
   });
 
-  var XXXselective = React.createClass({
+  var XXXselective_few = React.createClass({
     render: function() {
       return (
         <div>
@@ -533,11 +631,11 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
 
 <p>Selective Few is an Ecommerce company that sells rare fashion from the worlds top boutiques. Empowering traditional brick and mortar boutiques with a beautiful online presence and the reach of a global market. Selective Few is also a graduate of the <a href="http://founderfuel.com/en/" target="_blank">FounderFuel Program</a>, one of Canada’s top startup incubator, based in Montreal, QC.</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/sf/sf-home.jpg" />
-    <img class="w2" src="./img/work/sf/sf-category.jpg" />
-    <img class="w2" src="./img/work/sf/sf-product.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/sf/sf-home.jpg" />
+    <img classname="w2" src="./img/work/sf/sf-category.jpg" />
+    <img classname="w2" src="./img/work/sf/sf-product.jpg" />
 </div>
 
 <p>Working with the Creative Director, <a href="https://www.linkedin.com/pub/andrew-peker/2a/539/779" target="_blank">Andrew Peker</a>, we produce various content that accurately reflect the brand, as well as the uncompromising quality of the products we sold. I also worked closely with the development team, working out the best possible user experiences within our start-up-driven limitations. Product Development Process was typically: Research, exploration and working with Creative Director to produce mock ups for the development team. Once the mockups were built and functional, they were be passed back to me for style touch ups (CSS) and final QA. At SF, I:</p>
@@ -552,10 +650,10 @@ This was a super fun side gig. Adrian is such a pleasure to work with. He’s no
   <li>Polished the website elements and various parts as they were built, with CSS.</li>
 </ul>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/sf/sf-boutique.jpg" />
-    <img class="w2" src="./img/work/sf/sf-boutique-mac.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/sf/sf-boutique.jpg" />
+    <img classname="w2" src="./img/work/sf/sf-boutique-mac.jpg" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -598,24 +696,24 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
 
 <p>The commenting world is limited to the boundaries of it’s environment (e.g. an article on a news site). We envisioned a world of no boundaries, where you could easily comment, with zero barriers to entry, and also take it away with you on the go, in app form, web or native. From there, we were inevitably creating a communication platform, centered around topics. And this is where we narrowed our energy to develope an MVP messenger.</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w1" src="./img/work/nu/header-1.jpg" />
-    <img class="w3" src="./img/work/nu/nu-home-1.jpg" />
-    <img class="w4" src="./img/work/nu/nu-app-store-1.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w1" src="./img/work/nu/header-1.jpg" />
+    <img classname="w3" src="./img/work/nu/nu-home-1.jpg" />
+    <img classname="w4" src="./img/work/nu/nu-app-store-1.jpg" />
 </div>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w1" src="./img/work/nu/header-2.jpg" />
-    <img class="w3" src="./img/work/nu/nu-home-2.jpg" />
-    <img class="w4" src="./img/work/nu/nu-screens-2.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w1" src="./img/work/nu/header-2.jpg" />
+    <img classname="w3" src="./img/work/nu/nu-home-2.jpg" />
+    <img classname="w4" src="./img/work/nu/nu-screens-2.jpg" />
 </div>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w1" src="./img/work/nu/header-3.jpg" />
-    <img class="w3" src="./img/work/nu/nu-screens-3.gif" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w1" src="./img/work/nu/header-3.jpg" />
+    <img classname="w3" src="./img/work/nu/nu-screens-3.gif" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -648,18 +746,18 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
 
 <p>Check out <a href="http://mrurka.github.io/jelly-invoice-website/" target="_blank">Jelly Invoicing version 1.0</a> to download the code, or simply check out the <a href="http://mrurka.github.io/jelly-invoice/" target="_blank">Demo</a>.</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w4" src="./img/work/jelly/jelly-invoice-screen1.jpg" alt="Preview of Jelly Invoice's Index of Invoices" />
-    <img class="w4" src="./img/work/jelly/jelly-invoice-screen2.jpg" alt="Preview of Jelly Invoice Invoice Page" />
-    <img class="w4" src="./img/work/jelly/jelly-invoice-screen3.jpg" alt="Preview of Jelly Invoice Exporting an invoice" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w4" src="./img/work/jelly/jelly-invoice-screen1.jpg" alt="Preview of Jelly Invoice's Index of Invoices" />
+    <img classname="w4" src="./img/work/jelly/jelly-invoice-screen2.jpg" alt="Preview of Jelly Invoice Invoice Page" />
+    <img classname="w4" src="./img/work/jelly/jelly-invoice-screen3.jpg" alt="Preview of Jelly Invoice Exporting an invoice" />
 </div>
 
 <p>Early Artwork for Jelly:</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w4" src="./img/work/jelly/jelly-invoice-wide.jpg" alt="Promo photo for Jelly Invoice" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w4" src="./img/work/jelly/jelly-invoice-wide.jpg" alt="Promo photo for Jelly Invoice" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -688,18 +786,18 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
                 <h2 className="post-subtitle">Champion Illustration</h2>
                 <p>Pen &amp; digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and subsiquently nominated for an AACE Award (top 10). Full details here: <a href="http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&amp;year=2013&amp;clip=1" target="_blank">Applied Arts Magazine</a></p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w4" src="./img/work/winter/naive-prowess.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w4" src="./img/work/winter/naive-prowess.jpg" />
 </div>
 
 <p><i>“I virtually only ever paint and draw elephants. Naive Prowess is an exploration that meshed both design and illustration. It was a new way to utilize my drawings and incorporate my graphic design practice. The overall look and feel, and desire to expose various layers comes from my attraction to blatant brush strokes in painting. It seems more intimate and provides an additional perspective into how the piece was created.”</i></p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/winter/naive-prowess-magazine.jpg" />
-    <img class="w2" src="./img/work/winter/naive-prowess-illustrator.jpg" />
-    <img class="w2" src="./img/work/winter/naive-prowess-photoshop.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/winter/naive-prowess-magazine.jpg" />
+    <img classname="w2" src="./img/work/winter/naive-prowess-illustrator.jpg" />
+    <img classname="w2" src="./img/work/winter/naive-prowess-photoshop.jpg" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -730,13 +828,13 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
 <br /><b>Flip 2:</b> Visceral intrigue, reading <i>“Fucking long”</i>.
 <br /><b>Flip 3:</b> Eyes continue, reading <i>“Fucking long and hard”</i>. Moving onto the tagline below incites the double take, figuring out the profanity actually reads “Rurking long and hard”.</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/rurking/rurking-1.jpg" />
-    <img class="w2" src="./img/work/rurking/rurking-2.jpg" />
-    <img class="w2" src="./img/work/rurking/rurking-3.jpg" />
-    <img class="w2" src="./img/work/rurking/rurking-4.jpg" />
-    <img class="w2" src="./img/work/rurking/rurking-5.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/rurking/rurking-1.jpg" />
+    <img classname="w2" src="./img/work/rurking/rurking-2.jpg" />
+    <img classname="w2" src="./img/work/rurking/rurking-3.jpg" />
+    <img classname="w2" src="./img/work/rurking/rurking-4.jpg" />
+    <img classname="w2" src="./img/work/rurking/rurking-5.jpg" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -765,19 +863,19 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
                 <h2 className="post-subtitle">Play Projects</h2>
                 <p>Working on replacing these with actual, new work. Stay tuned.</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/red/red-angle.jpg" />
-    <img class="w2" src="./img/work/red/red-front.jpg" />
-    <img class="w2" src="./img/work/red/red-spine.jpg" />
-    <img class="w4" src="./img/work/red/red-process.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/red/red-angle.jpg" />
+    <img classname="w2" src="./img/work/red/red-front.jpg" />
+    <img classname="w2" src="./img/work/red/red-spine.jpg" />
+    <img classname="w4" src="./img/work/red/red-process.jpg" />
 </div>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/orni/orni-cover.jpg" />
-    <img class="w2" src="./img/work/orni/orni-book.jpg" />
-    <img class="w2" src="./img/work/orni/orni-spread.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/orni/orni-cover.jpg" />
+    <img classname="w2" src="./img/work/orni/orni-book.jpg" />
+    <img classname="w2" src="./img/work/orni/orni-spread.jpg" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -795,7 +893,7 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
     }
   });
 
-  var XXXepep = React.createClass({
+  var XXXep = React.createClass({
     render: function() {
       return (
         <div>
@@ -814,13 +912,13 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
   <li><b>Untitled</b> Acrylic, pencil, gesso on cold-press watercolour paper</li>
 </ul>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w2" src="./img/work/ep/ep14.jpg" />
-    <img class="w2" src="./img/work/ep/efs1.jpg" />
-    <img class="w2" src="./img/work/ep/efs3.jpg" />
-    <img class="w2" src="./img/work/ep/ep15.jpg" />
-    <img class="w2" src="./img/work/ep/ep-study.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w2" src="./img/work/ep/ep14.jpg" />
+    <img classname="w2" src="./img/work/ep/efs1.jpg" />
+    <img classname="w2" src="./img/work/ep/efs3.jpg" />
+    <img classname="w2" src="./img/work/ep/ep15.jpg" />
+    <img classname="w2" src="./img/work/ep/ep-study.jpg" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -849,11 +947,11 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
                 <h2 className="post-subtitle">Fashion Graphic</h2>
                 <p>Those are Adidas jackets. I took the photos and that is my cousin, Jenny.</p>
 
-<div class="image-container">
-    <img class="clear" src="" />
-    <img class="w4" src="./img/work/kaa/kaa-main.jpg" />
-    <img class="w1" src="./img/work/kaa/kaa-words.jpg" />
-    <img class="w3" src="./img/work/kaa/kaa-jackets.jpg" />
+<div classname="image-container">
+    <img classname="clear" src="" />
+    <img classname="w4" src="./img/work/kaa/kaa-main.jpg" />
+    <img classname="w1" src="./img/work/kaa/kaa-words.jpg" />
+    <img classname="w3" src="./img/work/kaa/kaa-jackets.jpg" />
 </div>
 
                 <div className="take-me-back-bottom-container ">
@@ -870,6 +968,313 @@ Nu Messenger is the product of a divergent evolution from Hive, which was initia
       );
     }
   });
+
+//
+// BLOG
+//
+
+  var XXXdesignlife = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">Raison d'être</h1>
+                <h2 className="post-subtitle">Why I need to become a great designer</h2>
+                <p><b>Setting:</b> 34,500 feet above ground in the great metal bird, destined for the investor flex zone capital of the world. Said playfully, of course :)</p>
+
+<p>Ian Lynam is a recent source of inspiration. I only really know him from his book “Parting It Out. Writings on Graphic Design” (thx <b>Kolton</b>). In the very least, this book makes me feel severely inadequate in the craft of graphic design, and design as a whole. <b>Fun fact:</b> Ian and I had a few email back-and-forths over a shipping complications, and got to briefly fanboy out on him a little. By the way, that damn (amazing) book <i>only</i> took 4 months to get to me &gt;.&gt;</p>
+
+<p>Anyway, as I read on, each page is met with envy. <b>Ian Lynam</b> for his writing abilities, depth, and knowledge on culture, design, and design culture. Not to mention the many great designers he covers and/or mentions in his essays.</p>
+
+<p>Fully realizing the envy, I remain unsure what to make of it. Sometimes I wonder if I want to be a great designer merely for the sake of being recognized and written about. As opposed to my popular recite: designing for the love of the craft, with a devotion to the appropriate, the beautiful and the functional.</p>
+
+<p>It’s a sobering consideration.</p>
+
+<p>Perhaps I envy these individuals so much because I know nearly nothing about them. I only know of their bullet-point gamut of achievements. I don’t know the WHY of their being. And admittedly, I rarely look into the why, and even the work itself (the reason they’re influential anyway).</p>
+
+<p><b>Best guess:</b></p>
+
+<ul>
+  <li>I’m only talking the talk; Not walking the walk. And facing it kinda hurts my precious (pathetic) ego.</li>
+</ul>
+
+                <div className="take-me-back-bottom-container ">
+                  
+                    <a className="take-me-back-bottom-button close-modal" id="-back-button">...</a>
+                  
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+
+  var XXXcontrolla = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">Controlla</h1>
+                <h2 className="post-subtitle">The Marriage of Hip-Hop and Independence</h2>
+                <p>I started listening to rap and hip-hop music religiously when I began freelancing back in November 2015. I was—and still am—devoted to the ego-jacking self-made lyrics of “Nightcrawler” “B.L.O.W.” “Low Life” “King of Everything” and the many more that bloat anyone’s self esteem to the point of immortality. Granted, I wholeheartedly admit it’s a ton of hot air. However much like meditation: If it works, it works. And it’s really no ones business.</p>
+
+<div classname="quote big">
+  <p>I'm self made, selfish with my women, self employed.</p>
+  <span classname="source">
+    Where Ya At, by Future and Drake
+  </span>
+</div>
+
+<p>Back in time before I could even code, I felt it was “cheap” to use portfolio websites (e.g Wix, Squarespace, Format). This lead me to constantly redo my website, over, and over again. From making my own mugs in pottery className, to making my own bag in fashion className: I was innately driven to be self sufficient and independent.</p>
+
+<p>Similarly, I created an internal tool for my freelance business. Jelly (my internal tool) handles accounting, invoicing, creating proposals and contracts. The idea of putting these essentials in the hands of a third party and creating an avoidable reliance, nah plz.</p>
+
+<p>I now realize it’s holistic. My current attitude towards work in general can be summarized by—the-overly-quoted-in-every-blog-of-mine—Rob Bailey &amp; The Hustle Standard.</p>
+
+<div classname="quote big">
+  <p>I always want to be in control of my fucking life ... Don't worry about money, do something cool and give a fuck about people and it's gonna turn something around.</p>
+  <span classname="source">
+    The Interlude, by Rob Bailey &amp; The Hustle Standard
+  </span>
+</div>
+
+<p>For many, including myself, this new age attitude of “fuck that, let’s just do it” is a deep well of motivation. Fueld by social media, and the idolized “started from the bottom”, like David and Goliath, you against the world, the odds against you. However these are the only stories we hear of. Never on the news is the story of the countless millions who’ve “failed”. Whatever that even means. Especially outlined in this TED talk <a href="https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success?language=en" target="_blank">A kinder, gentler philosophy of success</a> by Alain de Bottom,</p>
+
+                <div className="take-me-back-bottom-container ">
+                  
+                    <a className="take-me-back-bottom-button close-modal" id="-back-button">I feel you. Take me back.</a>
+                  
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+
+  var XXXasiaxxx = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">AW01</h1>
+                <h2 className="post-subtitle">The Marriage of Hip-Hop and Independence</h2>
+                
+
+                <div className="take-me-back-bottom-container ">
+                  
+                    <a className="take-me-back-bottom-button close-modal" id="-back-button">I feel you. Take me back.</a>
+                  
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+
+  var XXXsanfran = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">Valley</h1>
+                <h2 className="post-subtitle">From Second Cup to San Francisco</h2>
+                <p>Post tequila with our new Swiss friend, Kolton “From Second Cup to San Francisco”. In other words: “Started from the bottom now we’re here”. Two young and naive best friends from Fredericton, starting out. Onto chilling in San Francisco for both business and pleasure. We met 2 years ago in a Second Cup (Cafe) during a province-wide power outage. Fueled by <a href="https://vimeo.com/141549468" target="_blank">Jumpman</a>, late night <a href="http://pomodorotechnique.com/" target="_blank">poms</a>, and our shared drive for progression, he’s been my main bro since. Among my favourite memories with Kolton is helping him rock out a dashboard for a <a href="http://www.cbc.ca/dragonsden/pitches/simptek-technologies" target="_blank">Dragon’s Den appearance</a>. We designed and coded till the 9AM sunrise (from the night before).</p>
+
+<div classname="quote big">
+  <p>We have no idea what we're doing, but we're fucking doing it.</p>
+  <span classname="source">Rob Bailey and the Hustle Standard</span>
+</div>
+
+<p>In the great white tube 37,000 feet above ground, looking back thinking “I have no idea what I’m doing”, wondering how I ever got here. It isn’t unimaginable or even far reaching, but it is pretty damn cool, and I’m very thankful.</p>
+
+<p>The 2 week séjour in SF was much like my time in Seoul. However this time, I worked. And worked damn well. As mentioned elsewhere, I worked with X company for about 6 months before finally meeting up with them. And my gosh, how cool it is. The office, the people. The close communication was a nice change from the usual shit-wifi-espresso-machine video calls.</p>
+
+<p>In the heart of the Financial District, surrounded by a litany of strip clubs, I stayed at the Green Tortoise Hostel. Breakfast daily, events nightly. The hostel was — for playful grace — lit af. Beer Olympics couldn’t have been more fun! Both internationals (via local hostels) and locals (via meetup groups) in attendance. Randomly got paired up with Ofo and we killed it. Losing only to Team Japan.</p>
+
+<div classname="quote big">
+  <p>マジかよ?!</p>
+  <span classname="source">Says me, after meeting the wonderful Yukaru.</span>
+</div>
+
+<p>Went to a meetup hosted by “SF Critical Design and Speculative Futures”. <a href="https://www.ideo.com/people/scott-paterson" target="_blank">Scott Patterson</a> from IDEO was the guest speaker. And predictably, it was no less than awesome! Felt fuzzy warm being surrounded by so many designers. Probably the result of the remote life. Gotta say though, I was baffled when no one raised their hands when asked “Who has been to our previous meetups?”. Literally no one! In a room of 30-40 people! Mostly designers (if not all)! And to top it off: many people were on their phones during the talk. “マジかよ?, seriously”.</p>
+
+<p>As for “The City” (slogan for the San Francisco Warriors), San Francisco felt a lot smaller than anticipated. It’s hardly dense, with not many tall buildings not sky scrapers. Found it comparable to Montreal in a few ways: A touch of Europe infused with in-city nature, but much larger with palm trees and a very visible poverty level.</p>
+
+<p>I like it.</p>
+
+<p>Let’s go back?</p>
+
+<p>Yeah, please.</p>
+
+<p>What did you get out of it, really?</p>
+
+<p>Aside from an intense fluctuation of anxiety, happiness, depression, and excitement; The friends I made was the best part. Irish, Switzerland, Ofo, Yuka, Mari, Chill UK Military bros, Pixar Girl, My Holland brothers, Belgium, Michel from Philly, The Singer Guy. Team Yager Bawls. My butt grabbed only twice in the Castro clubs. And dude, Japantown underground. So hush. So lit. So illegal.</p>
+
+<p>Lest we forget,</p>
+
+<p>-mr</p>
+
+                <div className="take-me-back-bottom-container ">
+                  
+                    <a className="take-me-back-bottom-button close-modal" id="-back-button">マジかよ?! Take me back.</a>
+                  
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+
+  var XXXembody = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">Embody Design (Part 1)</h1>
+                <h2 className="post-subtitle">My Obsession from Kung Fu to Design</h2>
+                <p>You’ll hear me say, “Design is my life”. I like to fantasize this is my calling. Though, I can’t reasonably believe this given my serendipitous involvement in design.</p>
+
+<p>Long story (not so) short: Upon graduating high school, I spent few months in Montreal (hardly) working and (obsessively) practicing Kung Fu. August swings around and mum suggests I try the New Brunswick College of Craft and Design (NBCCD). A small technical college in my <a href="https://en.wikipedia.org/wiki/Fredericton" target="_blank">hometown</a>. Luckily for mum, one of my life goals was becoming a better artist. So I very casually said “sure”. The idea of a profession in the arts, or related, was nonexistent.</p>
+
+<p><b>Year 1</b>, didn’t take it very seriously. The Foundation Visual Arts Certificate Program (1 year). I hated writing papers, enjoyed drawing. Most importantly, this is where I discovered in fact there are professions in art, craft and design.</p>
+
+<p><b>Year 2</b> comes around and I chose the Graphic Design Diploma Program (2 years). My decision was based on two things: I liked drawing and (I thought) it had better job placement than the alternatives (sorry potters). Some very trivial reasoning.</p>
+
+<p>I had a talent for graphic design. I excelled and enjoyed feeling above my class. So I tried even harder and kept things serious (sometimes too serious). As opposed to my foundation year marks (C-B-A range), I made only A’s since. Not to boast; Just a fact that contributed to my young ego, and in turn, where I am today.</p>
+
+<p><b>Year 3</b> was basically a continuation of year 2, but with an added drive to create effective (not only sexy) work. My ego was even more on high (justifiably, I was a kid). Naive enough to graduate thinking I could freelance my way to the top! The spirit of entrepreneurship and/or simply running my own ship never ceased to interest me. The young and naive fantasy of being self employed.</p>
+
+<p><b>Year 4</b> I worked at a local agency, designing and building WordPress websites for 8 months before breaking down crying in front of my boss unexpectedly. Caused by months of dissatisfaction with my work and the reason I did the work. Soon after, confessing I’d been doing freelance work with the company laptop. And soon after that, I write my letter of resignation. Above all, forever will I appreciate everything they’ve done for me.</p>
+
+<p>I then go work “part/full-time” for a local startup (who I’ve for/with since summer of Year 2). Fast forward 2 months: that doesn’t work out. Distraught, I jump on a train bound for Toronto to visit my beloved. I made a weekend stop in Ottawa for a Startup Weekend. I met Adrian Seeley who later leads me to a full-time startup gig in Montreal, Hive (a.k.a. Nu Messenger). They’d been accepted into <a href="http://founderfuel.com/en/" target="_blank">FounderFuel (renown Canadian startup incubator)</a>.</p>
+
+<p><b>Year 5</b> begins with the failure of Hive. I immediately get picked up by <a href="https://www.selectivefew.com/" target="_blank">Selective Few</a> (also hailing from <a href="http://founderfuel.com/en/" target="_blank">FounderFuel</a>). Full-time, nice office, good salary and I worked with some amazing boys (I mean this endearingly). Fast forward 7 months: I put in my notice, the company folds a day later, my girlfriend and I break up, and I’m on a flight to Asia for 6 weeks to seek out design enlightenment.</p>
+
+<p>A few months leading up to my notice, I grew dissatisfied with my work, and reason I was doing the work. Sound familiar? The similar sentiment I had while working at the agency (you know, where I broke bawling). The tipping point (<a href="http://rurkadesign.com/blog/blog/2016/01/31/two-designers.html">briefly mentioned in my previous post</a>) was a talk by Mike Monteiro titled “<a href="https://www.youtube.com/watch?v=J0ucEt-La9w" target="_blank">How Designers Destroyed the World</a>. The rush so visceral, like concrete in my stomach, I had to sit down and take a walk. My deepest self overtook by this emotional epiphany. I then knew what I had to do.</p>
+
+<p>Part 2, later. My design enlightenment.</p>
+
+                <div className="take-me-back-bottom-container ">
+                  
+                    <a className="take-me-back-bottom-button close-modal" id="-back-button">Dude, where is Part_2? Take me back.</a>
+                  
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+
+  var XXXtwo = React.createClass({
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">Two Designers</h1>
+                <h2 className="post-subtitle">To be (or not to be) altruistic in the profession of design</h2>
+                <p>Listening to Mike Monteiro was an eye opener for my back in fall 2015.</p>
+
+<p>His talk titled “<a href="https://www.youtube.com/watch?v=J0ucEt-La9w" target="_blank">How Designers Destroyed The World</a>” was the catalyst to the realization I had to leave my wonderful job and seek the moral high ground of deliberate, ethical design. A whirlwind of emotions to say the least. A story for later.</p>
+
+<p>It’s fair to say there’s an objective difference in nobility between a designer who cares solely of income and/or personal gain in their practice, and a designer who cares solely of humanity in their practice. Granted, it’s a shallow comparison but nonetheless illustrates my point to come.</p>
+
+<p>First off, this (skewed) comparison occurs largely in part by the widespread democratization of design products, knowledge and the growth of demand for design in the commercial space. A likely contributer being the growing necessity for businesses to be online-relevant in a continual and ever evolving tech space.</p>
+
+<p><b>The point of all this</b><br />
+I started out practicing Graphic Design in college. Hailing from zero without even an awareness of design: I drove to create sexy work. I think everyone begins this way (especially in graphic design?). However not too long after, effectiveness became part of the equation and quickly became more important than aesthetics. I created work for myself, my portfolio and my ego.</p>
+
+<p>Two years later, I discover truly the altruistic philosophy of design. Or dare I say: the true meaning of design. And so, this quickly consumed me and this is where I am today. Between two camps:</p>
+
+<ul>
+  <li><b>First</b> / The aesthetic, artistic, superficial and the ego.</li>
+  <li><b>Second</b> / The effectiveness, objective value, and the human centric value of design, with considerations of environment, present and future.</li>
+</ul>
+
+<p>Every great designer has this internal conversation with themselves. And coincidentally, a few days after beginning this post, I read the following in the final pages of The Design of Every Day Things, by Don Norman. He inadvertently touches on this aspect of difference:</p>
+
+<p classname="quote long">
+“That design affects society is hardly news to designers. Many take the implications of their work seriously. But the conscious manipulation of society has severe drawbacks, not the least of which is the facet that not everyone agrees on the appropriate goals. Design, therefor takes on political significance; indeed, design philosophies vary in important ways across political systems. In Western cultures, design has reflected the capitalistic importance of the marketplace, with an emphasis on exterior features deemed to be attractive to the purchaser. In the consumer economy, taste is not the criterion in the marketing of expensive foods, or drinks, usability is not eh primary criterion in the marketing of home and office appliances. We are surrounded with objects of desire, not objects of use.
+<span classname="source"><a href="http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654/ref=pd_bxgy_14_img_2?ie=UTF8&amp;refRID=02CXE7KMC5989M5GSQNM" target="_blank">The Design of Everyday Things: Revised and Expanded Edition, by Don Norman</a> - It's an Amazon link. Go buy it.</span>
+</p>
+
+<p>As design culture and design awareness grows (AND assuming the language doesn’t change before the will), there will be a universal awareness concerning the differences between a “designer” and a designer. The latter will be those who uphold the craft ethically, solving problems. The former will be anything else. Today, it’s understandably easy to lump these two designers together. Though, within (and peripheral) in the community, it isn’t difficult to point out how and where true design can have an impact.</p>
+
+<p>True of the world of design for large scale because such endeavours can take up to a few years to complete. Often enough, future repercussions are seldom considered (or unknown) and only discovered when they occur. Worst of all, things often only get fixed when things go wrong. For example, in very recent news: the <b>Flint water crisis.</b></p>
+
+<p classname="quote long">
+The Flint water crisis is a drinking water contamination crisis in Flint Michigan, United States, that <b>started in April 2014</b>. After Flint changed its water source from treated Detroit Water and Sewerage Department water (which was sourced from Lake Huron as well as the Detroit River) to the Flint River, its drinking water had a series of problems that culminated with lead contamination, creating a serious public health danger. <b>The corrosive Flint River water caused lead from aging pipes to leach into the water supply, causing extremely elevated levels of lead</b>. In Flint, between 6,000 and 12,000 children have severely high levels of lead in the blood and experienced a range of serious health problems. The water change is also a possible cause of an outbreak of Legionnaires' disease in the county that has killed 10 people and affected another 77.<span classname="source"><a href="https://en.wikipedia.org/wiki/Flint_water_crisis" target="_blank">Wikipedia / Flint water crisis</a></span>
+</p>
+
+<p>Large scale design is like a firing range in a populated area. In this case however, it takes months or years to pull the trigger. The bullet also travels months or years before reaching its target (if it even does). And missing the target means the bullet travels months or years, likely either in the way of people or environment. Environment usually takes the bullet (it can’t sue you directly). Gun analogies seem appropriate here because they’re relatively dangerous and potentially lethal. And so is design, in many ways.</p>
+
+<p>Give a gun to an experienced marksman (designer), and he or she will much better anticipate the outcome given the knowledge and experience of the gun, distance, ammunition type, wind speed, and concerning very long distances: the <b>Coriolis force.</b></p>
+
+<p classname="quote long">
+Because of the rotation of the Earth, a bullet does not fly straight from the barrel to a target. The Coriolis effect minutely changes the trajectory of a bullet, curving the path of the projectile into a more arched 'semi-circle' shape. This effect only affects accuracy at extremely long distances and is therefore adjusted for by accurate long-distance shooters, such as snipers and other trained professionals. <span classname="source"><a href="https://en.wikipedia.org/wiki/Coriolis_force" target="_blank">Wikipedia / Coriolis force / Bullets at high velocity through the atmosphere</a></span>
+</p>
+
+<p>That Coriolis bit was irrelevant, I know. But it’s interesting.</p>
+
+<p>To close and reiterate: These are two very real camps in the world of design, and the comparison is fundamentally incorrect (although it’s right). These are easily mixed because they both interact with the same people, tools and environments. What’s important is recognizing that giving the gun to the inexperienced or relatively careless designer can be – and truthfully is – very dangerous.</p>
+
+<p>So, if I may (and forgive me for the quotes), give the gun to the <b>designer</b>, not the <b>“designer”</b>.</p>
+
+<p>With love,</p>
+
+<ul>
+  <li>Michael Rurka</li>
+</ul>
+
+                <div className="take-me-back-bottom-container ">
+                  
+                    <a className="take-me-back-bottom-button close-modal" id="-back-button">Obviously. Take me back.</a>
+                  
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+        </div>
+      );
+    }
+  });
+
+//
+// ASIA 2016
+//
 
 
 //=======================================//
@@ -960,7 +1365,7 @@ ReactDOM.render(
         
           <Route path="/kraken" component={ XXXkraken }/>
         
-          <Route path="/selective" component={ XXXselective }/>
+          <Route path="/selective_few" component={ XXXselective_few }/>
         
           <Route path="/numsg" component={ XXXnumsg }/>
         
@@ -972,12 +1377,25 @@ ReactDOM.render(
         
           <Route path="/print" component={ XXXprint }/>
         
-          <Route path="/epep" component={ XXXepep }/>
+          <Route path="/ep" component={ XXXep }/>
         
           <Route path="/kaa" component={ XXXkaa }/>
         
       <Route path="about" component={About}/>
       <Route path="blog" component={Blog}/>
+        
+          <Route path="/designlife" component={ XXXdesignlife }/>
+        
+          <Route path="/controlla" component={ XXXcontrolla }/>
+        
+          <Route path="/asiaxxx" component={ XXXasiaxxx }/>
+        
+          <Route path="/sanfran" component={ XXXsanfran }/>
+        
+          <Route path="/embody" component={ XXXembody }/>
+        
+          <Route path="/two" component={ XXXtwo }/>
+        
       <Route path="asia" component={Asia}/>
     </Route>
   </Router>,

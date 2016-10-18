@@ -5,6 +5,7 @@ subtitle: "Why I need to become a great designer"
 date:   2016-07-03
 categories: blog
 take-me-back-text: [...]
+path: designlife
 ---
 
 <b>Setting:</b> 34,500 feet above ground in the great metal bird, destined for the investor flex zone capital of the world. Said playfully, of course :)
