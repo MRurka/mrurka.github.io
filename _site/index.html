@@ -28,7 +28,7 @@
   <script src="/js/react-dom.js"></script>
   <script src="/js/browser.min.js"></script>
   <script src="/js/ReactRouter.min.js"></script>
-  <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700' rel='stylesheet' type='text/css'> -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700' rel='stylesheet' type='text/css'>
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -110,23 +110,32 @@ var Work = React.createClass({
     //
     // Load hover background images
     
-      var backgroundImage_10ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kraken.jpg)' };
+      var backgroundImageDesktop_10ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kraken.jpg)' };
+      var backgroundImageMobile_10ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-kraken.jpg)' };
     
-      var backgroundImage_7ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-sf.jpg)' };
+      var backgroundImageDesktop_7ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-sf.jpg)' };
+      var backgroundImageMobile_7ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-sf.jpg)' };
     
-      var backgroundImage_8ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-nu.gif)' };
+      var backgroundImageDesktop_8ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-nu.gif)' };
+      var backgroundImageMobile_8ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-nu.gif)' };
     
-      var backgroundImage_9ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-jelly.jpg)' };
+      var backgroundImageDesktop_9ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-jelly.jpg)' };
+      var backgroundImageMobile_9ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-jelly.jpg)' };
     
-      var backgroundImage_1ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-naive-prowess.jpg)' };
+      var backgroundImageDesktop_1ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-naive-prowess.jpg)' };
+      var backgroundImageMobile_1ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-naive-prowess.jpg)' };
     
-      var backgroundImage_2ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-rurking.jpg)' };
+      var backgroundImageDesktop_2ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-rurking.jpg)' };
+      var backgroundImageMobile_2ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-rurking.jpg)' };
     
-      var backgroundImage_3ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-red.jpg)' };
+      var backgroundImageDesktop_3ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-red.jpg)' };
+      var backgroundImageMobile_3ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-red.jpg)' };
     
-      var backgroundImage_6ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-ep.jpg)' };
+      var backgroundImageDesktop_6ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-ep.jpg)' };
+      var backgroundImageMobile_6ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-ep.jpg)' };
     
-      var backgroundImage_5ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kaa.jpg)' };
+      var backgroundImageDesktop_5ru = { backgroundImage: 'url(img/work/backgrounds/desktop/background-kaa.jpg)' };
+      var backgroundImageMobile_5ru = { backgroundImage: 'url(img/work/backgrounds/phone/background-kaa.jpg)' };
     
     //
     // Background Switches
@@ -201,77 +210,77 @@ var Work = React.createClass({
         
 <section id="work-section" className="work site-section-content page-template-grid">
   
-    <div id="10ru" className="item-background" style={ backgroundImage_10ru }></div>
+    <div id="10ru" className="item-background" style={ backgroundImageDesktop_10ru }></div>
   
-    <div id="7ru" className="item-background" style={ backgroundImage_7ru }></div>
+    <div id="7ru" className="item-background" style={ backgroundImageDesktop_7ru }></div>
   
-    <div id="8ru" className="item-background" style={ backgroundImage_8ru }></div>
+    <div id="8ru" className="item-background" style={ backgroundImageDesktop_8ru }></div>
   
-    <div id="9ru" className="item-background" style={ backgroundImage_9ru }></div>
+    <div id="9ru" className="item-background" style={ backgroundImageDesktop_9ru }></div>
   
-    <div id="1ru" className="item-background" style={ backgroundImage_1ru }></div>
+    <div id="1ru" className="item-background" style={ backgroundImageDesktop_1ru }></div>
   
-    <div id="2ru" className="item-background" style={ backgroundImage_2ru }></div>
+    <div id="2ru" className="item-background" style={ backgroundImageDesktop_2ru }></div>
   
-    <div id="3ru" className="item-background" style={ backgroundImage_3ru }></div>
+    <div id="3ru" className="item-background" style={ backgroundImageDesktop_3ru }></div>
   
-    <div id="6ru" className="item-background" style={ backgroundImage_6ru }></div>
+    <div id="6ru" className="item-background" style={ backgroundImageDesktop_6ru }></div>
   
-    <div id="5ru" className="item-background" style={ backgroundImage_5ru }></div>
+    <div id="5ru" className="item-background" style={ backgroundImageDesktop_5ru }></div>
   
   <div className="container">
     <div className="items">
       
         <div id="10ru" className="item">
-          <Link to="/kraken">
+          <Link to="/kraken" style={ backgroundImageMobile_10ru }>
             <h1 className="title light">Kraken International</h1>
           </Link>
         </div>
       
         <div id="7ru" className="item">
-          <Link to="/selective_few">
+          <Link to="/selective_few" style={ backgroundImageMobile_7ru }>
             <h1 className="title light">Selective Few</h1>
           </Link>
         </div>
       
         <div id="8ru" className="item">
-          <Link to="/numsg">
+          <Link to="/numsg" style={ backgroundImageMobile_8ru }>
             <h1 className="title light">Nu Messenger</h1>
           </Link>
         </div>
       
         <div id="9ru" className="item">
-          <Link to="/jelly">
+          <Link to="/jelly" style={ backgroundImageMobile_9ru }>
             <h1 className="title light">Jelly Invoice V1</h1>
           </Link>
         </div>
       
         <div id="1ru" className="item">
-          <Link to="/winter">
+          <Link to="/winter" style={ backgroundImageMobile_1ru }>
             <h1 className="title dark">Naive Prowess</h1>
           </Link>
         </div>
       
         <div id="2ru" className="item">
-          <Link to="/rurking">
+          <Link to="/rurking" style={ backgroundImageMobile_2ru }>
             <h1 className="title light">Rurking Hard</h1>
           </Link>
         </div>
       
         <div id="3ru" className="item">
-          <Link to="/print">
+          <Link to="/print" style={ backgroundImageMobile_3ru }>
             <h1 className="title light">Print Design</h1>
           </Link>
         </div>
       
         <div id="6ru" className="item">
-          <Link to="/ep">
+          <Link to="/ep" style={ backgroundImageMobile_6ru }>
             <h1 className="title light">EP</h1>
           </Link>
         </div>
       
         <div id="5ru" className="item">
-          <Link to="/kaa">
+          <Link to="/kaa" style={ backgroundImageMobile_5ru }>
             <h1 className="title dark">KAA</h1>
           </Link>
         </div>
@@ -1335,7 +1344,7 @@ var App = React.createClass({
                 <span>Asia 2016</span>
                 <svg width="97px" height="22px" viewBox="0 0 97 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <g stroke="none" strokeWidth="1" fillRule="evenodd">
-                    <g transform="translate(-1209.000000, -201.000000)" fill="#44434A">
+                    <g transform="translate(-1209.000000, -201.000000)">
                       <g transform="translate(1195.000000, 54.000000)">
                         <path d="M33.532,152.2 C31.374,155.008 29.216,157.296 27.058,159.09 L25.368,156.932 C27.032,155.606 28.514,154.15 29.658,152.538 L14.032,152.538 L14.032,150.042 L31.738,150.042 L33.532,152.2 Z M23.756,157.348 C23.756,162.418 21.286,166.188 16.216,168.658 L14.604,166.422 C18.998,164.394 21.208,161.378 21.208,157.348 L21.208,154.566 L23.756,154.566 L23.756,157.348 Z M44.322,153.552 C42.632,152.356 40.786,151.368 38.784,150.588 L40.318,148.69 C42.32,149.496 44.192,150.406 45.856,151.576 L44.322,153.552 Z M41.722,159.272 C40.266,158.102 38.498,157.088 36.366,156.152 L37.848,154.28 C39.876,155.06 41.696,156.048 43.204,157.244 L41.722,159.272 Z M55.684,158.154 C50.926,163.51 45.206,166.942 38.524,168.372 L37.146,165.902 C43.698,164.628 49.444,161.3 54.384,155.918 L55.684,158.154 Z M52.564,153.604 C52.122,152.668 51.576,151.706 50.874,150.718 L52.564,149.912 C53.266,150.822 53.89,151.758 54.358,152.72 L52.564,153.604 Z M55.528,152.538 C55.112,151.654 54.488,150.744 53.734,149.756 L55.424,148.976 C56.204,149.964 56.776,150.9 57.218,151.758 L55.528,152.538 Z M78.512,152.2 C76.354,155.008 74.196,157.296 72.038,159.09 L70.348,156.932 C72.012,155.606 73.494,154.15 74.638,152.538 L59.012,152.538 L59.012,150.042 L76.718,150.042 L78.512,152.2 Z M68.736,157.348 C68.736,162.418 66.266,166.188 61.196,168.658 L59.584,166.422 C63.978,164.394 66.188,161.378 66.188,157.348 L66.188,154.566 L68.736,154.566 L68.736,157.348 Z M80.852,150.9 L82.438,150.9 C82.412,151.888 81.71,152.876 80.852,153.084 L80.852,154.722 C82.984,154.332 84.284,152.512 84.284,150.146 L84.284,147.598 L80.852,147.598 L80.852,150.9 Z M90.134,167.072 L92.838,167.072 L92.838,149.184 L91.408,149.184 L87.014,151.16 L87.014,152.746 L90.134,152.07 L90.134,167.072 Z M104.542,167.28 C108.338,167.28 110.47,164.654 110.47,161.274 C110.47,157.92 108.182,155.944 105.192,155.944 C103.294,155.944 101.864,156.776 100.954,157.634 C101.188,152.72 102.904,151.316 105.686,151.316 C106.882,151.316 108.364,151.732 109.014,152.096 L109.638,150.12 C108.91,149.678 107.272,149.08 105.53,149.08 C101.344,149.08 98.25,151.654 98.25,158.128 L98.25,159.428 C98.25,164.342 100.408,167.28 104.542,167.28 L104.542,167.28 Z M104.49,165.2 C101.968,165.2 100.954,163.224 100.954,160.104 L100.954,159.948 C101.63,159.012 103.008,157.998 104.464,157.998 C106.414,157.998 107.792,158.96 107.792,161.508 C107.792,163.822 106.544,165.2 104.49,165.2 L104.49,165.2 Z"></path>
                       </g>
