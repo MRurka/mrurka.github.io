@@ -41,7 +41,8 @@ nav {
             fill: $c-salmon;
           }
         }
-        &:hover {
+        &:hover, &:focus, &:active {
+          outline: none;
           svg {
             fill: $c-salmon-dark;
           }
