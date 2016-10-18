@@ -9,33 +9,6 @@
 </section>
 
 <script>
-  //===============================//
-  //====== Page Transitions =======//
-  //===============================//
-  $( document ).ready(function() {
-
-    // Hide landing content
-    $("nav ul li a").click(function(){
-      $(".landing").fadeOut(500);
-    });
-
-    // If Mobile, hide the nav and show the "Back"
-    $(".work.content .item a, .blog.content .item a").click(function(){
-      $("nav").addClass("modal-open");
-    });
-
-    // Bring back the content and nav once you click "Back"
-    $("nav a.close-modal").click(function(){
-      $("nav").removeClass("modal-open");
-    });
-
-    // Hide Modal
-    $("nav a").click(function(){
-      $(".modal-content").fadeOut(1);
-      $(".modal-backdrop").fadeOut(1);
-    });
-
-  });
 
   //====================================//
   //==== Google Analytics Sections =====//
