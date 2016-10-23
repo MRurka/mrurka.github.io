@@ -11,27 +11,11 @@ $c-black              : #44434A;
 $c-salmon             : #FF9595;
 $c-salmon-dark        : #FA8283;
 
-// $scotch-colors: (
-//   'primary': #8e3329,
-//   'accent': #d98328,
-//   'secondary': #5a1321,
-//   'foreground': #191919,
-//   'background': #e9e9e9
-// );
-//
-// @function scotch-color($key: 'primary') {
-//   @return map-get($scotch-colors, $key);
-// }
-//
-// $button-color: scotch-color('primary');
-//
-// $color-primary-tinted: mix(white, $color-primary, 10%); // #99473e
-// $color-primary-shaded: mix(black, $color-primary, 10%); // #7f2d24
 
 //===========================//
 //========= LAYOUT ==========//
 //===========================//
-$number-of-sections   : 4;
+$number-of-sections   : 3;
 
 
 //=================================//

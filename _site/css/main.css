@@ -738,6 +738,9 @@ button {
   border: none;
   box-shadow: none; }
 
+.none {
+  display: none !important; }
+
 html, body {
   font-family: 'Source Sans Pro', sans-serif; }
 
@@ -816,14 +819,14 @@ nav {
         bottom: 4rem;
         left: 0; } }
     nav ul li {
-      width: calc(100% / 4);
+      width: calc(100% / 3);
       display: inline;
       text-align: center;
       float: left;
       padding: 0; }
       @media (max-width: 768px) {
         nav ul li {
-          height: calc(100% / 4);
+          height: calc(100% / 3);
           width: 100%;
           float: none;
           display: block;
@@ -1028,19 +1031,20 @@ body.loaded .landing h1.landing-text {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 1 !important; } }
+        opacity: 1 !important;
+        font-size: 1.2em; } }
     .page-template-grid .items .item a h1.title {
       color: #333;
       font-weight: 600; }
       @media (max-width: 768px) {
-        .page-template-grid .items .item a h1.title {
+        .page-template-grid .items .item a h1.title.dark, .page-template-grid .items .item a h1.title.light {
           display: none; } }
     .page-template-grid .items .item a h2.subtitle {
       margin-top: 0.5rem;
       line-height: 1.3em;
       display: inline-block; }
       @media (max-width: 768px) {
-        .page-template-grid .items .item a h2.subtitle {
+        .page-template-grid .items .item a h2.subtitle.dark, .page-template-grid .items .item a h2.subtitle.light {
           display: none; } }
     .page-template-grid .items .item a span.timestamp {
       display: block;
@@ -1169,7 +1173,7 @@ body.loaded .landing h1.landing-text {
   margin: 0 auto 1.5em auto;
   line-height: 1.7em;
   max-width: 700px;
-  color: #6B7880; }
+  color: #676682; }
   @media (max-width: 420px) {
     .modal-content p, .modal-content ul {
       font-size: 1.2em; } }

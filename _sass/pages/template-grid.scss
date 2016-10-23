@@ -48,20 +48,25 @@
           background-repeat: no-repeat;
           background-size: cover;
           opacity: 1 !important;
+          font-size: 1.2em;
         }
         h1.title {
           color:#333;
           font-weight: 600;
-          @include max-xs {
-            display: none;
+          &.dark, &.light {
+            @include max-xs {
+              display: none;
+            }
           }
         }
         h2.subtitle {
           margin-top: 0.5rem;
           line-height: 1.3em;
           display: inline-block;
-          @include max-xs {
-            display: none;
+          &.dark, &.light {
+            @include max-xs {
+              display: none;
+            }
           }
         }
         span.timestamp {
