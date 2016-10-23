@@ -1,0 +1,48 @@
+
+.page-template-bio {
+  @include max-xs {
+    padding: 10em 0 3em 0;
+  }
+  @include max-xxs {
+    padding: 23vh 0 3em 0;
+  }
+  .container {
+    @include max-xs {
+      padding:0 5vw
+    }
+  }
+  p {
+    font-size: 1.8rem;
+    line-height: 1.7em;
+    color: #454056;
+    margin: 0 auto 2rem auto;
+    @include max-xxs {
+      font-size: 1.26em;
+      padding:0;
+      line-height: 1.4em;
+    }
+    a {
+      color:$c-salmon;
+      display: inline-block;
+      @include xs {
+        span {
+          transition: all 4s ease;
+          display: inline-block;
+        }
+        &:hover {
+          span {
+            &:nth-child(odd) {
+              transform:translateY(-.05em);
+            }
+            &:nth-child(even) {
+              transform:translateY(.05em);
+            }
+          }
+        }
+      }
+    }
+    b {
+      font-weight: 700;
+    }
+  }
+}

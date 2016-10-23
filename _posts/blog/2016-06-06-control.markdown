@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Controlla"
+subtitle: "The Marriage of Hip-Hop and Independence"
+date:   2016-06-06
+categories: 
+take-me-back-text: I feel you. Take me back.
+path: Controlla
+---
+
+I started listening to rap and hip-hop music religiously when I began freelancing back in November 2015. I was&#151;and still am&#151;devoted to the ego-jacking self-made lyrics of "Nightcrawler" "B.L.O.W." "Low Life" "King of Everything" and the many more that bloat anyone's self esteem to the point of immortality. Granted, I wholeheartedly admit it's a ton of hot air. However much like meditation: If it works, it works. And it's really no ones business.
+
+<div className="quote big">
+  <p>I'm self made, selfish with my women, self employed.</p>
+  <span className="source">
+    Where Ya At, by Future and Drake
+  </span>
+</div>
+
+Back in time before I could even code, I felt it was "cheap" to use portfolio websites (e.g Wix, Squarespace, Format). This lead me to constantly redo my website, over, and over again. From making my own mugs in pottery className, to making my own bag in fashion className: I was innately driven to be self sufficient and independent.
+
+Similarly, I created an internal tool for my freelance business. Jelly (my internal tool) handles accounting, invoicing, creating proposals and contracts. The idea of putting these essentials in the hands of a third party and creating an avoidable reliance, nah plz.
+
+I now realize it's holistic. My current attitude towards work in general can be summarized by&#151;the-overly-quoted-in-every-blog-of-mine&#151;Rob Bailey & The Hustle Standard.
+
+<div className="quote big">
+  <p>I always want to be in control of my fucking life ... Don't worry about money, do something cool and give a fuck about people and it's gonna turn something around.</p>
+  <span className="source">
+    The Interlude, by Rob Bailey & The Hustle Standard
+  </span>
+</div>
+
+For many, including myself, this new age attitude of "fuck that, let's just do it" is a deep well of motivation. Fueld by social media, and the idolized "started from the bottom", like David and Goliath, you against the world, the odds against you. However these are the only stories we hear of. Never on the news is the story of the countless millions who've "failed". Whatever that even means. Especially outlined in this TED talk <a href="https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success?language=en" target="_blank">A kinder, gentler philosophy of success</a> by Alain de Bottom,

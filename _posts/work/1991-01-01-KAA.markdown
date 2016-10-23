@@ -1,0 +1,26 @@
+---
+
+layout: post
+date:   2015-01-10 21:35:54
+categories: portfolio
+port-id: 5ru
+text-dark-light: dark
+
+title: KAA
+subtitle: Fashion Graphic
+take-me-back-text: I speak Russian. Take me back.
+
+img-background: background-kaa.jpg
+
+path: KAA
+
+---
+
+Those are Adidas jackets. I took the photos and that is my cousin, Jenny.
+
+<div className="image-container">
+    <img className="clear" src=""/>
+    <img className="w4" src="./img/work/kaa/kaa-main.jpg"/>
+    <img className="w1" src="./img/work/kaa/kaa-words.jpg"/>
+    <img className="w3" src="./img/work/kaa/kaa-jackets.jpg"/>
+</div>
