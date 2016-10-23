@@ -309,6 +309,18 @@ var Asia = React.createClass({
 //=======================================//
 
 var App = React.createClass({
+  componentDidMount: function() {
+    //
+    // Mobile - Show Nav on button click
+    $( ".site-nav-mobile-button" ).click(function() {
+      $( "nav" ).fadeToggle(500);
+    });
+    if ($(window).width() < 769) {
+      $( "nav a" ).click(function() {
+        $( "nav" ).fadeOut(500);
+      });
+    }
+  },
   render: function() {
     return (
       <div className="site-container">

@@ -1,8 +1,7 @@
 
 .page-template-grid {
   @include max-xs {
-    padding-top: 8em;
-    background: #02263e;
+    padding-top: 23vh;
   }
   .item-background {
     background:$c-salmon;
@@ -62,6 +61,7 @@
               opacity: .6;
               padding: 0.5em;
               display: inline-block;
+              display: none; // ========================== //
             }
             &.dark {
               color:#333;
@@ -69,6 +69,7 @@
               opacity: .6;
               padding: 0.5em;
               display: inline-block;
+              display: none; // ========================== //
             }
           }
         }
@@ -83,7 +84,7 @@
               opacity: .6;
               padding: 0.5em;
               display: inline-block;
-              display: none;
+              display: none; // ========================== //
             }
           }
           &.dark {
@@ -93,7 +94,7 @@
               opacity: .6;
               padding: 0.5em;
               display: inline-block;
-              display: none;
+              display: none; // ========================== //
             }
           }
         }

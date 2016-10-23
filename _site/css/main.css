@@ -54,7 +54,7 @@ body {
   #jpreLoader {
     width: 250px;
     height: 250px;
-    top: calc(50% - 125px) !important;
+    top: calc(50% - 109px) !important;
     left: calc(50% - 125px) !important;
     transform: rotate(270deg); }
 
@@ -732,6 +732,12 @@ a {
   text-decoration: none;
   color: #44434A; }
 
+button {
+  background: none;
+  background-color: none;
+  border: none;
+  box-shadow: none; }
+
 html, body {
   font-family: 'Source Sans Pro', sans-serif; }
 
@@ -759,7 +765,12 @@ section.content {
   -webkit-animation-fill-mode: forwards;
   animation-name: website-section-fadein;
   animation-duration: 1s;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 @-ms-keyframes website-section-fadein {
   0% {
@@ -778,25 +789,30 @@ section.content {
     opacity: 1; } }
 @media (max-width: 768px) {
   .site-nav-container {
-    position: fixed; } }
+    position: fixed;
+    z-index: 4; } }
 
 nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999; }
+  z-index: 1; }
   @media (max-width: 768px) {
     nav {
       bottom: 0;
       right: 0;
-      background: rgba(10, 8, 45, 0.9);
+      background: rgba(6, 6, 27, 0.9);
       display: none; } }
   nav ul {
     padding: 0; }
-    @media (max-width: 420px) {
+    @media (max-width: 768px) {
       nav ul {
-        height: 100%; } }
+        height: calc(100% - 11rem);
+        position: absolute;
+        right: 0;
+        bottom: 4rem;
+        left: 0; } }
     nav ul li {
       width: calc(100% / 4);
       display: inline;
@@ -821,7 +837,10 @@ nav {
             display: table-cell;
             vertical-align: middle;
             padding: 0;
-            font-size: 1.4em; } }
+            font-size: 2.5vw; } }
+        @media (max-width: 420px) {
+          nav ul li a {
+            font-size: 5.5vw; } }
         nav ul li a span {
           color: #333;
           font-size: .7em;
@@ -905,14 +924,19 @@ body.loaded nav ul li {
     transform: translateY(0em);
     opacity: 1; } }
 .site-nav-mobile-button {
-  z-index: 1;
   position: fixed;
-  left: 2rem;
-  top: 2rem;
-  z-index: 1; }
+  left: 5vw;
+  top: 6vh;
+  z-index: 4;
+  display: none; }
+  @media (max-width: 768px) {
+    .site-nav-mobile-button {
+      display: block; } }
+  .site-nav-mobile-button button:focus {
+    outline: none; }
   .site-nav-mobile-button svg {
     width: 100%;
-    max-width: 5rem; }
+    max-width: 4.2rem; }
     .site-nav-mobile-button svg #menu-icon-close {
       fill: #E8EAEC; }
     .site-nav-mobile-button svg #menu-icon-bars {
@@ -951,15 +975,15 @@ body.loaded nav ul li {
     opacity: 0;
     letter-spacing: 0em;
     transition: opacity 3s ease 1.5s;
-    color: #c2c5cc; }
+    color: #c2c5cc;
+    display: none; }
 
 body.loaded .landing h1.landing-text {
   opacity: 1; }
 
 @media (max-width: 768px) {
   .page-template-grid {
-    padding-top: 8em;
-    background: #02263e; } }
+    padding-top: 23vh; } }
 .page-template-grid .item-background {
   background: #FF9595;
   position: fixed;
@@ -1015,13 +1039,15 @@ body.loaded .landing h1.landing-text {
             background-color: #000;
             opacity: .6;
             padding: 0.5em;
-            display: inline-block; }
+            display: inline-block;
+            display: none; }
           .page-template-grid .items .item a h1.title.dark {
             color: #333;
             background-color: #fff;
             opacity: .6;
             padding: 0.5em;
-            display: inline-block; } }
+            display: inline-block;
+            display: none; } }
     .page-template-grid .items .item a h2.subtitle {
       margin-top: 0.5rem;
       line-height: 1.3em;
@@ -1102,7 +1128,7 @@ body.loaded .landing h1.landing-text {
     padding: 10em 0 3em 0; } }
 @media (max-width: 420px) {
   .page-template-bio {
-    padding: 7em 0 3em 0; } }
+    padding: 23vh 0 3em 0; } }
 @media (max-width: 768px) {
   .page-template-bio .container {
     padding: 0 7vw; } }
@@ -1143,7 +1169,7 @@ body.loaded .landing h1.landing-text {
   padding: 10rem 5vw 5em; }
   @media (max-width: 420px) {
     .modal-content .site-container {
-      padding: 7rem 0 3em 0; } }
+      padding: 23vh 0 3em 0; } }
   @media (max-width: 420px) {
     .modal-content .site-container .container {
       padding: 0 6vw; } }
@@ -1243,7 +1269,7 @@ ul {
   left: 0;
   right: 0;
   margin: 0;
-  z-index: 7;
+  z-index: 2;
   position: absolute;
   position: fixed;
   background-color: #fff;
@@ -1287,7 +1313,7 @@ ul {
   left: 0;
   right: 0;
   margin: 0;
-  z-index: 9;
+  z-index: 3;
   position: absolute;
   position: fixed;
   overflow: scroll;
@@ -1337,6 +1363,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px; }
+  @media (max-width: 768px) {
+    .image-container, .image-container-center {
+      margin-left: 0;
+      width: 100%; } }
   .image-container img, .image-container-center img {
     width: 100%;
     height: auto;

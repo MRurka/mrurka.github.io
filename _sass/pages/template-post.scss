@@ -3,7 +3,7 @@
   .site-container {
     padding: 10rem 5vw 5em;
   @include max-xxs {
-    padding: 7rem 0 3em 0;
+    padding: 23vh 0 3em 0;
   }
   .container {
       @include max-xxs {
@@ -24,8 +24,8 @@
   h2 {
     font-size:3em;
     font-weight: 700;
-    color:#c5ccd0;
-    margin:0 0 1.5em 0;
+    color: #c5ccd0;
+    margin: 0 0 1.5em 0;
     text-align: right;
     line-height: 1.2em;
     @include max-xxs {
@@ -135,7 +135,7 @@ ul {
   left:0;
   right:0;
   margin:0;
-  z-index: 7;
+  z-index: 2;
   position: absolute;
   position: fixed;
   background-color:#fff;
@@ -184,7 +184,7 @@ ul {
   left:0;
   right:0;
   margin:0;
-  z-index: 9;
+  z-index: 3;
   position: absolute;
   position: fixed;
   overflow: scroll;
@@ -234,6 +234,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
+  @include max-xs {
+    margin-left: 0;
+    width: 100%;
+  }
   img {
     width:100%;
     height:auto;
