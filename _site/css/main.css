@@ -1034,41 +1034,13 @@ body.loaded .landing h1.landing-text {
       font-weight: 600; }
       @media (max-width: 768px) {
         .page-template-grid .items .item a h1.title {
-          font-size: 1.1em;
-          letter-spacing: 1px; }
-          .page-template-grid .items .item a h1.title.light {
-            color: #fff;
-            background-color: #000;
-            opacity: .6;
-            padding: 0.5em;
-            display: inline-block;
-            display: none; }
-          .page-template-grid .items .item a h1.title.dark {
-            color: #333;
-            background-color: #fff;
-            opacity: .6;
-            padding: 0.5em;
-            display: inline-block;
-            display: none; } }
+          display: none; } }
     .page-template-grid .items .item a h2.subtitle {
       margin-top: 0.5rem;
       line-height: 1.3em;
       display: inline-block; }
       @media (max-width: 768px) {
-        .page-template-grid .items .item a h2.subtitle.light {
-          color: #fff;
-          background-color: #000;
-          opacity: .6;
-          padding: 0.5em;
-          display: inline-block;
-          display: none; } }
-      @media (max-width: 768px) {
-        .page-template-grid .items .item a h2.subtitle.dark {
-          color: #333;
-          background-color: #fff;
-          opacity: .6;
-          padding: 0.5em;
-          display: inline-block;
+        .page-template-grid .items .item a h2.subtitle {
           display: none; } }
     .page-template-grid .items .item a span.timestamp {
       display: block;
@@ -1083,6 +1055,10 @@ body.loaded .landing h1.landing-text {
           color: #fff; }
         .page-template-grid .items .item a:hover h1.dark {
           color: #333; }
+      .page-template-grid .items .item a:hover h2.light {
+        color: #fff; }
+      .page-template-grid .items .item a:hover h2.dark {
+        color: #333; }
 
 @media (max-width: 768px) {
   .page-template-grid.work .items .item {
@@ -1416,3 +1392,63 @@ ul {
     font-weight: 600;
     display: inline-block;
     font-size: 1.1em; }
+
+.take-me-back-top {
+  display: block;
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  text-transform: uppercase;
+  border: 2px solid #FF9595;
+  letter-spacing: 5px;
+  color: #FF9595;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: .5em 1em;
+  cursor: pointer;
+  z-index: 5;
+  transform: translateY(-4em);
+  -ms-animation-name: mobile-modal-back-button;
+  -ms-animation-duration: 1s;
+  -ms-animation-fill-mode: forwards;
+  -ms-animation-delay: 1.5s;
+  -webkit-animation-name: mobile-modal-back-button;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 1.5s;
+  animation-name: mobile-modal-back-button;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s; }
+  @media (max-width: 420px) {
+    .take-me-back-top {
+      padding: .64em .6em .5em .8em;
+      font-weight: 700;
+      font-size: 1.06em;
+      letter-spacing: 4px;
+      background: #fff; } }
+
+@-ms-keyframes mobile-modal-back-button {
+  0% {
+    transform: translateX(-4em);
+    opacity: 0;
+    display: block; }
+  100% {
+    transform: translateX(0em);
+    opacity: 1; } }
+@-webkit-keyframes mobile-modal-back-button {
+  0% {
+    transform: translateX(-4em);
+    opacity: 0;
+    display: block; }
+  100% {
+    transform: translateX(0em);
+    opacity: 1; } }
+@keyframes mobile-modal-back-button {
+  0% {
+    transform: translateX(-4em);
+    opacity: 0;
+    display: block; }
+  100% {
+    transform: translateX(0em);
+    opacity: 1; } }
