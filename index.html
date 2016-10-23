@@ -2,17 +2,366 @@
 layout: default
 ---
 
-<div id="landing" class="landing">
-    <div class="logo">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-            <path stroke-miterlimit="10" d="M123.2,240.2l5.7,6.6H84.7,c-4.7-5.5-6.4-11.3-7.7-19.3c-1.3-8-0.6-17.4-0.6-25.9v-24.3c0-14.3-5.6-25.1-14-33.8c-8.4-8.8-21-12.3-35.1-12.3H6.2l104-80.9,c0.1,1.7,0.2,2.6,0.2,4.4c0,13.6-3.4,25.5-10.5,35.6c-7.1,10.1-17.2,18.1-30.8,24.1c14.6,4.7,25.6,12.4,32,23.1,c6.4,10.6,10.7,23.8,10.7,39.5v25c0,8.3,0.5,15.7,2.4,22.3C115.7,230,119.8,236.3,123.2,240.2z M262.6,212.6,c-8.1,7-19,10.5-32.6,10.5c-13.2,0-23.7-3.5-31.5-10.5c-7.8-7-12.2-17.5-12.2-31.4v-90l-32.7-40.5v130.6c0,21.9,7.1,38.8,21.2,50.7,c14.1,11.8,32.5,17.8,55.3,17.8c23.2,0,42-5.9,56.4-17.7c2.8-2.3,5.3-4.7,7.5-7.4l-21.6-26.8C270.2,203.9,267,208.8,262.6,212.6z"/>
-        </svg>
-    </div>
-    <h1 class="landing-text">
-        Earnest, all-things designer.
-    </h1>
-</div>
 
-{% include index-sections/section-work.html %}
-{% include index-sections/section-about.html %}
-{% include index-sections/section-blog.html %}
+<div id="containerXX"></div>
+
+
+<script type="text/babel">
+
+//=======================================//
+//========== App Destination ============//
+//=======================================//
+
+var destination = document.querySelector("#containerXX");
+
+//=======================================//
+//======== React Router Helper ==========//
+//=======================================//
+
+var {
+  Router,
+  Route,
+  IndexRoute,
+  IndexLink,
+  Link
+} = ReactRouter;
+
+//=======================================//
+//=============== HOME ==================//
+//=======================================//
+
+var Home = React.createClass({
+  render: function() {
+    return (
+      <div id="landing" className="landing">
+        <div className="logo">
+          <svg width="282px" height="282px" viewBox="0 0 282 282" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+              <g transform="translate(-588.000000, -284.000000)">
+                <g transform="translate(588.000000, 284.000000)">
+                  <rect fillOpacity="0.01" fill="#FFFFFF" x="0" y="0" width="282" height="282"></rect>
+                  <path fill="#000" d="M264.38772,199.983096 L264.37032,199.996527 L262.76147,197.98188 L260.419804,195.048553 C258.070107,199.729251 254.957479,203.980828 251.244543,207.660918 C248.910908,209.975076 246.345047,212.066281 243.572391,213.888193 L243.546291,213.896924 C235.621167,219.096729 226.064439,222.138175 215.776234,222.138175 C204.495548,222.138175 194.098926,218.483604 185.763559,212.332886 L185.447009,212.224766 L185.163252,211.877575 C173.652347,203.111172 166.246553,189.525733 166.166913,174.247317 L166.17896,174.254033 L166.17896,174.16606 C166.17896,174.110321 166.160221,174.055254 166.160221,173.998844 C166.160221,173.947135 166.156875,173.896097 166.156875,173.843716 L166.004288,77.8712808 L134.724744,39 L134.724744,174.008246 C134.724744,197.642747 142.34938,215.837029 157.498935,228.584376 C172.646482,241.333737 192.463976,247.708081 216.897878,247.708081 C218.269817,247.708081 219.634395,247.644956 220.977557,247.606677 C233.533812,246.502651 260.435866,241.801135 279.334495,218.968463 L279.572744,218.968463 L264.38772,199.983096 Z M108.431965,180.343708 C108.431965,141.237385 104.69159,129.702856 99.7760325,120.779311 C95.702377,113.382868 86.4742456,105.609687 75.1547436,100.381005 C87.6246668,94.2772943 105.326698,80.6670072 109.531524,51.7984513 C110.621714,47.9336858 111.24879,43.7794826 111.24879,39.1296761 L5.30563909,114.323037 C11.2217085,114.004051 30.6510443,113.182075 40.4306283,115.483474 C54.4551929,117.894336 78.9827885,127.184547 77.9595226,162.663161 L77.9996769,162.60205 C75.4900321,248.38507 134.854844,236.17362 134.854844,236.17362 C134.854844,236.17362 108.431965,220.895876 108.431965,180.343708 Z"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <h1 className="landing-text">
+          Earnest, all-things designer.
+        </h1>
+      </div>
+    );
+  }
+});
+
+//=======================================//
+//================ WORK =================//
+//=======================================//
+
+var Work = React.createClass({
+  componentDidMount: function() {
+    //
+    // Background Switches
+    {% for post in site.categories.portfolio %}
+      $("#work-section #{{ post.port-id }} a").hover(function() {
+        $("#{{ post.port-id }}.item-background").css("opacity", "1");
+      }, function(){
+        $("#{{ post.port-id }}.item-background").css("opacity", "0");
+      });
+    {% endfor %}
+    //
+    // Hide items except hovered
+    $('#work-section .item a').hover(
+      function() {
+        $("#work-section .item a:not(:hover)").css({"opacity":"0"});
+      },
+      function() {
+        $("#work-section .item a").css({"opacity":"1"});
+      }
+    );
+  },
+
+  render: function() {
+    //
+    // Load hover background images
+    {% for post in site.categories.portfolio %}
+      var backgroundImageDesktop_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
+      var backgroundImageMobile_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/phone/{{ post.img-background }})' };
+    {% endfor %}
+    //
+    // Render this HTML
+    return (
+      <div>
+        {% include index-sections/section-work.html %}
+      </div>
+    );
+  }
+});
+
+//=======================================//
+//=============== ABOUT =================//
+//=======================================//
+
+var About = React.createClass({
+  render: function() {
+    return (
+      <div>
+        {% include index-sections/section-about.html %}
+      </div>
+    );
+  }
+});
+
+//=======================================//
+//=============== BLOG ==================//
+//=======================================//
+
+var Blog = React.createClass({
+  render: function() {
+    //
+    // Load hover background images
+    {% for post in site.categories.portfolio %}
+      var backgroundImage_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
+    {% endfor %}
+    //
+    // Background Switches
+    {% for post in site.categories.portfolio %}
+      $("#work-section #{{ post.port-id }} a").hover(function() {
+        $("#{{ post.port-id }}.item-background").css("opacity", "1");
+      }, function(){
+        $("#{{ post.port-id }}.item-background").css("opacity", "0");
+      });
+    {% endfor %}
+    //
+    // Hide items except hovered
+    $('#work-section .item a').hover(
+      function() {
+        $("#work-section .item a:not(:hover)").css({"opacity":"0"});
+      },
+      function() {
+        $("#work-section .item a").css({"opacity":"1"});
+      }
+    );
+    // Render this HTML
+    return (
+      <div>
+        {% include index-sections/section-blog.html %}
+      </div>
+    );
+  }
+});
+
+//=======================================//
+//=============== ASIA ==================//
+//=======================================//
+
+var Asia = React.createClass({
+  render: function() {
+    return (
+      <div>
+        {% include index-sections/section-asia2016.html %}
+      </div>
+    );
+  }
+});
+
+//=======================================//
+//============ POST Template ============//
+//=======================================//
+//
+// PORTFOLIO
+//
+{% for post in site.categories.portfolio %}
+  var XXX{{post.path}} = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      {% for post in site.categories.portfolio %}
+        gaTracker('UA-76182672-1');
+        gaTrack('/{{ page.title }}', '{{ page.title }}');
+      {% endfor %}
+    },
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">{{ post.title }}</h1>
+                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                {{ post.content }}
+                <div className="take-me-back-bottom-container {{ page.categories }}">
+                  {% if post.take-me-back-text %}
+                    <Link to="/work" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
+                  {% else %}
+                    <Link to="/work" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+          <Link to="/work" className="take-me-back-top">Back</Link>
+        </div>
+      );
+    }
+  });
+{% endfor %}
+//
+// BLOG
+//
+{% for post in site.categories.blog %}
+  var XXX{{post.path}} = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      {% for post in site.categories.portfolio %}
+        gaTracker('UA-76182672-1');
+        gaTrack('/{{ page.title }}', '{{ page.title }}');
+      {% endfor %}
+    },
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">{{ post.title }}</h1>
+                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                {{ post.content }}
+                <div className="take-me-back-bottom-container {{ page.categories }}">
+                  {% if post.take-me-back-text %}
+                    <Link to="/blog" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
+                  {% else %}
+                    <Link to="/blog" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+          <Link to="/blog" className="take-me-back-top">Back</Link>
+        </div>
+      );
+    }
+  });
+{% endfor %}
+//
+// ASIA 2016
+//
+{% for post in site.categories.asia2016 %}
+  var XXX{{post.path}} = React.createClass({
+    componentDidMount: function() {
+      //
+      // Masonry
+      var $container = $('.image-container').masonry();
+      $container.imagesLoaded( function() {
+        $container.masonry();
+      });
+      //
+      // Google Analytics Goodness
+      {% for post in site.categories.portfolio %}
+        gaTracker('UA-76182672-1');
+        gaTrack('/{{ page.title }}', '{{ page.title }}');
+      {% endfor %}
+    },
+    render: function() {
+      return (
+        <div>
+          <div className="modal-content">
+            <div className="site-container">
+              <div className="container">
+                <h1 className="post-title">{{ post.title }}</h1>
+                <h2 className="post-subtitle">{{ post.subtitle }}</h2>
+                {{ post.content }}
+                <div className="take-me-back-bottom-container {{ page.categories }}">
+                  {% if post.take-me-back-text %}
+                    <Link to="/asia" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
+                  {% else %}
+                    <Link to="/asia" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            <a className="close-modal modal-close"></a>
+          </div>
+          <div className="modal-backdrop"></div>
+          <Link to="/asia" className="take-me-back-top">Back</Link>
+        </div>
+      );
+    }
+  });
+{% endfor %}
+
+//=======================================//
+//======== App Default Template =========//
+//=======================================//
+
+var App = React.createClass({
+  componentDidMount: function() {
+    //
+    // Mobile - Show Nav on button click
+    $( ".site-nav-mobile-button" ).click(function() {
+      $( "nav" ).fadeToggle(500);
+    });
+    if ($(window).width() < 769) {
+      $( "nav a" ).click(function() {
+        $( "nav" ).fadeOut(500);
+      });
+    }
+  },
+  render: function() {
+    return (
+      <div className="site-container">
+        <div className="site-nav-container">
+          {% include svg/nav-mobile.html %}
+          {% include nav.html %}
+        </div>
+        <div className="site-content-container">
+          {this.props.children}
+        </div>
+      </div>
+    )
+  }
+});
+
+//=======================================//
+//=============== ROUTES ================//
+//=======================================//
+
+ReactDOM.render(
+  <Router>
+    <Route path="/" component={App}>
+      <IndexRoute component={Home}/>
+      <Route path="work" component={Work}/>
+        {% for post in site.categories.portfolio %}
+          <Route path="/{{post.path}}" component={ XXX{{post.path}} }/>
+        {% endfor %}
+      <Route path="about" component={About}/>
+      <Route path="blog" component={Blog}/>
+        {% for post in site.categories.blog %}
+          <Route path="/{{post.path}}" component={ XXX{{post.path}} }/>
+        {% endfor %}
+      <Route path="asia" component={Asia}/>
+    </Route>
+  </Router>,
+  destination
+);
+
+</script>
+
+<img style="position: absolute; bottom:0; opacity:0; z-index:-9" src="https://store-images.s-microsoft.com/image/apps.41678.9007199266445909.1adf987e-21ae-4351-8cab-2b5ff526deaa.fb3d5958-3886-4f34-ac45-1e9dfc30ff12?w=96&h=96&q=60"/>

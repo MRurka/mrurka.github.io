@@ -1,15 +1,16 @@
 
-<section class="blog content">
-    <div class="container">
-        <div class="items">
-            {% for post in site.categories.blog %}
-                <div class="item">
-                    <a href="{{ post.url }}" rel="modal:open">
-                        <h1 class="title">{{ post.title }}</h1>
-                        <h2 class="subtitle">{{ post.subtitle }}</h2>
-                    </a>
-                </div>
-            {% endfor %}
+<section className="blog site-section-content page-template-grid">
+  <div className="container">
+    <div className="items">
+      {% for post in site.categories.blog %}
+          <div className="item">
+            <Link to="/{{ post.path }}">
+              <h1 className="title">{{ post.title }}</h1>
+              <h2 className="subtitle">{{ post.subtitle }}</h2>
+              <span className="timestamp">{{ post.date | date: '%B %d, %Y' }}</span>
+            </Link>
         </div>
+      {% endfor %}
     </div>
+  </div>
 </section>

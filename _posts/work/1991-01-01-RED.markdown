@@ -2,7 +2,7 @@
 
 layout: post
 date:   2015-01-10 21:35:54
-categories: 
+categories:
 port-id: 3ru
 text-dark-light: light
 
@@ -12,14 +12,16 @@ take-me-back-text: I prefer blue.. Take me back.
 
 img-background: background-red.jpg
 
+path: RED
+
 ---
 
 Leisure project that began with a block of Lorem Ipsum becoming a book cover design through relatively random angles and geometric fills.
 
-<div class="image-container">
-    <img class="clear" src=""/>
-    <img class="w2" src="./img/work/red/red-angle.jpg"/>
-    <img class="w2" src="./img/work/red/red-front.jpg"/>
-    <img class="w2" src="./img/work/red/red-spine.jpg"/>
-    <img class="w4" src="./img/work/red/red-process.jpg"/>
+<div className="image-container">
+    <img className="clear" src=""/>
+    <img className="w2" src="./img/work/red/red-angle.jpg"/>
+    <img className="w2" src="./img/work/red/red-front.jpg"/>
+    <img className="w2" src="./img/work/red/red-spine.jpg"/>
+    <img className="w4" src="./img/work/red/red-process.jpg"/>
 </div>

@@ -12,13 +12,15 @@ take-me-back-text: I speak Russian. Take me back.
 
 img-background: background-kaa.jpg
 
+path: KAA
+
 ---
 
 Those are Adidas jackets. I took the photos and that is my cousin, Jenny.
 
-<div class="image-container">
-    <img class="clear" src=""/>
-    <img class="w4" src="./img/work/kaa/kaa-main.jpg"/>
-    <img class="w1" src="./img/work/kaa/kaa-words.jpg"/>
-    <img class="w3" src="./img/work/kaa/kaa-jackets.jpg"/>
+<div className="image-container">
+    <img className="clear" src=""/>
+    <img className="w4" src="./img/work/kaa/kaa-main.jpg"/>
+    <img className="w1" src="./img/work/kaa/kaa-words.jpg"/>
+    <img className="w3" src="./img/work/kaa/kaa-jackets.jpg"/>
 </div>

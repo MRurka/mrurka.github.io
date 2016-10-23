@@ -29,33 +29,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/index-sections\/section-about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/index-sections\/section-about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/index-sections\/section-blog.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/index-sections\/section-blog.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/index-sections\/section-work.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/index-sections\/section-work.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/nav.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -92,15 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_sass\/_base.scss": {
+	"\/_sass\/abstracts\/_module.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_base.scss",
-		"outputAbbreviatedPath": "\/css\/_base.css",
+		"inputAbbreviatedPath": "\/_sass\/abstracts\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -108,15 +81,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_sass\/_general.scss": {
+	"\/_sass\/abstracts\/mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_general.scss",
-		"outputAbbreviatedPath": "\/css\/_general.css",
+		"inputAbbreviatedPath": "\/_sass\/abstracts\/mixins.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -124,15 +97,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_sass\/_jpreloader.scss": {
+	"\/_sass\/abstracts\/variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_jpreloader.scss",
-		"outputAbbreviatedPath": "\/css\/_jpreloader.css",
+		"inputAbbreviatedPath": "\/_sass\/abstracts\/variables.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -140,31 +113,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_sass\/_landing.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_landing.scss",
-		"outputAbbreviatedPath": "\/css\/_landing.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/_sass\/_layout.scss": {
+	"\/_sass\/bases\/_module.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_layout.scss",
-		"outputAbbreviatedPath": "\/css\/_layout.css",
+		"inputAbbreviatedPath": "\/_sass\/bases\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -172,15 +129,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_sass\/_nav.scss": {
+	"\/_sass\/bases\/general.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_nav.scss",
-		"outputAbbreviatedPath": "\/css\/_nav.css",
+		"inputAbbreviatedPath": "\/_sass\/bases\/general.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/general.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -188,15 +145,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_sass\/_post.scss": {
+	"\/_sass\/bases\/normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_post.scss",
-		"outputAbbreviatedPath": "\/css\/_post.css",
+		"inputAbbreviatedPath": "\/_sass\/bases\/normalize.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -204,15 +161,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_sass\/_syntax-highlighting.scss": {
+	"\/_sass\/bases\/reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_sass\/_syntax-highlighting.scss",
-		"outputAbbreviatedPath": "\/css\/_syntax-highlighting.css",
+		"inputAbbreviatedPath": "\/_sass\/bases\/reset.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -220,20 +177,244 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_site\/2015\/11\/23\/dailyui-001.html": {
+	"\/_sass\/bases\/syntax-highlighting.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/bases\/syntax-highlighting.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/syntax-highlighting.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/components\/_module.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/components\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/layouts\/_module.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/layouts\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/layouts\/site-menu.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/layouts\/site-menu.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/site-menu.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/layouts\/site-structure.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/layouts\/site-structure.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/site-structure.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/pages\/_module.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/pages\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/pages\/landing.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/pages\/landing.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/landing.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/pages\/template-bio.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/pages\/template-bio.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/template-bio.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/pages\/template-grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/pages\/template-grid.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/template-grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/pages\/template-list.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/pages\/template-list.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/template-list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/pages\/template-post.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/pages\/template-post.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/template-post.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/themes\/_module.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/themes\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/vendors\/_module.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/vendors\/_module.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_module.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/vendors\/jpreloader.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/vendors\/jpreloader.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/jpreloader.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_site\/2015\/01\/11\/Ornithologie.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/11\/23\/dailyui-001.html",
+		"inputAbbreviatedPath": "\/_site\/2015\/01\/11\/Ornithologie.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/2015\/11\/23\/dailyui-002.html": {
+	"\/_site\/2015\/01\/11\/RED.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/2015\/11\/23\/dailyui-002.html",
+		"inputAbbreviatedPath": "\/_site\/2015\/01\/11\/RED.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -252,6 +433,42 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/blog\/2016\/02\/07\/embody-design.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2016\/05\/15\/san-francisco.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2016\/05\/15\/san-francisco.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2016\/06\/06\/asia2016-w1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2016\/06\/06\/asia2016-w1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2016\/06\/06\/control.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2016\/06\/06\/control.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/blog\/2016\/07\/03\/design-life.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/blog\/2016\/07\/03\/design-life.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -298,101 +515,233 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-collegemix.jpg": {
+	"\/_site\/img\/og\/rurkadesign-x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 597953,
+		"inputAbbreviatedPath": "\/_site\/img\/og\/rurkadesign-x.png",
+		"outputAbbreviatedPath": "\/_site\/img\/og\/rurkadesign-x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-collegemix.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 196767,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-collegemix.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-collegemix.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-collegemix.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-collegemix.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-ep.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-ep.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 225307,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-ep.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-ep.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-ep.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-ep.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-jelly.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-jelly.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 103987,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-jelly.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-jelly.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-jelly.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-jelly.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-kaa.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-kaa.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 239422,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-kaa.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-kaa.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-kaa.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-kaa.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-naive-prowess.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-kraken.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39518,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-kraken.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-kraken.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-naive-prowess.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 196992,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-naive-prowess.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-naive-prowess.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-naive-prowess.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-naive-prowess.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-orni.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-orni.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 129166,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-orni.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-orni.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-orni.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-orni.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-red.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-red.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 181902,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-red.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-red.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-red.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-red.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-rurking.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-rurking.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 96422,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-rurking.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-rurking.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-rurking.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-rurking.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/work\/backgrounds\/background-sf.jpg": {
+	"\/_site\/img\/work\/backgrounds\/desktop\/background-sf.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 80234,
-		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-sf.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/background-sf.jpg",
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-sf.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/desktop\/background-sf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-collegemix.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26183,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-collegemix.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-collegemix.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-ep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25025,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-ep.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-ep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-jelly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14699,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-jelly.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-jelly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-kaa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32057,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-kaa.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-kaa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-kraken.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97059,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-kraken.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-kraken.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-naive-prowess.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23073,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-naive-prowess.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-naive-prowess.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-orni.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24701,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-orni.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-orni.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-red.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23795,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-red.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-red.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-rurking.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20800,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-rurking.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-rurking.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/backgrounds\/phone\/background-sf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15138,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-sf.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/backgrounds\/phone\/background-sf.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -657,6 +1006,303 @@
 		"initialSize": 396470,
 		"inputAbbreviatedPath": "\/_site\/img\/work\/kaa\/kaa@2x.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/work\/kaa\/kaa@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-black-on-white.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72695,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-black-on-white.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-black-on-white.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-blue-on-white.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89286,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-blue-on-white.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-blue-on-white.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-business-card-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147450,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-business-card-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-business-card-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-business-card.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122237,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-business-card.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-business-card.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-moodboard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384750,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-moodboard.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-moodboard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97539,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-1.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24028,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-2.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90919,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-3.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118754,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-4.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115294,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-5.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218626,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-6.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-process-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248300,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-7.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-process-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-sketch-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217093,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-sketch-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232351,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-sketch-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227096,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-sketch-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 273301,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-4.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-sketch-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330028,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-5.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-sketch-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291974,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-6.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-sketch-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-spread-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71684,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-spread-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-spread-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-spread-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153372,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-spread-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-spread-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-square-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42878,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-1.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-square-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26910,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-square-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42865,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-2.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-square-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50354,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-3.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-square-dimensions.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25389,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-dimensions.png",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-square-dimensions.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-white-on-black.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72157,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-white-on-black.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-white-on-black.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/work\/kraken\/kraken-white-on-blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97059,
+		"inputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-white-on-blue.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/work\/kraken\/kraken-white-on-blue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1462,6 +2108,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/js\/browser.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/browser.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/browser.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/js\/imagesloaded.pkgd.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1539,84 +2196,126 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/portfolio\/2015\/01\/10\/ep.html": {
+	"\/_site\/js\/react-dom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/react-dom.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/react-dom-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/react.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/react.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/react-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/ReactRouter.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/ReactRouter.min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/ReactRouter.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/portfolio\/2015\/01\/11\/ep.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/10\/ep.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/11\/ep.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/01\/10\/KAA.html": {
+	"\/_site\/portfolio\/2015\/01\/11\/KAA.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/10\/KAA.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/11\/KAA.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/01\/10\/Ornithologie.html": {
+	"\/_site\/portfolio\/2015\/01\/11\/print.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/10\/Ornithologie.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/11\/print.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/01\/10\/RED.html": {
+	"\/_site\/portfolio\/2015\/01\/11\/rurking.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/10\/RED.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/11\/rurking.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/01\/10\/rurking.html": {
+	"\/_site\/portfolio\/2015\/01\/11\/winter.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/10\/rurking.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/11\/winter.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/01\/10\/winter.html": {
+	"\/_site\/portfolio\/2015\/07\/02\/jelly-invoicing.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/01\/10\/winter.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/07\/02\/jelly-invoicing.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/07\/01\/jelly-invoicing.html": {
+	"\/_site\/portfolio\/2015\/08\/10\/Nu-Messenger.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/07\/01\/jelly-invoicing.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/08\/10\/Nu-Messenger.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/08\/09\/Nu-Messenger.html": {
+	"\/_site\/portfolio\/2015\/08\/11\/SelectiveFew.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/08\/09\/Nu-Messenger.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/08\/11\/SelectiveFew.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/portfolio\/2015\/08\/10\/SelectiveFew.html": {
+	"\/_site\/portfolio\/2016\/05\/25\/kraken.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/portfolio\/2015\/08\/10\/SelectiveFew.html",
+		"inputAbbreviatedPath": "\/_site\/portfolio\/2016\/05\/25\/kraken.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/config.rb": {
+		"fileType": 131072,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.rb",
+		"outputAbbreviatedPath": "\/config.rb",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1669,101 +2368,233 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-collegemix.jpg": {
+	"\/img\/og\/rurkadesign-x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 597953,
+		"inputAbbreviatedPath": "\/img\/og\/rurkadesign-x.png",
+		"outputAbbreviatedPath": "\/img\/og\/rurkadesign-x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/desktop\/background-collegemix.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 196767,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-collegemix.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-collegemix.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-collegemix.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-collegemix.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-ep.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-ep.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 225307,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-ep.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-ep.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-ep.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-ep.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-jelly.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-jelly.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 103987,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-jelly.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-jelly.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-jelly.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-jelly.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-kaa.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-kaa.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 239422,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-kaa.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-kaa.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-kaa.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-kaa.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-naive-prowess.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-kraken.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39518,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-kraken.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-kraken.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/desktop\/background-naive-prowess.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 196992,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-naive-prowess.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-naive-prowess.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-naive-prowess.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-naive-prowess.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-orni.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-orni.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 129166,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-orni.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-orni.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-orni.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-orni.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-red.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-red.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 181902,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-red.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-red.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-red.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-red.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-rurking.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-rurking.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 96422,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-rurking.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-rurking.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-rurking.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-rurking.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/work\/backgrounds\/background-sf.jpg": {
+	"\/img\/work\/backgrounds\/desktop\/background-sf.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 80234,
-		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/background-sf.jpg",
-		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/background-sf.jpg",
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-sf.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/desktop\/background-sf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-collegemix.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26183,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-collegemix.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-collegemix.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-ep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25025,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-ep.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-ep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-jelly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14699,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-jelly.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-jelly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-kaa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32057,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-kaa.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-kaa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-kraken.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97059,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-kraken.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-kraken.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-naive-prowess.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23073,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-naive-prowess.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-naive-prowess.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-orni.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24701,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-orni.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-orni.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-red.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23795,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-red.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-red.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-rurking.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20800,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-rurking.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-rurking.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/backgrounds\/phone\/background-sf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15138,
+		"inputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-sf.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/backgrounds\/phone\/background-sf.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2028,6 +2859,303 @@
 		"initialSize": 396470,
 		"inputAbbreviatedPath": "\/img\/work\/kaa\/kaa@2x.jpg",
 		"outputAbbreviatedPath": "\/img\/work\/kaa\/kaa@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-black-on-white.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72695,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-black-on-white.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-black-on-white.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-blue-on-white.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89286,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-blue-on-white.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-blue-on-white.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-business-card-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147450,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-business-card-2.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-business-card-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-business-card.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122237,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-business-card.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-business-card.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-moodboard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384750,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-moodboard.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-moodboard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97539,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-1.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24028,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-2.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90919,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-3.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118754,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-4.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115294,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-5.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 218626,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-6.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-process-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248300,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-7.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-process-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-sketch-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217093,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-1.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-sketch-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232351,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-2.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-sketch-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227096,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-3.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-sketch-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 273301,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-4.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-sketch-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 330028,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-5.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-sketch-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291974,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-6.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-sketch-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-spread-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71684,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-spread-1.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-spread-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-spread-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153372,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-spread-2.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-spread-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-square-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42878,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-1.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-square-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26910,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-2.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-square-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42865,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-2.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-square-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50354,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-3.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-square-dimensions.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25389,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-dimensions.png",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-square-dimensions.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-white-on-black.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72157,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-white-on-black.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-white-on-black.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/work\/kraken\/kraken-white-on-blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97059,
+		"inputAbbreviatedPath": "\/img\/work\/kraken\/kraken-white-on-blue.jpg",
+		"outputAbbreviatedPath": "\/img\/work\/kraken\/kraken-white-on-blue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2833,6 +3961,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/browser.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/browser.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/browser.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/imagesloaded.pkgd.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2868,7 +4007,7 @@
 		},
 	"\/js\/jquery.modal.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.modal.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.modal-min.js",
@@ -2909,6 +4048,39 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/js\/react-dom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/react-dom.js",
+		"outputAbbreviatedPath": "\/js\/min\/react-dom-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/react.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/react.js",
+		"outputAbbreviatedPath": "\/js\/min\/react-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/ReactRouter.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ReactRouter.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/ReactRouter.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
@@ -2930,20 +4102,14 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/jquery.modal.js",
+			"linkedFileAbbreviatedPath": "\/js\/masonry.pkgd.min.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/masonry.pkgd.min.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/js\/imagesloaded.pkgd.min.js",
-			"position": 4,
+			"position": 3,
 			"type": 0
 			}
 		]
