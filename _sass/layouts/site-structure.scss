@@ -31,11 +31,13 @@ section.content {
   animation-name: website-section-fadein;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  position: absolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
+  @include max-xs {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+  }
 }
 
 @-ms-keyframes website-section-fadein {

@@ -8,22 +8,12 @@
   }
   .container {
     @include max-xs {
-      padding:0 7vw
-    }
-  }
-  h2 {
-    font-size:1.4em;
-    font-weight: 600;
-    margin:0 0 .25em 0;
-    line-height: 1.5em;
-    @include max-xxs {
-      font-size: 1.34em;
-      line-height: 1.4em;
+      padding:0 5vw
     }
   }
   p {
-    font-size: 1.6rem;
-    line-height: 1.6em;
+    font-size: 1.8rem;
+    line-height: 1.7em;
     color: #454056;
     margin: 0 auto 2rem auto;
     @include max-xxs {

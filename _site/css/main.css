@@ -765,12 +765,14 @@ section.content {
   -webkit-animation-fill-mode: forwards;
   animation-name: website-section-fadein;
   animation-duration: 1s;
-  animation-fill-mode: forwards;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
+  animation-fill-mode: forwards; }
+  @media (max-width: 768px) {
+    .site-section-content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; } }
 
 @-ms-keyframes website-section-fadein {
   0% {
@@ -943,11 +945,11 @@ body.loaded nav ul li {
       fill: #FF9595; }
 
 .landing {
-  width: calc(100% - 10vw);
-  top: calc(50% - ( ( 300px * 0.69333 ) / 2) );
   top: calc(50% - 150px);
   position: absolute;
-  transition: all 1s ease; }
+  transition: all 1s ease;
+  width: 100%;
+  left: 0; }
   @media (max-width: 420px) {
     .landing {
       width: 100%;
@@ -1104,7 +1106,7 @@ body.loaded .landing h1.landing-text {
     padding: 7em 0 3em 0; } }
 @media (max-width: 768px) {
   .page-template-list .container {
-    padding: 0 7vw; } }
+    padding: 0 5vw; } }
 .page-template-list .items .item {
   margin: 0 0 3em 0; }
   .page-template-list .items .item a {
@@ -1131,19 +1133,10 @@ body.loaded .landing h1.landing-text {
     padding: 23vh 0 3em 0; } }
 @media (max-width: 768px) {
   .page-template-bio .container {
-    padding: 0 7vw; } }
-.page-template-bio h2 {
-  font-size: 1.4em;
-  font-weight: 600;
-  margin: 0 0 .25em 0;
-  line-height: 1.5em; }
-  @media (max-width: 420px) {
-    .page-template-bio h2 {
-      font-size: 1.34em;
-      line-height: 1.4em; } }
+    padding: 0 5vw; } }
 .page-template-bio p {
-  font-size: 1.6rem;
-  line-height: 1.6em;
+  font-size: 1.8rem;
+  line-height: 1.7em;
   color: #454056;
   margin: 0 auto 2rem auto; }
   @media (max-width: 420px) {

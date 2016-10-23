@@ -198,9 +198,9 @@ var Asia = React.createClass({
                 {{ post.content }}
                 <div className="take-me-back-bottom-container {{ page.categories }}">
                   {% if post.take-me-back-text %}
-                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                    <Link to="/work" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
                   {% else %}
-                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                    <Link to="/work" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
                   {% endif %}
                 </div>
               </div>
@@ -208,6 +208,7 @@ var Asia = React.createClass({
             <a className="close-modal modal-close"></a>
           </div>
           <div className="modal-backdrop"></div>
+          <a className="take-me-back-top">Back</a>
         </div>
       );
     }
@@ -243,9 +244,9 @@ var Asia = React.createClass({
                 {{ post.content }}
                 <div className="take-me-back-bottom-container {{ page.categories }}">
                   {% if post.take-me-back-text %}
-                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                    <Link to="/blog" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
                   {% else %}
-                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                    <Link to="/blog" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
                   {% endif %}
                 </div>
               </div>
@@ -288,9 +289,9 @@ var Asia = React.createClass({
                 {{ post.content }}
                 <div className="take-me-back-bottom-container {{ page.categories }}">
                   {% if post.take-me-back-text %}
-                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</a>
+                    <Link to="/asia" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
                   {% else %}
-                    <a className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</a>
+                    <Link to="/asia" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
                   {% endif %}
                 </div>
               </div>
