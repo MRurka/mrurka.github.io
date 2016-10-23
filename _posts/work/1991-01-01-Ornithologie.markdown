@@ -12,7 +12,7 @@ take-me-back-text: Cute birds. Take me back.
 
 img-background: background-orni.jpg
 
-path: Ornithologie
+pathID: Ornithologie
 
 ---
 

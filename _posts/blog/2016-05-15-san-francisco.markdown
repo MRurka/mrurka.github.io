@@ -5,7 +5,7 @@ subtitle: "From Second Cup to San Francisco"
 date:   2016-05-15
 categories: blog
 take-me-back-text: マジかよ?! Take me back.
-path: sanfran
+pathID: sanfran
 ---
 
 Post tequila with our new Swiss friend, Daniel, Kolton yells "From Second Cup to San Francisco". In other words: "Started from the bottom now we're here". Two young and naive best friends from Fredericton, starting out. Onto chilling in San Francisco for both business and pleasure. We met 2 years ago in a Second Cup (Cafe) during a province-wide power outage. Fueled by <a href="https://vimeo.com/141549468" target="_blank">Jumpman</a>, late night <a href="http://pomodorotechnique.com/" target="_blank">poms</a>, and our shared drive for progression, he's been my main bro since. Among my favourite memories with Kolton is helping him rock out a dashboard for a <a href="http://www.cbc.ca/dragonsden/pitches/simptek-technologies" target="_blank">Dragon's Den appearance</a>. We designed and coded till the 9AM sunrise (from the night before).

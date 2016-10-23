@@ -12,7 +12,7 @@ take-me-back-text: $300 for shoes?! Take me back.
 
 img-background: background-sf.jpg
 
-path: Selective_Few
+pathID: Selective_Few
 
 ---
 

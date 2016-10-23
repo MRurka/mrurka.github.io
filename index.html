@@ -172,7 +172,7 @@ var Asia = React.createClass({
 // PORTFOLIO
 //
 {% for post in site.categories.portfolio %}
-  var XXX{{post.path}} = React.createClass({
+  var XXX{{post.pathID}} = React.createClass({
     componentDidMount: function() {
       //
       // Masonry
@@ -218,7 +218,7 @@ var Asia = React.createClass({
 // BLOG
 //
 {% for post in site.categories.blog %}
-  var XXX{{post.path}} = React.createClass({
+  var XXX{{post.pathID}} = React.createClass({
     componentDidMount: function() {
       //
       // Masonry
@@ -264,7 +264,7 @@ var Asia = React.createClass({
 // ASIA 2016
 //
 {% for post in site.categories.asia2016 %}
-  var XXX{{post.path}} = React.createClass({
+  var XXX{{post.pathID}} = React.createClass({
     componentDidMount: function() {
       //
       // Masonry
@@ -349,12 +349,12 @@ ReactDOM.render(
       <IndexRoute component={Home}/>
       <Route path="work" component={Work}/>
         {% for post in site.categories.portfolio %}
-          <Route path="/{{post.path}}" component={ XXX{{post.path}} }/>
+          <Route path="/{{post.path}}" component={ XXX{{post.pathID}} }/>
         {% endfor %}
       <Route path="about" component={About}/>
       <Route path="blog" component={Blog}/>
         {% for post in site.categories.blog %}
-          <Route path="/{{post.path}}" component={ XXX{{post.path}} }/>
+          <Route path="/{{post.path}}" component={ XXX{{post.pathID}} }/>
         {% endfor %}
       <Route path="asia" component={Asia}/>
     </Route>

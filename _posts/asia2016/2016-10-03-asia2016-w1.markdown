@@ -3,7 +3,7 @@ layout: post
 title:  "AW01"
 subtitle: "The Marriage of Hip-Hop and Independence"
 date:   2016-06-06
-categories: 
+categories:
 take-me-back-text: I feel you. Take me back.
-path: asiaxxx
+pathID: asiaxxx
 ---

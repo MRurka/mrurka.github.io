@@ -7,7 +7,7 @@
     <div className="items">
       {% for post in site.categories.portfolio %}
         <div id="{{ post.port-id }}" className="item">
-          <Link to="/{{ post.path }}" style={ backgroundImageMobile_{{ post.port-id }} }>
+          <Link to="/{{ post.pathID }}" style={ backgroundImageMobile_{{ post.port-id }} }>
             <h1 className="title {{ post.text-dark-light }}">{{ post.title }}</h1>
             <h2 className="subtitle {{ post.text-dark-light }}">{{ post.subtitle }}</h2>
           </Link>

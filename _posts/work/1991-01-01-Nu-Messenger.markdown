@@ -12,7 +12,7 @@ take-me-back-text: Another messenger?! Take me back.
 
 img-background: background-nu.gif
 
-path: Nu_Messenger
+pathID: Nu_Messenger
 
 ---
 

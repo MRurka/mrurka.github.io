@@ -12,7 +12,7 @@ take-me-back-text:  Close but no cigar. Take me back
 
 img-background: background-naive-prowess.jpg
 
-path: Naive_Prowess
+pathID: Naive_Prowess
 
 ---
 

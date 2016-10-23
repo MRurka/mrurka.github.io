@@ -5,7 +5,7 @@ subtitle:           Invoicing webapp for ghetto freelancers
 date:               2015-07-01 21:35:54
 categories:         portfolio
 take-me-back-text:  Can't code, damn. Take me back.
-path:               Jelly_Invoice
+pathID:               Jelly_Invoice
 
 port-id:            9ru
 text-dark-light:    light

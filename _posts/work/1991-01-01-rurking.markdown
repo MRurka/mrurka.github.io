@@ -12,7 +12,7 @@ take-me-back-text: lolol, good one. Take me back.
 
 img-background: background-rurking.jpg
 
-path: Rurking
+pathID: Rurking
 
 ---
 
