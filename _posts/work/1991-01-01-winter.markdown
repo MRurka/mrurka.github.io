@@ -6,13 +6,13 @@ categories: portfolio
 port-id: 1ru
 text-dark-light: dark
 
-title: Naive Prowess
-subtitle: Champion Illustration
-take-me-back-text: Close but no cigar. Take me back
+title:              Naive Prowess
+subtitle:           Champion Illustration
+take-me-back-text:  Close but no cigar. Take me back
 
 img-background: background-naive-prowess.jpg
 
-path: winter
+path: Naive_Prowess
 
 ---
 

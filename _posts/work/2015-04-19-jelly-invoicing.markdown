@@ -1,19 +1,15 @@
 ---
+layout:             post
+title:              Jelly Invoice V1
+subtitle:           Invoicing webapp for ghetto freelancers
+date:               2015-07-01 21:35:54
+categories:         portfolio
+take-me-back-text:  Can't code, damn. Take me back.
+path:               Jelly_Invoice
 
-layout: post
-date:   2015-07-01 21:35:54
-categories: portfolio
-port-id: 9ru
-text-dark-light: light
-
-title: "Jelly Invoice V1"
-subtitle: Invoicing webapp for ghetto freelancers
-take-me-back-text: Can't code, damn. Take me back.
-
-img-background: background-jelly.jpg
-
-path: jelly
-
+port-id:            9ru
+text-dark-light:    light
+img-background:     background-jelly.jpg
 ---
 
 A flexible solution for producing invoices and keeping them neatly organized on your local or shared drive.

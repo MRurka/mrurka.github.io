@@ -3,9 +3,9 @@ layout: post
 title:  "Controlla"
 subtitle: "The Marriage of Hip-Hop and Independence"
 date:   2016-06-06
-categories: blog
+categories: 
 take-me-back-text: I feel you. Take me back.
-path: controlla
+path: Controlla
 ---
 
 I started listening to rap and hip-hop music religiously when I began freelancing back in November 2015. I was&#151;and still am&#151;devoted to the ego-jacking self-made lyrics of "Nightcrawler" "B.L.O.W." "Low Life" "King of Everything" and the many more that bloat anyone's self esteem to the point of immortality. Granted, I wholeheartedly admit it's a ton of hot air. However much like meditation: If it works, it works. And it's really no ones business.

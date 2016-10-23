@@ -12,7 +12,7 @@ take-me-back-text: I prefer blue.. Take me back.
 
 img-background: background-red.jpg
 
-path: red
+path: RED
 
 ---
 

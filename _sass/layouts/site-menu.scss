@@ -1,21 +1,50 @@
+.site-nav-container {
+  @include max-xs {
+    position: fixed;
+  }
+}
 nav {
   position: fixed;
   top:0;
   left:0;
   width:100%;
   z-index: 999;
+  @include max-xs {
+    bottom:0;
+    right:0;
+    background: rgba(10, 8, 45, 0.9);
+    display: none;
+  }
   ul {
     padding:0;
+    @include max-xxs {
+      height:100%;
+    }
     li {
       width: calc(100% / #{$number-of-sections});
       display: inline;
       text-align: center;
-      float:left;
+      float: left;
       padding: 0;
+      @include max-xs {
+        height: calc(100% / #{$number-of-sections});
+        width: 100%;
+        float: none;
+        display: block;
+        margin: 0;
+        float: left;
+        display: table;
+      }
       a {
         padding: 4vh 0 0 0;
         display: inline-block;
         cursor: pointer;
+        @include max-xs {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 0;
+          font-size: 1.4em;
+        }
         span {
           color: #333;
           font-size: .7em;
@@ -24,9 +53,8 @@ nav {
           font-weight: 600;
           text-transform: uppercase;
           display: inline-block;
-          @include max-xxs {
-            margin: 0 0 .6em 0;
-            font-weight: 700;
+          @include max-xs {
+            color: #fff;
           }
         }
         svg {
@@ -34,8 +62,9 @@ nav {
           display: block;
           transition: all .25s ease;
           fill: $c-black;
-          @include max-xxs {
-            height: 1.1em;
+          margin: 0 auto;
+          @include max-xs {
+            fill: #fff;
           }
         }
         &.active {
@@ -47,21 +76,6 @@ nav {
           outline: none;
           svg {
             fill: $c-salmon-dark;
-          }
-        }
-        @include max-xs {
-          &.negative {
-            span {
-              color:#fff;
-            }
-            svg {
-              fill: #fff;
-            }
-            &.active {
-              svg {
-                fill: $c-salmon;
-              }
-            }
           }
         }
       }
@@ -121,65 +135,23 @@ body.loaded nav ul li {
 }
 
 
-//=================================//
-//========== MODAL OPEN ===========//
-//=================================//
+.site-nav-mobile-button {
+  z-index: 1;
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  z-index: 1;
+  svg {
+    width: 100%;
+    max-width: 5rem;
+    #menu-icon-menu {
 
-nav {
-  .take-me-back-top {
-    display: none;
-    opacity: 0;
-  }
-  &.modal-open {
-    ul {
-        display: none;
     }
-    .take-me-back-top {
-      display: block;
-      position: fixed;
-      top: 1em;
-      left: 1em;
-      text-transform: uppercase;
-      border: 2px solid $c-salmon;
-      letter-spacing: 5px;
-      color: $c-salmon;
-      font-weight: 600;
-      font-size: 1.2em;
-      padding: .5em 1em;
-      cursor: pointer;
-      @include max-xxs {
-        padding: .64em .6em .5em .8em;
-        font-weight: 700;
-        font-size: 1.06em;
-        letter-spacing: 4px;
-        background:#fff;
-      }
-      transform: translateY(-3em);
-      -ms-animation-name: mobile-modal-back-button;
-      -ms-animation-duration: 1s;
-      -ms-animation-fill-mode: forwards;
-      -ms-animation-delay: 1.5s;
-      -webkit-animation-name: mobile-modal-back-button;
-      -webkit-animation-duration: 1s;
-      -webkit-animation-fill-mode: forwards;
-      -webkit-animation-delay: 1.5s;
-      animation-name: mobile-modal-back-button;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
-      animation-delay: 1.5s;
+    #menu-icon-close {
+      fill: #E8EAEC;
+    }
+    #menu-icon-bars {
+      fill: $c-salmon;
     }
   }
-}
-
-@-ms-keyframes mobile-modal-back-button {
-  0% {transform: translateX(-3em); opacity:0; display: block;}
-  100% {transform: translateX(0em); opacity:1;}
-}
-@-webkit-keyframes mobile-modal-back-button {
-  0% {transform: translateX(-3em); opacity:0;display: block;}
-  100% {transform: translateX(0em); opacity:1;}
-}
-@keyframes mobile-modal-back-button {
-  0% {transform: translateX(-3em); opacity:0;display: block;}
-  100% {transform: translateX(0em); opacity:1;}
 }

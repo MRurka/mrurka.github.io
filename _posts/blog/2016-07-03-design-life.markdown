@@ -3,7 +3,7 @@ layout: post
 title:  "Raison d'être"
 subtitle: "Why I need to become a great designer"
 date:   2016-07-03
-categories: blog
+categories: 
 take-me-back-text: [...]
 path: designlife
 ---

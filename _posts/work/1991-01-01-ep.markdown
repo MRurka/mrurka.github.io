@@ -12,7 +12,7 @@ take-me-back-text: Elephants suck. Take me back.
 
 img-background: background-ep.jpg
 
-path: ep
+path: EP
 
 ---
 

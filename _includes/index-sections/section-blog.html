@@ -7,6 +7,7 @@
             <Link to="/{{ post.path }}">
               <h1 className="title">{{ post.title }}</h1>
               <h2 className="subtitle">{{ post.subtitle }}</h2>
+              <span className="timestamp">{{ post.date | date: '%B %d, %Y' }}</span>
             </Link>
         </div>
       {% endfor %}

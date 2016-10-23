@@ -12,7 +12,7 @@ take-me-back-text: I speak Russian. Take me back.
 
 img-background: background-kaa.jpg
 
-path: kaa
+path: KAA
 
 ---
 
