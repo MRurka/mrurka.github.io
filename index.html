@@ -86,7 +86,7 @@ var Work = React.createClass({
     // Load hover background images
     {% for post in site.categories.portfolio %}
       var backgroundImageDesktop_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
-      var backgroundImageMobile_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/phone/{{ post.img-background }})' };
+      var backgroundImageMobile_{{ post.port-id }}  = { backgroundImage: 'url(img/work/backgrounds/phone/{{ post.img-background }})' };
     {% endfor %}
     //
     // Render this HTML
