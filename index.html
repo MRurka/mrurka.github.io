@@ -191,13 +191,6 @@ var Asia = React.createClass({
                 <h1 className="post-title">{{ post.title }}</h1>
                 <h2 className="post-subtitle">{{ post.subtitle }}</h2>
                 {{ post.content }}
-                <div className="take-me-back-bottom-container {{ page.categories }}">
-                  {% if post.take-me-back-text %}
-                    <Link to="/work" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
-                  {% else %}
-                    <Link to="/work" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
-                  {% endif %}
-                </div>
               </div>
             </div>
             <a className="close-modal modal-close"></a>
@@ -242,13 +235,6 @@ var Asia = React.createClass({
                 <h1 className="post-title">{{ post.title }}</h1>
                 <h2 className="post-subtitle">{{ post.subtitle }}</h2>
                 {{ post.content }}
-                <div className="take-me-back-bottom-container {{ page.categories }}">
-                  {% if post.take-me-back-text %}
-                    <Link to="/blog" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
-                  {% else %}
-                    <Link to="/blog" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
-                  {% endif %}
-                </div>
               </div>
             </div>
             <a className="close-modal modal-close"></a>
@@ -293,13 +279,6 @@ var Asia = React.createClass({
                 <h1 className="post-title">{{ post.title }}</h1>
                 <h2 className="post-subtitle">{{ post.subtitle }}</h2>
                 {{ post.content }}
-                <div className="take-me-back-bottom-container {{ page.categories }}">
-                  {% if post.take-me-back-text %}
-                    <Link to="/asia" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">{{ post.take-me-back-text }}</Link>
-                  {% else %}
-                    <Link to="/asia" className="take-me-back-bottom-button close-modal" id="{{ page.categories }}-back-button">Rurka, take me back please</Link>
-                  {% endif %}
-                </div>
               </div>
             </div>
             <a className="close-modal modal-close"></a>
