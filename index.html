@@ -79,6 +79,12 @@ var Work = React.createClass({
         $("#work-section .item a").css({"opacity":"1"});
       }
     );
+    //
+    // Toggle Nav/Back btn
+    $("#work-section .item a").click(function() {
+      $(".site-nav-mobile-button").fadeOut(500);
+      $("#work-back-button").delay(700).fadeIn(500);
+    });
   },
 
   render: function() {
@@ -117,32 +123,15 @@ var About = React.createClass({
 //=======================================//
 
 var Blog = React.createClass({
+  componentDidMount: function() {
+    //
+    // Toggle Nav/Back btn
+    $("#blog-section .item a").click(function() {
+      $(".site-nav-mobile-button").fadeOut(500);
+      $("#blog-back-button").delay(700).fadeIn(500);
+    });
+  },
   render: function() {
-    //
-    // Load hover background images
-    {% for post in site.categories.portfolio %}
-      var backgroundImage_{{ post.port-id }} = { backgroundImage: 'url(img/work/backgrounds/desktop/{{ post.img-background }})' };
-    {% endfor %}
-    //
-    // Background Switches
-    {% for post in site.categories.portfolio %}
-      $("#work-section #{{ post.port-id }} a").hover(function() {
-        $("#{{ post.port-id }}.item-background").css("opacity", "1");
-      }, function(){
-        $("#{{ post.port-id }}.item-background").css("opacity", "0");
-      });
-    {% endfor %}
-    //
-    // Hide items except hovered
-    $('#work-section .item a').hover(
-      function() {
-        $("#work-section .item a:not(:hover)").css({"opacity":"0"});
-      },
-      function() {
-        $("#work-section .item a").css({"opacity":"1"});
-      }
-    );
-    // Render this HTML
     return (
       <div>
         {% include index-sections/section-blog.html %}
@@ -186,6 +175,12 @@ var Asia = React.createClass({
         gaTracker('UA-76182672-1');
         gaTrack('/{{ page.title }}', '{{ page.title }}');
       {% endfor %}
+      //
+      // Toggle Nav/back-button
+      $("#work-back-button").click(function() {
+        $(this).fadeOut(500);
+        $(".site-nav-mobile-button").delay(700).fadeIn(500);
+      });
     },
     render: function() {
       return (
@@ -208,7 +203,6 @@ var Asia = React.createClass({
             <a className="close-modal modal-close"></a>
           </div>
           <div className="modal-backdrop"></div>
-          <Link to="/work" className="take-me-back-top">Back</Link>
         </div>
       );
     }
@@ -232,6 +226,12 @@ var Asia = React.createClass({
         gaTracker('UA-76182672-1');
         gaTrack('/{{ page.title }}', '{{ page.title }}');
       {% endfor %}
+      //
+      // Toggle Nav/back-button
+      $("#blog-back-button").click(function() {
+        $(this).fadeOut(500);
+        $(".site-nav-mobile-button").delay(700).fadeIn(500);
+      });
     },
     render: function() {
       return (
@@ -254,7 +254,6 @@ var Asia = React.createClass({
             <a className="close-modal modal-close"></a>
           </div>
           <div className="modal-backdrop"></div>
-          <Link to="/blog" className="take-me-back-top">Back</Link>
         </div>
       );
     }
@@ -278,6 +277,12 @@ var Asia = React.createClass({
         gaTracker('UA-76182672-1');
         gaTrack('/{{ page.title }}', '{{ page.title }}');
       {% endfor %}
+      //
+      // Toggle Nav/back-button
+      $("#asia-back-button").click(function() {
+        $(this).fadeOut(500);
+        $(".site-nav-mobile-button").delay(700).fadeIn(500);
+      });
     },
     render: function() {
       return (
@@ -300,7 +305,6 @@ var Asia = React.createClass({
             <a className="close-modal modal-close"></a>
           </div>
           <div className="modal-backdrop"></div>
-          <Link to="/asia" className="take-me-back-top">Back</Link>
         </div>
       );
     }

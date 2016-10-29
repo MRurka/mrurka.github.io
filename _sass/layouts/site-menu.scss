@@ -170,3 +170,23 @@ body.loaded nav ul li {
     }
   }
 }
+
+.site-back-button {
+  position: fixed;
+  left: 5vw;
+  top: 6vh;
+  z-index: 4;
+  display: none;
+  button {
+    &:focus {
+      outline: none;
+    }
+  }
+  svg {
+    width: 100%;
+    max-width: 4.2rem;
+    #pink-bars {
+      fill: $c-salmon;
+    }
+  }
+}
