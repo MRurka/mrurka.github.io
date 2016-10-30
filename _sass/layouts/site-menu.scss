@@ -147,7 +147,9 @@ body.loaded nav ul li {
   left: 5vw;
   top: 6vh;
   z-index: 4;
-  display: none;
+  @media (min-width: 769px) {
+    display: none !important;
+  }
   @include max-xs {
     display: block;
   }
