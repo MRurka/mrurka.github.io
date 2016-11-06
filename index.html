@@ -181,6 +181,13 @@ var Asia = React.createClass({
         $(this).fadeOut(500);
         $(".site-nav-mobile-button").delay(700).fadeIn(500);
       });
+      $(function() {
+        if($(window).width() <= 310) {
+          $("img").each(function() {
+            $(this).attr("src", $(this).attr("src").replace("images/620x410/", "images/310x205/"));
+          });
+        }
+      });
     },
     render: function() {
       return (
@@ -225,6 +232,24 @@ var Asia = React.createClass({
         $(this).fadeOut(500);
         $(".site-nav-mobile-button").delay(700).fadeIn(500);
       });
+      $("#jquery_jplayer_1").jPlayer({
+    		ready: function (event) {
+    			$(this).jPlayer("setMedia", {
+    				title: "On Self Progression",
+    				m4a: "http://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+    				oga: "http://jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+    			});
+    		},
+    		swfPath: "../../dist/jplayer",
+    		supplied: "m4a, oga",
+    		wmode: "window",
+    		useStateClassSkin: true,
+    		autoBlur: false,
+    		smoothPlayBar: true,
+    		keyEnabled: true,
+    		remainingDuration: true,
+    		toggleDuration: true
+    	});
     },
     render: function() {
       return (
@@ -240,6 +265,27 @@ var Asia = React.createClass({
             <a className="close-modal modal-close"></a>
           </div>
           <div className="modal-backdrop"></div>
+          {% if post.audioPlayer == true %}
+            <div id="jquery_jplayer_1" className="jp-jplayer"></div>
+            <div id="jp_container_1" className="jp-audio" role="application" aria-label="media player">
+            	<div className="jp-type-single">
+            		<div className="jp-gui jp-interface">
+            			<div className="jp-controls">
+            				<button className="jp-play" role="button" tabIndex="0">play</button>
+            			</div>
+            			<div className="jp-progress">
+            				<div className="jp-seek-bar">
+            					<div className="jp-play-bar"></div>
+            				</div>
+            			</div>
+            		</div>
+            		<div className="jp-details">
+            		  Let me read this to you &#60;3
+            		</div>
+            	</div>
+            </div>
+          {% endif %}
+
         </div>
       );
     }
