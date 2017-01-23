@@ -1,18 +1,18 @@
 ---
 
-layout: post
-date:   2015-01-10 21:35:54
-categories: portfolio
-port-id: 2ru
-text-dark-light: light
+## layout: post
+## date:   2015-01-10 21:35:54
+## categories: portfolio
+## port-id: 2ru
+## text-dark-light: light
 
-title: Rurking Hard
-subtitle: Illusion
-take-me-back-text: lolol, good one. Take me back.
+## title: Rurking Hard
+## subtitle: Illusion
+## take-me-back-text: lolol, good one. Take me back.
 
-img-background: background-rurking.jpg
+## img-background: background-rurking.jpg
 
-pathID: Rurking
+## pathID: Rurking
 
 ---
 

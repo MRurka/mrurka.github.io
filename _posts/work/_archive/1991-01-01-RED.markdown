@@ -1,18 +1,18 @@
 ---
 
-layout: post
-date:   2015-01-10 21:35:54
-categories:
-port-id: 3ru
-text-dark-light: light
+## layout: post
+## date:   2015-01-10 21:35:54
+## categories:
+## port-id: 3ru
+## text-dark-light: light
 
-title: RED
-subtitle: Catalogue Cover Design
-take-me-back-text: I prefer blue.. Take me back.
+## title: RED
+## subtitle: Catalogue Cover Design
+## take-me-back-text: I prefer blue.. Take me back.
 
-img-background: background-red.jpg
+## img-background: background-red.jpg
 
-pathID: RED
+## pathID: RED
 
 ---
 

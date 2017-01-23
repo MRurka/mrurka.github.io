@@ -1,18 +1,18 @@
 ---
 
-layout: post
-date:   2015-01-10 21:35:54
-categories: portfolio
-port-id: 3ru
-text-dark-light: light
+## layout: post
+## date:   2015-01-10 21:35:54
+## categories: portfolio
+## port-id: 3ru
+## text-dark-light: light
 
-title: Print Design
-subtitle: Play Projects
-take-me-back-text:
+## title: Print Design
+## subtitle: Play Projects
+## take-me-back-text:
 
-img-background: background-red.jpg
+## img-background: background-red.jpg
 
-pathID: Print
+## pathID: Print
 
 ---
 

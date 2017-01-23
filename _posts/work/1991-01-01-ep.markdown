@@ -7,8 +7,8 @@ port-id: 6ru
 text-dark-light: dark
 
 title: EP
-subtitle: Fine Art
-take-me-back-text: Elephants suck. Take me back.
+subtitle: Elephant Project
+take-me-back-text: "They ur fav? Take me back."
 
 img-background: background-ep.jpg
 
@@ -16,8 +16,7 @@ pathID: EP
 
 ---
 
-My children. A few of them.
-
+<b>EP Series</b>
 - <b>EP14</b> Acrylic, texture pastes on canvas
 - <b>EFS1</b> Ink, chalk, acrylic, pencil, china marker on stone paper
 - <b>EFS3</b> Ink, chalk, pastel shavings, coffee grind, wool, acrylic, china marker on stone paper
@@ -25,10 +24,24 @@ My children. A few of them.
 - <b>Untitled</b> Acrylic, pencil, gesso on cold-press watercolour paper
 
 <div className="image-container">
-    <img className="clear" src=""/>
-    <img className="w2" src="./img/work/ep/ep14.jpg"/>
-    <img className="w2" src="./img/work/ep/efs1.jpg"/>
-    <img className="w2" src="./img/work/ep/efs3.jpg"/>
-    <img className="w2" src="./img/work/ep/ep15.jpg"/>
-    <img className="w2" src="./img/work/ep/ep-study.jpg"/>
+  <img className="clear" src=""/>
+  <img className="w2" src="./img/work/ep/ep14.jpg"/>
+  <img className="w2" src="./img/work/ep/ep15.jpg"/>
+  <img className="w2" src="./img/work/ep/efs1.jpg"/>
+  <img className="w2" src="./img/work/ep/efs3.jpg"/>
+  <img className="w2" src="./img/work/ep/ep-study.jpg"/>
+</div>
+
+<b>Winter: Naive Prowess</b>
+
+Pen & digital illustration published in the Applied Arts Magazine, 2013 Student Awards Edition and nominated top 10 for the AACE Award. Some more deets here: <a href="http://www.appliedartsmag.com/winners_gallery/archive/?id=1086&year=2013&clip=1" target="_blank">Applied Arts Magazine</a>
+
+<i>"I virtually only ever paint and draw elephants. Naive Prowess is an exploration that meshed both design and illustration. It was a new way to utilize my drawings and incorporate my graphic design practice. The overall look and feel, and desire to expose various layers comes from my attraction to blatant brush strokes in painting. It seems more intimate and provides an additional perspective into how the piece was created."</i>
+
+<div className="image-container">
+  <img className="clear" src=""/>
+  <img className="w4" src="./img/work/winter/naive-prowess.jpg">
+  <img className="w2" src="./img/work/winter/naive-prowess-magazine.jpg">
+  <img className="w2" src="./img/work/winter/naive-prowess-illustrator.jpg">
+  <img className="w2" src="./img/work/winter/naive-prowess-photoshop.jpg">
 </div>

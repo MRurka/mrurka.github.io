@@ -1,18 +1,18 @@
 ---
 
-layout: post
-date:   2015-01-10 21:35:54
-categories:
-port-id: 4ru
-text-dark-light: light
+## layout: post
+## date:   2015-01-10 21:35:54
+## categories:
+## port-id: 4ru
+## text-dark-light: light
 
-title: Ornithologie
-subtitle: Grid Exploration
-take-me-back-text: Cute birds. Take me back.
+## title: Ornithologie
+## subtitle: Grid Exploration
+## take-me-back-text: Cute birds. Take me back.
 
-img-background: background-orni.jpg
+## img-background: background-orni.jpg
 
-pathID: Ornithologie
+## pathID: Ornithologie
 
 ---
 

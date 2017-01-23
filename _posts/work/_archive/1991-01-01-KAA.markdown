@@ -1,18 +1,18 @@
 ---
 
-layout: post
-date:   2015-01-10 21:35:54
-categories: portfolio
-port-id: 5ru
-text-dark-light: dark
+## layout: post
+## date:   2015-01-10 21:35:54
+## categories: portfolio
+## port-id: 5ru
+## text-dark-light: dark
 
-title: KAA
-subtitle: Fashion Graphic
-take-me-back-text: I speak Russian. Take me back.
+## title: KAA
+## subtitle: Fashion Graphic
+## take-me-back-text: I speak Russian. Take me back.
 
-img-background: background-kaa.jpg
+## img-background: background-kaa.jpg
 
-pathID: KAA
+## pathID: KAA
 
 ---
 
