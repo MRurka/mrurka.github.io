@@ -35,7 +35,7 @@
       font-weight: 600;
     }
   }
-  p, ul {
+  p, ul, figure {
     font-size: 1.3em;
     margin: 0 auto 1.5em auto;
     line-height: 1.7em;
@@ -56,6 +56,24 @@
   }
 }
 
+code.highlighter-rouge {
+  background: #f1f1f5;
+  padding: 0.4em 0.6em;
+  border-radius: 0.3em;
+  font-family: monospace;
+}
+
+figure {
+  pre {
+    background: #f1f1f5;
+    padding: 1em 1em 0.75em 1.5em;
+    border-radius: 0.3em;
+    color: #585861;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    font-family: monospace;
+  }
+}
 
 ul {
   padding: 0 0 0 1.5em;
