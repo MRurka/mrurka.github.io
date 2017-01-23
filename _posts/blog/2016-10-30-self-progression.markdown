@@ -6,7 +6,7 @@ date              : 2016-10-30
 categories        : blog
 take-me-back-text :
 pathID            : self_progression
-audioPlayer       : false
+audioPlayer       : true
 ---
 
 The general premise of this idea on self progression is that change and reward must be perceived over time. Otherwise they can't exist.
