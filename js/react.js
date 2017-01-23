@@ -3318,6 +3318,7 @@ var HTMLDOMPropertyConfig = {
    classID: 0,
    className: 0,
    classname: 0,
+   class: 0,
    cols: HAS_POSITIVE_NUMERIC_VALUE,
    colSpan: 0,
    content: 0,
