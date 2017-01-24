@@ -7,50 +7,54 @@
   }
   .container {
       @include max-xxs {
-        padding:0 6vw
+        padding:0 6vw;
       }
     }
   }
-  h1 {
-    font-size: 6em;
-    font-weight: 700;
-    margin:0 0 .5em 0;
-    line-height: 1.2em;
-    @include max-xxs {
-      font-size: 2.4em;
-      margin:0 0 .25em 0;
-    }
-  }
-  h2 {
-    font-size:3em;
-    font-weight: 700;
-    color: #c5ccd0;
-    margin: 0 0 1.5em 0;
-    text-align: right;
-    line-height: 1.2em;
-    @include max-xxs {
-      font-size: 1.8em;
-      text-align: left;
-      margin:0 0 1em 0;
-      font-weight: 600;
-    }
-  }
-  p, ul, figure {
-    font-size: 1.3em;
-    margin: 0 auto 1.5em auto;
-    line-height: 1.7em;
-    max-width: 700px;
-    color: #676682;
-    @include max-xxs {
-      font-size: 1.2em;
-    }
-    b {
-      font-weight: 600;
-    }
-    a {
-      color:$c-salmon;
-      &:hover {
-        color:$c-salmon-dark;
+  > .site-container {
+    > .container {
+      h1 {
+        font-size: 6em;
+        font-weight: 700;
+        margin:0 0 .5em 0;
+        line-height: 1.2em;
+        @include max-xxs {
+          font-size: 2.4em;
+          margin:0 0 .25em 0;
+        }
+      }
+      h2 {
+        font-size:3em;
+        font-weight: 700;
+        color: #c5ccd0;
+        margin: 0 0 1.5em 0;
+        text-align: right;
+        line-height: 1.2em;
+        @include max-xxs {
+          font-size: 1.8em;
+          text-align: left;
+          margin:0 0 1em 0;
+          font-weight: 600;
+        }
+      }
+      p, ul, figure {
+        font-size: 1.3em;
+        margin: 0 auto 1.5em auto;
+        line-height: 1.7em;
+        max-width: 700px;
+        color: #676682;
+        @include max-xxs {
+          font-size: 1.2em;
+        }
+        b {
+          font-weight: 600;
+        }
+        a {
+          color:$c-salmon;
+          &:hover {
+            color:$c-salmon-dark;
+          }
+        }
       }
     }
   }
