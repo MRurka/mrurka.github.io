@@ -14,7 +14,7 @@ img-background:     background-jelly-2.jpg
 
 <div className="image-container">
   <img className="clear" src=""/>
-  <img className="w4" src="{{site.url}}/img/work/jelly-2/Jelly-V2-Banner-Photo.jpg" alt="Jelly Invoice Version 2 Software on a Macbook, next to a paper invoice produced by Jelly version two"/>
+  <img className="w4" src="./img/work/jelly-2/Jelly-V2-Banner-Photo.jpg" alt="Jelly Invoice Version 2 Software on a Macbook, next to a paper invoice produced by Jelly version two"/>
 </div>
 
 <b>TL;DR</b>
@@ -41,7 +41,7 @@ I began building <a href="http://rurkadesign.com/jelly-invoice-website/" target=
 
 <div className="image-container">
   <img className="clear" src=""/>
-  <img className="w4" src="{{site.url}}/img/work/jelly-2/Jelly-V1-UX-Preview-1.gif" alt="Functionality Preview of Jelly Invoice version one"/>
+  <img className="w4" src="./img/work/jelly-2/Jelly-V1-UX-Preview-1.gif" alt="Functionality Preview of Jelly Invoice version one"/>
 </div>
 
 <b>Where Jelly Fell Short</b>
@@ -56,7 +56,7 @@ Honest, I never used Jelly V1 to invoice any clients. Immediately realized I nee
 
 <div className="image-container">
   <img className="clear" src=""/>
-  <img className="w4" src="{{site.url}}/img/work/jelly-2/Jelly-V2-UX-Preview-1.gif" alt="Functionality Preview of Jelly Invoice version two"/>
+  <img className="w4" src="./img/work/jelly-2/Jelly-V2-UX-Preview-1.gif" alt="Functionality Preview of Jelly Invoice version two"/>
 </div>
 
 <b>Main Upgrades</b>
@@ -71,7 +71,7 @@ Put the signed contract JPG in the `_signatures` folder, name it the correspondi
 
 <div className="image-container">
   <img className="clear" src=""/>
-  <img className="w4" src="{{site.url}}/img/work/jelly-2/Jelly-V2-signature-preview.jpg" alt="Preview of Jelly signed contracts."/>
+  <img className="w4" src="./img/work/jelly-2/Jelly-V2-signature-preview.jpg" alt="Preview of Jelly signed contracts."/>
 </div>
 
 <b>State: Invoice/Receipt</b>
@@ -80,7 +80,7 @@ When it's time to rain, flick some switches and your first page is now the invoi
 
 <div className="image-container">
   <img className="clear" src=""/>
-  <img className="w4" src="{{site.url}}/img/work/jelly-2/Jelly-V2-invoice-preview.jpg" alt="Preview of Jelly Invoices."/>
+  <img className="w4" src="./img/work/jelly-2/Jelly-V2-invoice-preview.jpg" alt="Preview of Jelly Invoices."/>
 </div>
 
 <b>How?</b>
