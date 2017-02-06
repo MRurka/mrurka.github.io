@@ -202,7 +202,7 @@
            // Google Analytics Goodness
            {% for post in site.categories.portfolio %}
              gaTracker('UA-76182672-1');
-             gaTrack('/{{ page.title }}', '{{ page.title }}');
+             gaTrack('/{{ page.pathID }}', '{{ page.title }}');
            {% endfor %}
            //
            // Toggle Nav/back-button
