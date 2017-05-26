@@ -1,9 +1,9 @@
 ---
-layout: 
+postlayout: 
 title:  'Valley'
 subtitle: "From Second Cup to San Francisco"
 date:   2016-05-15
-categories: blog
+categories: 
 take-me-back-text: マジかよ?! Take me back.
 pathID: sanfran
 ---
