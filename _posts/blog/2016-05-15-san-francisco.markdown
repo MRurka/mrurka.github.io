@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title:  'Valley'
 subtitle: "From Second Cup to San Francisco"
 date:   2016-05-15
